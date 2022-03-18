@@ -1,4 +1,4 @@
-package com.example.mobilepalengke;
+package com.mobilepalengke.org;
 
 import org.junit.Test;
 

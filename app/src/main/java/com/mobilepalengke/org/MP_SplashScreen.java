@@ -1,4 +1,4 @@
-package com.example.mobilepalengke;
+package com.mobilepalengke.org;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
