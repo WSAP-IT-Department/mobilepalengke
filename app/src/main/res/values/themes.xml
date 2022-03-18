@@ -21,7 +21,7 @@
         <item name="android:fontFamily">@font/poppins_semibold</item>
         <item name="android:textAlignment">center</item>
         <item name="android:textColor">@color/mp_black_title</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
     <style name="WelcomeActivityFontStyle2">
@@ -30,18 +30,18 @@
         <item name="android:fontFamily">@font/poppins_regular</item>
         <item name="android:textAlignment">center</item>
         <item name="android:textColor">@color/mp_black_regular</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">14sp</item>
     </style>
     <!-- Welcome Activity Font Style - END -->
 
     <!-- Welcome Activity Button Style - START -->
     <style name="MaterialButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
-        <item name="android:textSize">16sp</item>
-        <item name="android:paddingTop">12dp</item>
-        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
         <item name="android:paddingStart">8dp</item>
         <item name="android:paddingEnd">8dp</item>
-        <item name="cornerRadius">30dp</item>
+        <item name="cornerRadius">8dp</item>
         <item name="fontFamily">@font/poppins_medium</item>
         <item name="android:letterSpacing">0</item>
     </style>

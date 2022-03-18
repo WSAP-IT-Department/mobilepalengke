@@ -2,5 +2,6 @@
     <string name="app_name">Mobile Palengke</string>
 
     <string name="welcome1">Welcome to Mobile Palengke</string>
-    <string name="welcome2">Shop and get updates on new products, promotions and sales with our mobile app.</string>
+    <string name="welcome2">Here to make your life easier.</string>
+    <string name="welcome3">Just tap your order and we\'ll deliver!</string>
 </resources>
