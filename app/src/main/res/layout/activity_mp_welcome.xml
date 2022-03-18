@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_default"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp"
+    tools:context=".MP_WelcomeScreen">
+
+    <ImageView
+        android:id="@+id/logo_welcome"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_head"
+        android:layout_marginBottom="75dp" />
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:text="@string/welcome1"
+        android:layout_marginBottom="30dp"
+        style="@style/WelcomeActivityFontStyle1" />
+
+    <TextView
+        android:id="@+id/txtTagline"
+        android:text="@string/welcome2"
+        android:layout_marginBottom="75dp"
+        style="@style/WelcomeActivityFontStyle2" />
+
+    <Button
+        android:id="@+id/btnSignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        style="@style/MaterialButtonStyle.Signin" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        style="@style/MaterialButtonStyle.Signup" />
+
+</LinearLayout>
