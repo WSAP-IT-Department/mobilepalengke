@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,12 +17,7 @@
         android:src="@drawable/logo_text"
         android:layout_marginBottom="30dp" />
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        app:cardCornerRadius="25dp"
-        app:cardElevation="5dp">
+    <androidx.cardview.widget.CardView style="@style/CardViewStyle1">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -37,31 +31,31 @@
                 android:id="@+id/txtWelcome"
                 android:text="@string/welcome1"
                 android:layout_marginBottom="25dp"
-                style="@style/WelcomeActivityFontStyle1" />
+                style="@style/WelcomeFontStyle1" />
 
             <TextView
                 android:id="@+id/txtTagline1"
                 android:text="@string/welcome2"
-                style="@style/WelcomeActivityFontStyle2" />
+                style="@style/WelcomeFontStyle2" />
 
             <TextView
                 android:id="@+id/txtTagline2"
                 android:text="@string/welcome3"
                 android:layout_marginBottom="25dp"
-                style="@style/WelcomeActivityFontStyle2" />
+                style="@style/WelcomeFontStyle2" />
 
             <Button
                 android:id="@+id/btnSignin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="SIGN IN"
+                android:text="@string/btn1"
                 style="@style/MaterialButtonStyle.Signin" />
 
             <Button
                 android:id="@+id/btnSignup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="SIGN UP"
+                android:text="@string/btn2"
                 style="@style/MaterialButtonStyle.Signup" />
 
         </LinearLayout>
