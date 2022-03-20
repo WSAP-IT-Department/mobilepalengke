@@ -11,6 +11,7 @@
     <color name="mp_black_title">#191919</color>
     <color name="mp_black_regular">#212121</color>
     <color name="mp_gray">#f3f3f3</color>
+    <color name="mp_darkgray">#6f6f6f</color>
     <color name="mp_blue">#1650ce</color>
     <color name="mp_yellow">#f1ce36</color>
 </resources>

@@ -4,15 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_default"
+    android:background="@drawable/bg_welcome"
     android:orientation="vertical"
     android:gravity="center"
     android:padding="25dp"
     tools:context=".MP_SignIn">
 
-    <TextView
-        android:id="@+id/txtSignin"
-        android:text="This is the sign in screen"
-        style="@style/WelcomeActivityFontStyle2" />
+    <ImageView
+        android:id="@+id/logo_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_text"
+        android:layout_marginBottom="30dp" />
+
+    <androidx.cardview.widget.CardView style="@style/CardViewStyle1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingVertical="30dp"
+            android:paddingHorizontal="20dp">
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:drawableStart="@drawable/ic_email"
+                android:hint="@string/signin1"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="10dp"
+                style="@style/SigninFontStyle1" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:drawableStart="@drawable/ic_lock"
+                android:hint="@string/signin2"
+                android:inputType="textPassword"
+                android:layout_marginBottom="15dp"
+                style="@style/SigninFontStyle1" />
+
+            <Button
+                android:id="@+id/btnSignin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:text="@string/btn1"
+                style="@style/MaterialButtonStyle.Signin" />
+
+            <TextView
+                android:id="@+id/txtForgotPassword"
+                android:text="@string/signin3"
+                android:layout_marginTop="5dp"
+                style="@style/SigninFontStyle2" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
 
 </LinearLayout>
