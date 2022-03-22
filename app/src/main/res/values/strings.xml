@@ -6,17 +6,33 @@
 
     <string name="btn1">SIGN IN</string>
     <string name="btn2">SIGN UP</string>
+    <string name="btn3">RECOVER PASSWORD</string>
+    <string name="btn4">VALIDATE CODE</string>
+    <string name="btn5">UPDATE PASSWORD</string>
+    <string name="btn6">BACK TO HOME</string>
 
     <string name="welcome1">Welcome to Mobile Palengke</string>
     <string name="welcome2">Here to make your life easier.</string>
     <string name="welcome3">Just tap your order and we\'ll deliver!</string>
 
-    <string name="signin1">Email Address</string>
-    <string name="signin2">Password</string>
-    <string name="signin3">Forgot Password?</string>
+    <string name="signin1">Forgot Password?</string>
 
-    <string name="signup1">Complete Name</string>
-    <string name="signup2">Email Address</string>
-    <string name="signup3">Password</string>
-    <string name="signup4">By signing up you accept our Terms of Services and Privacy Policy.</string>
+    <string name="signup1">By signing up you accept our Terms of Services and Privacy Policy.</string>
+
+    <string name="edittext1">Complete Name</string>
+    <string name="edittext2">Email Address</string>
+    <string name="edittext3">Password</string>
+    <string name="edittext4">Enter 6-digit code</string>
+    <string name="edittext5">New Password</string>
+    <string name="edittext6">Confirm Password</string>
+
+    <string name="forgotpassword1">Recover your password</string>
+    <string name="forgotpassword2">Please enter the email address that is associated with your Mobile Palengke account.</string>
+    <string name="forgotpassword3">Enter OTP</string>
+    <string name="forgotpassword4">Please enter the 6-digit code that we sent to your email.</string>
+    <string name="forgotpassword5">Resend Code</string>
+    <string name="forgotpassword6">Create new password</string>
+    <string name="forgotpassword7">Your new password must be different from previous used passwords.</string>
+    <string name="forgotpassword8">Password Changed</string>
+    <string name="forgotpassword9">Awesome! You have successfully changed your password.</string>
 </resources>

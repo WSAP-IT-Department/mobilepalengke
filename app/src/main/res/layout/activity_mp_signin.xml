@@ -30,18 +30,18 @@
             <EditText
                 android:id="@+id/etEmail"
                 android:drawableStart="@drawable/ic_email"
-                android:hint="@string/signin1"
+                android:hint="@string/edittext2"
                 android:inputType="textEmailAddress"
                 android:layout_marginBottom="10dp"
-                style="@style/SigninFontStyle1" />
+                style="@style/EditTextStyle1" />
 
             <EditText
                 android:id="@+id/etPassword"
                 android:drawableStart="@drawable/ic_lock"
-                android:hint="@string/signin2"
+                android:hint="@string/edittext3"
                 android:inputType="textPassword"
                 android:layout_marginBottom="15dp"
-                style="@style/SigninFontStyle1" />
+                style="@style/EditTextStyle1" />
 
             <Button
                 android:id="@+id/btnSignin"
@@ -49,13 +49,14 @@
                 android:layout_height="wrap_content"
                 android:focusable="false"
                 android:text="@string/btn1"
-                style="@style/MaterialButtonStyle.Signin" />
+                style="@style/MaterialBtnStyle.Button1" />
 
             <TextView
                 android:id="@+id/txtForgotPassword"
-                android:text="@string/signin3"
+                android:focusable="false"
+                android:text="@string/signin1"
                 android:layout_marginTop="5dp"
-                style="@style/SigninFontStyle2" />
+                style="@style/TVFontStyle3" />
 
         </LinearLayout>
 
