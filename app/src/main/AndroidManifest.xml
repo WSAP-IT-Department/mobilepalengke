@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
-
+        <activity
+            android:name=".MP_Profile"
+            android:exported="false" />
         <activity
             android:name=".MP_SplashScreen"
             android:exported="true">
@@ -19,23 +21,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MP_WelcomeScreen"
             android:exported="true" />
-
         <activity
             android:name=".MP_SignIn"
             android:exported="true" />
-
         <activity
             android:name=".MP_SignUp"
             android:exported="true" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true" />
-
     </application>
 
 </manifest>

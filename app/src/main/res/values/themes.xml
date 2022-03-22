@@ -57,6 +57,24 @@
         <item name="strokeColor">@color/mp_blue</item>
         <item name="strokeWidth">2dp</item>
     </style>
+    <!-- Welcome Activity Button Style - END -->
+    
+    <!-- User Profile Page Button Style - START -->
+    <style name="FlatButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textColor">@color/mp_black_regular</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:clickable">true</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
     <!-- Welcome Screen Style - END -->
 
     <!-- Sign-in Screen Style - START -->
