@@ -4,4 +4,19 @@
     <string name="welcome2">Shop and get updates on new products, promotions and sales with our mobile app.</string>
     <string name="logout"><u>Logout</u></string>
 
+    <string name="btn1">SIGN IN</string>
+    <string name="btn2">SIGN UP</string>
+
+    <string name="welcome1">Welcome to Mobile Palengke</string>
+    <string name="welcome2">Here to make your life easier.</string>
+    <string name="welcome3">Just tap your order and we\'ll deliver!</string>
+
+    <string name="signin1">Email Address</string>
+    <string name="signin2">Password</string>
+    <string name="signin3">Forgot Password?</string>
+
+    <string name="signup1">Complete Name</string>
+    <string name="signup2">Email Address</string>
+    <string name="signup3">Password</string>
+    <string name="signup4">By signing up you accept our Terms of Services and Privacy Policy.</string>
 </resources>

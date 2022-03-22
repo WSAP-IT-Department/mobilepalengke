@@ -6,42 +6,40 @@
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorSecondary">@color/mp_blue</item>
+        <item name="colorSecondaryVariant">@color/mp_blue</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="N">@color/mp_blue</item>
         <!-- Customize your theme here. -->
     </style>
 
-    <!-- Welcome Activity Font Style - START -->
-    <style name="WelcomeActivityFontStyle1">
+    <!-- Welcome Screen Style - START -->
+    <style name="WelcomeFontStyle1">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:fontFamily">@font/poppins_semibold</item>
         <item name="android:textAlignment">center</item>
         <item name="android:textColor">@color/mp_black_title</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
-    <style name="WelcomeActivityFontStyle2">
+    <style name="WelcomeFontStyle2">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:fontFamily">@font/poppins_regular</item>
         <item name="android:textAlignment">center</item>
         <item name="android:textColor">@color/mp_black_regular</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">14sp</item>
     </style>
-    <!-- Welcome Activity Font Style - END -->
 
-    <!-- Welcome Activity Button Style - START -->
     <style name="MaterialButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
-        <item name="android:textSize">16sp</item>
-        <item name="android:paddingTop">12dp</item>
-        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
         <item name="android:paddingStart">8dp</item>
         <item name="android:paddingEnd">8dp</item>
-        <item name="cornerRadius">30dp</item>
+        <item name="cornerRadius">8dp</item>
         <item name="fontFamily">@font/poppins_medium</item>
         <item name="android:letterSpacing">0</item>
     </style>
@@ -77,5 +75,65 @@
         <item name="android:clickable">true</item>
         <item name="fontFamily">@font/poppins_medium</item>
     </style>
+    <!-- Welcome Screen Style - END -->
+
+    <!-- Sign-in Screen Style - START -->
+    <style name="SigninFontStyle1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@drawable/et_userinput</item>
+        <item name="android:ems">10</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:textColor">@color/mp_black_regular</item>
+        <item name="android:textColorHint">@color/mp_darkgray</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="SigninFontStyle2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/mp_blue</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <!-- Sign-in Screen Style - END -->
+
+    <!-- Sign-up Screen Style - START -->
+    <style name="SignupFontStyle1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@drawable/et_userinput</item>
+        <item name="android:ems">10</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:textColor">@color/mp_black_regular</item>
+        <item name="android:textColorHint">@color/mp_darkgray</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="SignupFontStyle2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/mp_black_regular</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+    <!-- Sign-up Screen Style - END -->
+
+    <!-- CardView Style - START -->
+    <style name="CardViewStyle1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardCornerRadius">25dp</item>
+        <item name="cardElevation">5dp</item>
+    </style>
+    <!-- CardView Style - END -->
 
 </resources>

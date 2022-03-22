@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_default"
+    android:background="@drawable/bg_welcome"
     android:orientation="vertical"
     android:gravity="center"
     android:padding="25dp"
@@ -12,35 +12,54 @@
 
     <ImageView
         android:id="@+id/logo_welcome"
-        android:layout_width="150dp"
+        android:layout_width="wrap_content"
         android:layout_height="150dp"
-        android:src="@drawable/logo_head"
-        android:layout_marginBottom="75dp" />
+        android:src="@drawable/logo_text"
+        android:layout_marginBottom="30dp" />
 
-    <TextView
-        android:id="@+id/txtWelcome"
-        android:text="@string/welcome1"
-        android:layout_marginBottom="30dp"
-        style="@style/WelcomeActivityFontStyle1" />
+    <androidx.cardview.widget.CardView style="@style/CardViewStyle1">
 
-    <TextView
-        android:id="@+id/txtTagline"
-        android:text="@string/welcome2"
-        android:layout_marginBottom="75dp"
-        style="@style/WelcomeActivityFontStyle2" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingVertical="30dp"
+            android:paddingHorizontal="20dp">
 
-    <Button
-        android:id="@+id/btnSignin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="SIGN IN"
-        style="@style/MaterialButtonStyle.Signin" />
+            <TextView
+                android:id="@+id/txtWelcome"
+                android:text="@string/welcome1"
+                android:layout_marginBottom="25dp"
+                style="@style/WelcomeFontStyle1" />
 
-    <Button
-        android:id="@+id/btnSignup"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="SIGN UP"
-        style="@style/MaterialButtonStyle.Signup" />
+            <TextView
+                android:id="@+id/txtTagline1"
+                android:text="@string/welcome2"
+                style="@style/WelcomeFontStyle2" />
+
+            <TextView
+                android:id="@+id/txtTagline2"
+                android:text="@string/welcome3"
+                android:layout_marginBottom="25dp"
+                style="@style/WelcomeFontStyle2" />
+
+            <Button
+                android:id="@+id/btnSignin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn1"
+                style="@style/MaterialButtonStyle.Signin" />
+
+            <Button
+                android:id="@+id/btnSignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn2"
+                style="@style/MaterialButtonStyle.Signup" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
 
 </LinearLayout>
