@@ -11,16 +11,16 @@
         android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
         <activity
             android:name=".MP_Profile"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MP_ForgotPassword4"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MP_ForgotPassword3"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MP_ForgotPassword2"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MP_ForgotPassword1"
             android:exported="true" />
@@ -45,6 +45,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

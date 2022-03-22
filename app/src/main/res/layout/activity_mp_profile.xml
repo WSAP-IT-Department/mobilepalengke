@@ -20,12 +20,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/img_back"
+        app:srcCompat="@drawable/nav_return"
         tools:ignore="ContentDescription,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/tvProfile"
-        style="@style/WelcomeActivityFontStyle1"
+        style="@style/TVFontStyle1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -64,7 +64,7 @@
 
     <TextView
         android:id="@+id/tvUserName"
-        style="@style/WelcomeActivityFontStyle2"
+        style="@style/TVFontStyle2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
@@ -81,7 +81,7 @@
         android:id="@+id/tvAccountDetails"
         style="@style/FlatButtonStyle"
         android:layout_marginTop="30dp"
-        android:drawableStart="@drawable/drawable_account_details"
+        android:drawableStart="@drawable/prf_user"
         android:text="Account Details"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -91,7 +91,7 @@
     <TextView
         android:id="@+id/tvAddresses"
         style="@style/FlatButtonStyle"
-        android:drawableStart="@drawable/drawable_home"
+        android:drawableStart="@drawable/prf_home"
         android:text="Addresses"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -101,24 +101,19 @@
     <TextView
         android:id="@+id/tvSettings"
         style="@style/FlatButtonStyle"
-        android:drawableStart="@drawable/drawable_settings"
+        android:drawableStart="@drawable/prf_settings"
         android:text="Settings"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvAddresses"
         tools:ignore="HardcodedText,UseCompatTextViewDrawableXml" />
 
-    <TextView
-        android:id="@+id/tvLogout"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btnSignout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginBottom="50dp"
-        android:clickable="true"
-        android:focusable="true"
-        android:text="@string/logout"
-        android:textSize="20sp"
+        android:text="@string/btn7"
+        style="@style/MaterialBtnStyle.Button1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
