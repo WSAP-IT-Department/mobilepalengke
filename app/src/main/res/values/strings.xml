@@ -8,10 +8,26 @@
     <string name="btn5">UPDATE PASSWORD</string>
     <string name="btn6">BACK TO HOME</string>
     <string name="btn7">SIGN OUT</string>
+    <string name="btn8">SAVE CHANGES</string>
 
     <string name="welcome1">Welcome to Mobile Palengke</string>
     <string name="welcome2">Here to make your life easier.</string>
     <string name="welcome3">Just tap your order and we\'ll deliver!</string>
+
+    <string name="profile1">Profile</string>
+    <string name="profile2">Full Name</string>
+    <string name="profile3">Account Details</string>
+    <string name="profile4">Addresses</string>
+    <string name="profile5">Settings</string>
+
+    <string name="AccDetails1">Account Details</string>
+    <string name="AccDetails2">Public Info</string>
+    <string name="AccDetails3">First Name</string>
+    <string name="AccDetails4">Last Name</string>
+    <string name="AccDetails5">Private Details</string>
+    <string name="AccDetails6">Email Address</string>
+    <string name="AccDetails7">Change Password</string>
+    <string name="AccDetails8">Confirm Password</string>
 
     <string name="signin1">Forgot Password?</string>
 
