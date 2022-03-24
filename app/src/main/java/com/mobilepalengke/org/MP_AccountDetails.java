@@ -5,21 +5,22 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
-public class MP_Profile extends AppCompatActivity {
+public class MP_AccountDetails extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mp_profile);
+        setContentView(R.layout.activity_mp_accountdetails);
 
-        TextView tvAccountDetails = (TextView) findViewById(R.id.tvAccountDetails);
+        ImageButton imgBtnNavReturn = (ImageButton) findViewById(R.id.nav_return);
 
-        tvAccountDetails.setOnClickListener(new View.OnClickListener() {
+        imgBtnNavReturn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MP_Profile.this, MP_AccountDetails.class));
+                startActivity(new Intent(MP_AccountDetails.this, MP_Profile.class));
             }
         });
 

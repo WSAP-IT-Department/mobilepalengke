@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_default_gray"
+    tools:context=".MP_Profile">
+
+    <androidx.cardview.widget.CardView style="@style/CardViewStyle2">
+
+        <ImageButton
+            android:id="@+id/nav_return"
+            style="@style/NavBarReturnBtnStyle"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/tvProfile"
+            android:background="@drawable/bg_default_white"
+            style="@style/NavBarTextViewStyle"
+            android:text="@string/AccDetails1" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvPublicInfo"
+        style="@style/TVFontStyle4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/AccDetails2" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/tvPublicInfo"
+        android:padding="15dp"
+        style="@style/CardViewStyle2" >
+
+        <TextView
+            android:id="@+id/tvFirstName"
+            android:padding="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="start|center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AccDetails3"
+            style="@style/TVFontStyle2" />
+
+        <EditText
+            android:id="@+id/etFirstName"
+            style="@style/EditTextStyle2"
+            android:layout_gravity="end|center_horizontal"
+            android:layout_marginEnd="10dp"
+            android:inputType="textPersonName"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/tvLastName"
+            android:padding="15dp"
+            android:layout_gravity="start|center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/AccDetails4"
+            style="@style/TVFontStyle2" />
+
+        <EditText
+            android:id="@+id/etLastName"
+            style="@style/EditTextStyle2"
+            android:layout_gravity="end|center_horizontal"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="10dp"
+            android:inputType="textPersonName"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvPrivateDetails"
+        style="@style/TVFontStyle4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="240dp"
+        android:text="@string/AccDetails5" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/tvPrivateDetails"
+        android:padding="15dp"
+        style="@style/CardViewStyle2" >
+
+        <TextView
+            android:id="@+id/tvEmailAdd"
+            android:padding="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="start|center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AccDetails6"
+            style="@style/TVFontStyle2" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            style="@style/EditTextStyle2"
+            android:layout_gravity="end|center_horizontal"
+            android:layout_marginEnd="15dp"
+            android:inputType="textEmailAddress"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/tvChangePass"
+            android:padding="15dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="start|center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AccDetails7"
+            style="@style/TVFontStyle2" />
+
+        <EditText
+            android:id="@+id/etChangePassword"
+            style="@style/EditTextStyle2"
+            android:layout_gravity="end|center_horizontal"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="15dp"
+            android:inputType="textPassword"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnSignout"
+        style="@style/MaterialBtnStyle.Button1"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPrivateDetails"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="@string/btn8"
+        android:focusable="false" />
+
+</RelativeLayout>
