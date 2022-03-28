@@ -172,8 +172,8 @@
         <item name="android:textSize">30sp</item>
     </style>
     <!-- Nav Bar Style - END -->
-
-    <!-- Linear Layout Style - START -->
+  
+  <!-- Linear Layout Style - START -->
     <style name="LinearLayoutBody1">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">0dp</item>
@@ -192,5 +192,14 @@
         <item name="android:paddingEnd">10dp</item>
     </style>
     <!-- Linear Layout Style - END -->
+  
+  <!-- Tab Layout Style - Start -->
+    <style name="TabLayoutStyle1">
+        <item name="android:background">@drawable/bg_default_white</item>
+        <item name="tabIndicatorColor">@color/mp_blue</item>
+        <item name="tabTextColor">@color/mp_darkgray</item>
+        <item name="tabSelectedTextColor">@color/mp_black_title</item>
+    </style>
+    <!-- Tab Layout Style - END -->
 
 </resources>
