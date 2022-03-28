@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.Mobilepalengke" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/mp_blue</item>
+        <item name="colorPrimaryVariant">@color/mp_blue</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/mp_blue</item>
@@ -12,6 +12,7 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="N">@color/mp_blue</item>
         <!-- Customize your theme here. -->
+        <item name="android:windowActionBar">false</item>
     </style>
 
     <!-- Buttons Style - START -->
@@ -136,6 +137,18 @@
         <item name="cardBackgroundColor">@color/white</item>
         <item name="cardElevation">5dp</item>
     </style>
+
+    <style name="CardViewStyle3">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">25dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardCornerRadius">5dp</item>
+        <item name="cardElevation">5dp</item>
+    </style>
     <!-- CardView Style - END -->
 
     <!-- Nav Bar Style - START -->
@@ -159,5 +172,25 @@
         <item name="android:textSize">30sp</item>
     </style>
     <!-- Nav Bar Style - END -->
+
+    <!-- Linear Layout Style - START -->
+    <style name="LinearLayoutBody1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">12</item>
+        <item name="android:background">@drawable/bg_default_gray</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LinearLayoutBody2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/bg_default_nav_bottom</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+    </style>
+    <!-- Linear Layout Style - END -->
 
 </resources>
