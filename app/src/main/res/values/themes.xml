@@ -160,4 +160,13 @@
     </style>
     <!-- Nav Bar Style - END -->
 
+    <!-- Tab Layout Style - Start -->
+    <style name="TabLayoutStyle1">
+        <item name="android:background">@drawable/bg_default_white</item>
+        <item name="tabIndicatorColor">@color/mp_blue</item>
+        <item name="tabTextColor">@color/mp_darkgray</item>
+        <item name="tabSelectedTextColor">@color/mp_black_title</item>
+    </style>
+    <!-- Tab Layout Style - END -->
+
 </resources>

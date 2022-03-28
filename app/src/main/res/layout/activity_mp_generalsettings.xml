@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_default_gray"
+    tools:context=".MP_GeneralSettings">
+
+    <androidx.cardview.widget.CardView style="@style/CardViewStyle2">
+
+        <ImageButton
+            android:id="@+id/nav_return"
+            style="@style/NavBarReturnBtnStyle"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/tvProfile"
+            android:background="@drawable/bg_default_white"
+            style="@style/NavBarTextViewStyle"
+            android:text="@string/GenSettings1" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvPublicInfo"
+        style="@style/TVFontStyle4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/GenSettings2" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/tvPublicInfo"
+        android:padding="15dp"
+        style="@style/CardViewStyle2" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvNotifications"
+                style="@style/TVFontStyle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="start|center_horizontal"
+                android:padding="15dp"
+                android:text="@string/GenSettings3"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:id="@+id/tvPrivacySettings"
+                android:padding="15dp"
+                android:layout_below="@id/tvNotifications"
+                android:layout_gravity="start|center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/GenSettings4"
+                android:textAlignment="textStart"
+                style="@style/TVFontStyle2" />
+
+            <TextView
+                android:id="@+id/tvLanguage"
+                style="@style/TVFontStyle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvPrivacySettings"
+                android:layout_gravity="start|center_horizontal"
+                android:padding="15dp"
+                android:text="@string/GenSettings5"
+                android:textAlignment="textStart" />
+
+            <Spinner
+                android:id="@+id/spLanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/tvLanguage"
+                android:layout_alignBottom="@id/tvLanguage"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@id/tvLanguage"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/tvCurrency"
+                style="@style/TVFontStyle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvLanguage"
+                android:layout_gravity="start|center_horizontal"
+                android:padding="15dp"
+                android:text="@string/GenSettings6"
+                android:textAlignment="textStart" />
+
+            <Spinner
+                android:id="@+id/spCurrency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/tvCurrency"
+                android:layout_alignBottom="@id/tvCurrency"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@id/tvCurrency"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvSupport"
+        style="@style/TVFontStyle4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="370dp"
+        android:text="@string/GenSettings7" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/tvSupport"
+        android:padding="15dp"
+        style="@style/CardViewStyle2" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvHelpCenter"
+                style="@style/TVFontStyle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="start|center_horizontal"
+                android:padding="15dp"
+                android:text="@string/GenSettings8"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:id="@+id/tvCommunity"
+                style="@style/TVFontStyle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvHelpCenter"
+                android:layout_gravity="start|center_horizontal"
+                android:padding="15dp"
+                android:text="@string/GenSettings9"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:id="@+id/tvPrivacy"
+                style="@style/TVFontStyle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvCommunity"
+                android:layout_gravity="start|center_horizontal"
+                android:padding="15dp"
+                android:text="@string/GenSettings10"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:id="@+id/tvAbout"
+                style="@style/TVFontStyle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvPrivacy"
+                android:layout_gravity="start|center_horizontal"
+                android:padding="15dp"
+                android:text="@string/GenSettings11"
+                android:textAlignment="textStart" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_default_gray"
+    tools:context=".MP_AboutUs">
+
+    <androidx.cardview.widget.CardView style="@style/CardViewStyle2">
+
+        <ImageButton
+            android:id="@+id/nav_return"
+            style="@style/NavBarReturnBtnStyle"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/tvProfile"
+            android:background="@drawable/bg_default_white"
+            style="@style/NavBarTextViewStyle"
+            android:text="@string/About1" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardViewStyle2"
+                android:layout_marginTop="55dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgLogo"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_centerHorizontal="true"
+                        app:srcCompat="@drawable/logo_default"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:id="@+id/tvOurStory"
+                        style="@style/TVFontStyle1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imgLogo"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/About2" />
+
+                    <TextView
+                        android:id="@+id/tvStory1"
+                        style="@style/TVFontStyle2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvOurStory"
+                        android:layout_centerHorizontal="true"
+                        android:justificationMode="inter_word"
+                        android:paddingHorizontal="20dp"
+                        android:paddingTop="20dp"
+                        android:text="@string/About3"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:id="@+id/tvStory2"
+                        style="@style/TVFontStyle2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvStory1"
+                        android:layout_centerHorizontal="true"
+                        android:justificationMode="inter_word"
+                        android:paddingHorizontal="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="@string/About4"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <com.google.android.material.tabs.TabLayout
+                        android:id="@+id/tlMVG"
+                        style="@style/TabLayoutStyle1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvStory2"
+                        android:layout_centerHorizontal="true">
+
+                        <com.google.android.material.tabs.TabItem
+                            android:id="@+id/tvMission"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/About5" />
+
+                        <com.google.android.material.tabs.TabItem
+                            android:id="@+id/tvVision"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/About6" />
+
+                        <com.google.android.material.tabs.TabItem
+                            android:id="@+id/tvGoals"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/About7" />
+
+                    </com.google.android.material.tabs.TabLayout>
+
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/vpMVG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/tlMVG" />
+
+                    <TextView
+                        android:id="@+id/tvLogisticsPartner"
+                        style="@style/TVFontStyle1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/vpMVG"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/About11"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:id="@+id/tvPartnershipBrands"
+                        style="@style/TVFontStyle1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvLogisticsPartner"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/About12" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
