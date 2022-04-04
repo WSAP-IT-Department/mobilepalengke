@@ -12,9 +12,20 @@
         style="@style/TVFontStyle2"
         android:text="@string/About10"
         android:textSize="12sp"
-        android:gravity="center"
+        android:gravity="center_vertical"
         android:justificationMode="inter_word"
         tools:ignore="UnusedAttribute" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="150dp"
+        android:paddingHorizontal="20dp"
+        style="@style/TVFontStyle2"
+        android:text="@string/About11"
+        android:textSize="12sp"
+        android:gravity="center_vertical"
+        android:justificationMode="inter_word"
+        tools:ignore="UnusedAttribute" />
 
 </FrameLayout>
