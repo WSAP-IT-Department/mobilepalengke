@@ -59,14 +59,10 @@
     <string name="About7">Our Goals</string>
     <string name="About8">Mobile Palengke is dedicated to provide quality fresh produce with a competitive price in the market and to help promote fresh products produced by our local farmers to help them attain a sustainable business.</string>
     <string name="About9">Mobile Palengke aims to be the number one food essential provider and to support our local farmers especially during trying times.</string>
-    <string name="About10">
-        <ul>
-            <li>To create an alternative way where people can still purchase essentials without leaving the safety of their home or compromising their health.</li>
-            <li>To provide our local farmers much better opportunities and promote new feasible businesses amidst the pandemic and other possible threats.</li>
-        </ul>
-    </string>
-    <string name="About11">Our Logistic Partners</string>
-    <string name="About12">Our Partnership Brands</string>
+    <string name="About10">&#8226; To create an alternative way where people can still purchase essentials without leaving the safety of their home or compromising their health.</string>
+    <string name="About11">&#8226; To provide our local farmers much better opportunities and promote new feasible businesses amidst the pandemic and other possible threats.</string>
+    <string name="About12">Our Logistic Partners</string>
+    <string name="About13">Our Partnership Brands</string>
 
 
     <string name="signin1">Forgot Password?</string>

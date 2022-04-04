@@ -116,9 +116,10 @@
                     <androidx.viewpager.widget.ViewPager
                         android:id="@+id/vpMVG"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="300dp"
+                        android:layout_below="@id/tlMVG"
                         android:layout_centerHorizontal="true"
-                        android:layout_below="@id/tlMVG" />
+                        tools:ignore="SpeakableTextPresentCheck" />
 
                     <TextView
                         android:id="@+id/tvLogisticsPartner"
@@ -127,7 +128,8 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@id/vpMVG"
                         android:layout_centerHorizontal="true"
-                        android:text="@string/About11"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/About12"
                         android:textSize="15sp"/>
 
                     <TextView
@@ -136,8 +138,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/tvLogisticsPartner"
+                        android:layout_marginTop="20dp"
                         android:layout_centerHorizontal="true"
-                        android:text="@string/About12" />
+                        android:text="@string/About13"
+                        android:textSize="15sp"/>
 
                 </RelativeLayout>
 

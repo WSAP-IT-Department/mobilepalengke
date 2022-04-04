@@ -12,7 +12,7 @@
         style="@style/TVFontStyle2"
         android:text="@string/About9"
         android:textSize="12sp"
-        android:gravity="center"
+        android:gravity="center_vertical"
         android:justificationMode="inter_word"
         tools:ignore="UnusedAttribute" />
 
