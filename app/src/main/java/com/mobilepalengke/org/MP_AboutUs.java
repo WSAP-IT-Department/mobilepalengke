@@ -6,9 +6,16 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
 
+import com.denzcoskun.imageslider.ImageSlider;
+import com.denzcoskun.imageslider.constants.ScaleTypes;
+import com.denzcoskun.imageslider.models.SlideModel;
 import com.google.android.material.tabs.TabLayout;
 
+import java.util.ArrayList;
+
 public class MP_AboutUs extends AppCompatActivity {
+    ImageSlider imageSliderLogisticsPartner;
+    ImageSlider imageSliderPartnershipBrands;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,5 +33,41 @@ public class MP_AboutUs extends AppCompatActivity {
         vpAdapter_about.addFragment(new Frag_About3(),"Goals");
         vpMVG.setAdapter(vpAdapter_about);
 
+        imageSliderLogisticsPartnerHolder();
+        imageSliderLogisticsPartnershipBrandHolder();
+    }
+    private void imageSliderLogisticsPartnerHolder(){
+        imageSliderLogisticsPartner = (ImageSlider) findViewById(R.id.imageSliderLogisticsPartner);
+        ArrayList<SlideModel> images = new ArrayList<>();
+
+        images.add(new SlideModel(R.drawable.slider_aboutus1, null));
+        images.add(new SlideModel(R.drawable.slider_aboutus2, null));
+        images.add(new SlideModel(R.drawable.slider_aboutus3, null));
+        images.add(new SlideModel(R.drawable.slider_aboutus4, null));
+        images.add(new SlideModel(R.drawable.slider_aboutus5, null));
+        images.add(new SlideModel(R.drawable.slider_aboutus6, null));
+        images.add(new SlideModel(R.drawable.slider_aboutus7, null));
+        images.add(new SlideModel(R.drawable.slider_aboutus8, null));
+        images.add(new SlideModel(R.drawable.slider_aboutus9, null));
+        images.add(new SlideModel(R.drawable.slider_aboutus10, null));
+        images.add(new SlideModel(R.drawable.slider_aboutus11, null));
+        images.add(new SlideModel(R.drawable.slider_aboutus12, null));
+        images.add(new SlideModel(R.drawable.slider_aboutus13, null));
+        imageSliderLogisticsPartner.setImageList(images, ScaleTypes.CENTER_INSIDE);
+    }
+
+    private void imageSliderLogisticsPartnershipBrandHolder(){
+        imageSliderPartnershipBrands = (ImageSlider) findViewById(R.id.imageSliderPartnershipBrands);
+        ArrayList<SlideModel> images = new ArrayList<>();
+
+        images.add(new SlideModel(R.drawable.slider_aboutus14, null));
+        images.add(new SlideModel(R.drawable.slider_aboutus15, null));
+        images.add(new SlideModel(R.drawable.slider_aboutus16, null));
+        images.add(new SlideModel(R.drawable.slider_aboutus17, null));
+        images.add(new SlideModel(R.drawable.slider_aboutus18, null));
+        images.add(new SlideModel(R.drawable.slider_aboutus19, null));
+        images.add(new SlideModel(R.drawable.slider_aboutus20, null));
+        images.add(new SlideModel(R.drawable.slider_aboutus21, null));
+        imageSliderPartnershipBrands.setImageList(images, ScaleTypes.CENTER_INSIDE);
     }
 }

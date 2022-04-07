@@ -121,27 +121,63 @@
                         android:layout_centerHorizontal="true"
                         tools:ignore="SpeakableTextPresentCheck" />
 
-                    <TextView
-                        android:id="@+id/tvLogisticsPartner"
-                        style="@style/TVFontStyle1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/vpMVG"
-                        android:layout_centerHorizontal="true"
-                        android:layout_marginTop="20dp"
-                        android:text="@string/About12"
-                        android:textSize="15sp"/>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/vpMVG"
+                        android:background="@drawable/bg_default_gray">
 
-                    <TextView
-                        android:id="@+id/tvPartnershipBrands"
-                        style="@style/TVFontStyle1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/tvLogisticsPartner"
-                        android:layout_marginTop="20dp"
-                        android:layout_centerHorizontal="true"
-                        android:text="@string/About13"
-                        android:textSize="15sp"/>
+                        <TextView
+                            android:id="@+id/tvLogisticsPartner"
+                            style="@style/TVFontStyle1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="20dp"
+                            android:text="@string/About12"
+                            android:textSize="15sp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/imageSliderLogisticsPartnerHolder"
+                            style="@style/CardViewStyle3"
+                            android:layout_below="@id/tvLogisticsPartner">
+
+                            <com.denzcoskun.imageslider.ImageSlider
+
+                                android:id="@+id/imageSliderLogisticsPartner"
+                                android:layout_width="wrap_content"
+                                android:layout_height="150dp"
+                                app:iss_auto_cycle="true"
+                                app:iss_period="3000" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/tvPartnershipBrands"
+                            style="@style/TVFontStyle1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/imageSliderLogisticsPartnerHolder"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/About13"
+                            android:textSize="15sp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/imageSliderPartnershipBrandsHolder"
+                            style="@style/CardViewStyle3"
+                            android:layout_below="@id/tvPartnershipBrands">
+
+                            <com.denzcoskun.imageslider.ImageSlider
+
+                                android:id="@+id/imageSliderPartnershipBrands"
+                                android:layout_width="wrap_content"
+                                android:layout_height="150dp"
+                                app:iss_auto_cycle="true"
+                                app:iss_period="3000" />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </RelativeLayout>
 
                 </RelativeLayout>
 
