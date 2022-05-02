@@ -14,4 +14,8 @@
     <color name="mp_darkgray">#6f6f6f</color>
     <color name="mp_blue">#1650ce</color>
     <color name="mp_yellow">#f1ce36</color>
+
+    <color name="nav_primary">#272727</color>
+    <color name="nav_primaryDark">#000000</color>
+    <color name="nav_accent">#E53935</color>
 </resources>

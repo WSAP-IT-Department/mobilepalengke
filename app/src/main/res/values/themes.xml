@@ -56,7 +56,7 @@
         <item name="android:clickable">true</item>
         <item name="fontFamily">@font/poppins_medium</item>
     </style>
- 
+
     <!-- Text Views Font Style - START -->
     <style name="TVFontStyle1">
         <item name="android:layout_width">match_parent</item>
@@ -159,21 +159,32 @@
         <item name="android:src">@drawable/nav_return</item>
         <item name="android:minWidth">48dp</item>
         <item name="android:minHeight">48dp</item>
+        <item name="android:padding">10dp</item>
     </style>
 
     <style name="NavBarTextViewStyle">
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">48dp</item>
-        <item name="android:layout_alignParentTop">true</item>
-        <item name="android:layout_marginStart">50dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginStart">60dp</item>
         <item name="android:textAlignment">textStart</item>
         <item name="android:fontFamily">@font/poppins_regular</item>
         <item name="android:textColor">@color/mp_black_regular</item>
         <item name="android:textSize">30sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">7dp</item>
+    </style>
+
+    <style name="BottomNavBarStyle">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">?android:windowBackground</item>
+        <item name="itemBackground">@color/mp_blue</item>
+        <item name="itemIconTint">@drawable/nav_item_color_selected</item>
+        <item name="itemTextColor">@color/mp_yellow</item>
+        <item name="labelVisibilityMode">labeled</item>
     </style>
     <!-- Nav Bar Style - END -->
-  
-  <!-- Linear Layout Style - START -->
+
+    <!-- Linear Layout Style - START -->
     <style name="LinearLayoutBody1">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">0dp</item>
@@ -192,8 +203,8 @@
         <item name="android:paddingEnd">10dp</item>
     </style>
     <!-- Linear Layout Style - END -->
-  
-  <!-- Tab Layout Style - Start -->
+
+    <!-- Tab Layout Style - START -->
     <style name="TabLayoutStyle1">
         <item name="android:background">@drawable/bg_default_white</item>
         <item name="tabIndicatorColor">@color/mp_blue</item>
@@ -201,5 +212,31 @@
         <item name="tabSelectedTextColor">@color/mp_black_title</item>
     </style>
     <!-- Tab Layout Style - END -->
+
+    <!-- Image View Style - START -->
+    <style name="ImageViewStyle1">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="ImageViewStyle2">
+        <item name="android:layout_width">125dp</item>
+        <item name="android:layout_height">125dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+    </style>
+
+    <style name="ImageViewStyle3">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <!-- Image View Style - END -->
 
 </resources>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,18 +7,20 @@
     android:background="@drawable/bg_default_gray"
     tools:context=".MP_Profile">
 
-    <androidx.cardview.widget.CardView style="@style/CardViewStyle2">
+    <androidx.cardview.widget.CardView
+        style="@style/CardViewStyle2"
+        android:layout_height="?attr/actionBarSize">
 
         <ImageButton
             android:id="@+id/nav_return"
             style="@style/NavBarReturnBtnStyle"
             tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
-    <TextView
-        android:id="@+id/tvProfile"
-        android:background="@drawable/bg_default_white"
-        style="@style/NavBarTextViewStyle"
-        android:text="@string/profile1" />
+        <TextView
+            android:id="@+id/tvProfile"
+            style="@style/NavBarTextViewStyle"
+            android:background="@drawable/bg_default_white"
+            android:text="@string/profile1" />
 
     </androidx.cardview.widget.CardView>
 

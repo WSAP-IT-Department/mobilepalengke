@@ -10,6 +10,8 @@ import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 public class MP_GeneralSettings extends AppCompatActivity {
 
     @Override

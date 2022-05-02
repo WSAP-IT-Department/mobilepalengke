@@ -16,8 +16,8 @@
 
         <TextView
             android:id="@+id/tvProfile"
-            android:background="@drawable/bg_default_white"
             style="@style/NavBarTextViewStyle"
+            android:background="@drawable/bg_default_white"
             android:text="@string/GenSettings1" />
 
     </androidx.cardview.widget.CardView>

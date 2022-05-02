@@ -85,4 +85,21 @@
     <string name="forgotpassword7">Your new password must be different from previous used passwords.</string>
     <string name="forgotpassword8">Password Changed</string>
     <string name="forgotpassword9">Awesome! You have successfully changed your password.</string>
+
+    <string name="navmenu1">My Account</string>
+    <string name="navmenu2">Cart</string>
+    <string name="navmenu3">Settings</string>
+    <string name="navmenu4">Sign Out</string>
+    
+    <string name="navdrawer1">Open Navigation drawer</string>
+    <string name="navdrawer2">Close Navigation drawer</string>
+
+    <string name="home1">Category</string>
+    <string name="home2">Home</string>
+    <string name="home3">Cart</string>
+    <string name="home4">Profile</string>
+    <string name="home5">Featured Products</string>
+    <string name="home6">New Products</string>
+    <string name="home7">About Us</string>
+
 </resources>
