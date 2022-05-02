@@ -9,6 +9,6 @@ public class MP_CartPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.MP_CartPage);
+        setContentView(R.layout.activity_mp_cartpage);
     }
 }

@@ -106,13 +106,13 @@
     <string name="cart1">Cart</string>
     <string name="edit">Edit</string>
     <string name="Total">Total</string>
-    <string name="calamansi_price">₱57.60</string>
+    <string name="calamansi_price">57.60</string>
     <string name="add_to_cart">ADD TO CART</string>
     <string name="calamansi">Calamansi (500g)</string>
     <string name="green_papaya">Papaya Green (500)</string>
     <string name="green_papaya_price">₱86.60</string>
     <string name="okra">Okra(500g)</string>
-    <string name="okra_price">₱14.60</string>
+    <string name="okra_price">14.60</string>
     <string name="quantity">Quantity</string>
     <string name="remove_button">REMOVE</string>
     <string name="proceed_to_checkout">PROCEED TO CHECKOUT</string>

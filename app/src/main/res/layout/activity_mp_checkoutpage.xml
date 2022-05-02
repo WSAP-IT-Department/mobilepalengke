@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    tools:context=".Product_Page"
+    tools:context=".MP_ProductPage"
     android:background="@color/white"
     android:orientation="vertical">
 
