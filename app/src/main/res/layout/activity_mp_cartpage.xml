@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Product_Page"
+    android:background="@color/mp_gray"
+    android:orientation="vertical">
+
+    <!--Upper selection sectio -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/mp_blue">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="-100dp"
+                android:padding="16dp"
+                android:src="@drawable/ic_backarrow">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:text="@string/cart1"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="00000000"
+                android:padding="13dp"
+                android:text="@string/edit">
+
+
+            </Button>
+
+
+            <!--<ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/search_icon"></ImageView>-->
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="630.6dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="515.2dp">
+
+
+    <!--References for Cart-->
+
+    <!--THIS SECTION IS ALREADY CLEAN-->
+    <!--from cart products to proceed to cart-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:background="@drawable/img_border">
+
+                    <RadioButton
+                        android:id="@+id/radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="35dp"
+                        android:buttonTint="@color/mp_blue"
+                        android:checked="true"
+                        android:padding="1dp">
+
+                    </RadioButton>
+
+                    <ImageView
+                        android:id="@+id/image_view"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/img_product1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="165dp"
+                        android:layout_marginTop="36dp"
+                        android:padding="-20dp"
+                        android:text="@string/calamansi"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="165dp"
+                        android:layout_marginTop="53dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:padding="-20dp"
+                        android:text="@string/calamansi_price"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="308dp"
+                        android:layout_marginTop="55dp"
+                        android:padding="-20dp"
+                        android:text="@string/quantity"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <!--<Button
+                        android:layout_width="17dp"
+                        android:layout_height="17dp"
+                        android:layout_marginLeft="310dp"
+                        android:layout_marginTop="85dp"
+                        android:background="@drawable/custom_button"
+                        app:layout_constraintBottom_toBottomof="parent"
+                        app:layout_constraintEnd_toEndof="parent"
+                        app:layout_constraintStart_toStartof="parent"
+                        app:layout_constraintTop_toTopof="parent">
+                    </Button>-->
+
+                    ?
+
+                </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:background="@drawable/img_border">
+
+                    <RadioButton
+                        android:id="@+id/radio2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="35dp"
+                        android:buttonTint="@color/mp_blue"
+                        android:checked="true"
+                        android:padding="1dp">
+
+                    </RadioButton>
+
+                    <ImageView
+                        android:id="@+id/image_view2"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/img_product3" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="165dp"
+                        android:layout_marginTop="36dp"
+                        android:padding="-20dp"
+                        android:text="@string/green_papaya"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="165dp"
+                        android:layout_marginTop="53dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:padding="-20dp"
+                        android:text="@string/green_papaya_price"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </ScrollView>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="3dp">
+        </RelativeLayout>
+
+        <!--Remove item from cart section-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:orientation="vertical"
+            android:background="@color/white"
+            >
+
+
+            <Button
+                android:layout_width="355dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="@color/red"
+                android:textStyle="bold"
+                android:text="@string/remove_button">
+            </Button>
+
+        </LinearLayout>
+
+        <!--Proceed to cart section-->
+
+    </LinearLayout>
+
+                <!--THIS AREA IS ALREADY CLEAN-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    android:layout_alignParentBottom="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/update_cart"
+                            android:textStyle="bold"></Button>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+    <!--THIS SECTION IS ALREADY CLEAN-->
+    <!--from cart products to proceed to cart-->
+    <!--Proceed to check out section-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Total"
+            android:textSize="15sp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="30dp"
+            android:padding="2dp"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calamansi_price"
+            android:textSize="15sp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginTop="-29dp"
+            android:layout_marginLeft="330dp"
+            android:padding="2dp"
+            android:textColor="@color/black">
+        </TextView>
+
+        <Button
+            android:layout_width="355dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:background="@color/mp_blue"
+            android:textStyle="bold"
+            android:text="@string/proceed_to_checkout">
+        </Button>
+
+    </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <!--THIS SECTION IS ALREADY CLEAR-->
+    <!--Bottom Selection-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/mp_blue"
+            android:orientation="vertical"></LinearLayout>
+        <!--THIS SECTION IS ALREADY CLEAR-->
+
+
+    </RelativeLayout>
+
+    <!--WARDS-->
+</LinearLayout>

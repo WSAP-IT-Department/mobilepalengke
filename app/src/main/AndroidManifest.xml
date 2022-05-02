@@ -15,21 +15,25 @@
         android:theme="@style/Theme.Mobilepalengke">
         <activity
             android:name=".MP_Chats"
-            android:exported="false" />
-
+            android:exported="true" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/map_key" />
-
         <activity
             android:name=".MP_ContactUs"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
+        <activity
+            android:name=".payment_method"
+            android:exported="true" />
+        <activity
+            android:name=".checkout_page"
+            android:exported="true" />
+        <activity
+            android:name=".MP_CartPage"
+            android:exported="true" />
+        <activity
+            android:name=".Product_Page"
+            android:exported="true" />
         <activity
             android:name=".MP_Home"
             android:exported="true" />
@@ -71,7 +75,13 @@
             android:exported="true" />
         <activity
             android:name=".MP_SplashScreen"
-            android:exported="true"/>
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+          </activity>
     </application>
 
 </manifest>

@@ -14,4 +14,10 @@
     <color name="mp_darkgray">#6f6f6f</color>
     <color name="mp_blue">#1650ce</color>
     <color name="mp_yellow">#f1ce36</color>
+
+    <color name="red">#FF0000</color>
+
+    <!--bagong kulay-->
+    <color name="bgborder_gray">B8B8B8</color>
+
 </resources>
