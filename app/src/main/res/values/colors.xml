@@ -5,8 +5,8 @@
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
 
     <color name="mp_black_title">#191919</color>
     <color name="mp_black_regular">#212121</color>
@@ -14,10 +14,13 @@
     <color name="mp_darkgray">#6f6f6f</color>
     <color name="mp_blue">#1650ce</color>
     <color name="mp_yellow">#f1ce36</color>
+    <color name="mp_red">#FF0000</color>
 
-    <color name="red">#FF0000</color>
+    <color name="nav_primary">#272727</color>
+    <color name="nav_primaryDark">#000000</color>
+    <color name="nav_accent">#E53935</color>
 
     <!--bagong kulay-->
-    <color name="bgborder_gray">B8B8B8</color>
+    <color name="bgborder_gray">#B8B8B8</color>
 
 </resources>

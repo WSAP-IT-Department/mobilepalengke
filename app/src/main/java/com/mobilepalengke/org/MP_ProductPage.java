@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Product_Page extends AppCompatActivity {
+public class MP_ProductPage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -64,7 +64,6 @@
     <string name="About12">Our Logistic Partners</string>
     <string name="About13">Our Partnership Brands</string>
 
-
     <string name="signin1">Forgot Password?</string>
 
     <string name="signup1">By signing up you accept our Terms of Services and Privacy Policy.</string>
@@ -86,6 +85,21 @@
     <string name="forgotpassword8">Password Changed</string>
     <string name="forgotpassword9">Awesome! You have successfully changed your password.</string>
 
+    <string name="navmenu1">My Account</string>
+    <string name="navmenu2">Cart</string>
+    <string name="navmenu3">Settings</string>
+    <string name="navmenu4">Sign Out</string>
+    
+    <string name="navdrawer1">Open Navigation drawer</string>
+    <string name="navdrawer2">Close Navigation drawer</string>
+
+    <string name="home1">Category</string>
+    <string name="home2">Home</string>
+    <string name="home3">Cart</string>
+    <string name="home4">Profile</string>
+    <string name="home5">Featured Products</string>
+    <string name="home6">New Products</string>
+    <string name="home7">About Us</string>
 
     <string name="ContactUs1">Contact Us</string>
     <string name="ContactUs2">ADDRESS</string>
@@ -101,13 +115,13 @@
     <string name="cart1">Cart</string>
     <string name="edit">Edit</string>
     <string name="Total">Total</string>
-    <string name="calamansi_price">₱57.60</string>
+    <string name="calamansi_price">57.60</string>
     <string name="add_to_cart">ADD TO CART</string>
     <string name="calamansi">Calamansi (500g)</string>
     <string name="green_papaya">Papaya Green (500)</string>
     <string name="green_papaya_price">₱86.60</string>
     <string name="okra">Okra(500g)</string>
-    <string name="okra_price">₱14.60</string>
+    <string name="okra_price">14.60</string>
     <string name="quantity">Quantity</string>
     <string name="remove_button">REMOVE</string>
     <string name="proceed_to_checkout">PROCEED TO CHECKOUT</string>
@@ -120,7 +134,4 @@
     <!--For Product Page-->
     <string name="related_product_text">Related Products</string>
     <string name="Product_page">Product</string>
-
-
-
 </resources>

@@ -7,7 +7,9 @@
     android:background="@drawable/bg_default_gray"
     tools:context=".MP_AboutUs">
 
-    <androidx.cardview.widget.CardView style="@style/CardViewStyle2">
+    <androidx.cardview.widget.CardView
+        style="@style/CardViewStyle2"
+        android:layout_height="?attr/actionBarSize">
 
         <ImageButton
             android:id="@+id/nav_return"
@@ -16,13 +18,14 @@
 
         <TextView
             android:id="@+id/tvProfile"
-            android:background="@drawable/bg_default_white"
             style="@style/NavBarTextViewStyle"
+            android:background="@drawable/bg_default_white"
             android:text="@string/About1" />
 
     </androidx.cardview.widget.CardView>
 
     <ScrollView
+        android:id="@+id/vscrollBody"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:ignore="SpeakableTextPresentCheck">
@@ -37,8 +40,9 @@
                 android:layout_marginTop="55dp">
 
                 <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white">
 
                     <ImageView
                         android:id="@+id/imgLogo"
@@ -77,7 +81,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/tvStory1"
-                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="2dp"
                         android:justificationMode="inter_word"
                         android:paddingHorizontal="20dp"
                         android:paddingBottom="20dp"
@@ -118,7 +122,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="300dp"
                         android:layout_below="@id/tlMVG"
-                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="0dp"
                         tools:ignore="SpeakableTextPresentCheck" />
 
                     <RelativeLayout

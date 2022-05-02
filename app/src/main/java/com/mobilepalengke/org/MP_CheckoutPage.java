@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class checkout_page extends AppCompatActivity {
+public class MP_CheckoutPage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

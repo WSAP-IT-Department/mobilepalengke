@@ -23,16 +23,16 @@
             android:name=".MP_ContactUs"
             android:exported="true" />
         <activity
-            android:name=".payment_method"
+            android:name=".MP_PaymentMethod"
             android:exported="true" />
         <activity
-            android:name=".checkout_page"
+            android:name=".MP_CheckoutPage"
             android:exported="true" />
         <activity
             android:name=".MP_CartPage"
             android:exported="true" />
         <activity
-            android:name=".Product_Page"
+            android:name=".MP_ProductPage"
             android:exported="true" />
         <activity
             android:name=".MP_Home"
@@ -76,12 +76,12 @@
         <activity
             android:name=".MP_SplashScreen"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-          </activity>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
     </application>
 
 </manifest>
