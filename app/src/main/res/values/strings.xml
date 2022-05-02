@@ -64,7 +64,6 @@
     <string name="About12">Our Logistic Partners</string>
     <string name="About13">Our Partnership Brands</string>
 
-
     <string name="signin1">Forgot Password?</string>
 
     <string name="signup1">By signing up you accept our Terms of Services and Privacy Policy.</string>
@@ -102,6 +101,16 @@
     <string name="home6">New Products</string>
     <string name="home7">About Us</string>
 
+    <string name="ContactUs1">Contact Us</string>
+    <string name="ContactUs2">ADDRESS</string>
+    <string name="ContactUs3">DAO St., Corner Nara, Bacoor, 4102 Cavite</string>
+    <string name="ContactUs4">EMAIL</string>
+    <string name="ContactUs5">mobilepalengke@gmail.com</string>
+    <string name="ContactUs6">CONTACT NUMBER</string>
+    <string name="ContactUs7">+63 926-662-9900</string>
+    <string name="ContactUs8">We\'d Love To Hear From You</string>
+    <string name="ContactUs9">Want to get in touch? Here\'s how you can reach us. Just send us a message in the form below and we\'re here to answer your questions you might have.</string>
+
     <!--For Cart Page-->
     <string name="cart1">Cart</string>
     <string name="edit">Edit</string>
@@ -125,6 +134,4 @@
     <!--For Product Page-->
     <string name="related_product_text">Related Products</string>
     <string name="Product_page">Product</string>
-
-
 </resources>
