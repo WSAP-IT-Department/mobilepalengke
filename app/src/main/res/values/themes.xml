@@ -213,6 +213,7 @@
     </style>
     <!-- Tab Layout Style - END -->
 
+<<<<<<< HEAD
     <!-- Image View Style - START -->
     <style name="ImageViewStyle1">
         <item name="android:layout_width">250dp</item>
@@ -238,5 +239,20 @@
     </style>
 
     <!-- Image View Style - END -->
+=======
+    <!-- PARA ITO SA BILOG NA BUTTON-->
+        <!--<style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+            &lt;!&ndash;Customize your theme here&ndash;&gt;
+            <item name="colorPrimary">@color/black</item>
+            <item name="colorPrimaryDark">@color/mp_blue</item>
+            <item name="colorAccent">@color/mp_yellow</item>
+        </style>-->
+    <!--PARA SA BILOG NA BUTTON-->
+    <style name="circle_button1">
+        <item name="android:background">@color/red</item>
+    </style>
+
+
+>>>>>>> e222d62013c48bd7389921779930fa9452674013
 
 </resources>
