@@ -14,16 +14,13 @@
     <color name="mp_darkgray">#6f6f6f</color>
     <color name="mp_blue">#1650ce</color>
     <color name="mp_yellow">#f1ce36</color>
+    <color name="mp_red">#FF0000</color>
 
-<<<<<<< HEAD
     <color name="nav_primary">#272727</color>
     <color name="nav_primaryDark">#000000</color>
     <color name="nav_accent">#E53935</color>
-=======
-    <color name="red">#FF0000</color>
 
     <!--bagong kulay-->
     <color name="bgborder_gray">B8B8B8</color>
 
->>>>>>> e222d62013c48bd7389921779930fa9452674013
 </resources>

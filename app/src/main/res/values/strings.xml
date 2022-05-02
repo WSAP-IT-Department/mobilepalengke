@@ -86,7 +86,6 @@
     <string name="forgotpassword8">Password Changed</string>
     <string name="forgotpassword9">Awesome! You have successfully changed your password.</string>
 
-<<<<<<< HEAD
     <string name="navmenu1">My Account</string>
     <string name="navmenu2">Cart</string>
     <string name="navmenu3">Settings</string>
@@ -102,7 +101,7 @@
     <string name="home5">Featured Products</string>
     <string name="home6">New Products</string>
     <string name="home7">About Us</string>
-=======
+
     <!--For Cart Page-->
     <string name="cart1">Cart</string>
     <string name="edit">Edit</string>
@@ -127,10 +126,5 @@
     <string name="related_product_text">Related Products</string>
     <string name="Product_page">Product</string>
 
-
-
-    <!--Para sa bilog na button tang ina-->
-
->>>>>>> e222d62013c48bd7389921779930fa9452674013
 
 </resources>
