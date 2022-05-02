@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mobilepalengke">
         <activity
+            android:name=".payment_method"
+            android:exported="false" />
+        <activity
+            android:name=".checkout_page"
+            android:exported="false" />
+        <activity
+            android:name=".MP_CartPage"
+            android:exported="false" />
+        <activity
+            android:name=".Product_Page"
+            android:exported="false" />
+        <activity
             android:name=".MP_Home"
             android:exported="true" />
         <activity
