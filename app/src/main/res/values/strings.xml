@@ -86,6 +86,17 @@
     <string name="forgotpassword8">Password Changed</string>
     <string name="forgotpassword9">Awesome! You have successfully changed your password.</string>
 
+
+    <string name="ContactUs1">Contact Us</string>
+    <string name="ContactUs2">ADDRESS</string>
+    <string name="ContactUs3">DAO St., Corner Nara, Bacoor, 4102 Cavite</string>
+    <string name="ContactUs4">EMAIL</string>
+    <string name="ContactUs5">mobilepalengke@gmail.com</string>
+    <string name="ContactUs6">CONTACT NUMBER</string>
+    <string name="ContactUs7">+63 926-662-9900</string>
+    <string name="ContactUs8">We\'d Love To Hear From You</string>
+    <string name="ContactUs9">Want to get in touch? Here\'s how you can reach us. Just send us a message in the form below and we\'re here to answer your questions you might have.</string>
+
     <!--For Cart Page-->
     <string name="cart1">Cart</string>
     <string name="edit">Edit</string>
@@ -110,9 +121,6 @@
     <string name="related_product_text">Related Products</string>
     <string name="Product_page">Product</string>
 
-
-
-    <!--Para sa bilog na button tang ina-->
 
 
 </resources>
