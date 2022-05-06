@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.ScrollView;
 
@@ -38,10 +40,6 @@ public class MP_Home extends AppCompatActivity {
         ImageView ivCategory9 = findViewById(R.id.ivCategory9);
         ImageView ivCategory10 = findViewById(R.id.ivCategory10);
 
-        ImageView ivFacebook = findViewById(R.id.ivFacebook);
-        ImageView ivInstagram = findViewById(R.id.ivInstagram);
-        ImageView ivTwitter = findViewById(R.id.ivTwitter);
-
         vscrollBody = findViewById(R.id.vscrollBody);
         OverScrollDecoratorHelper.setUpOverScroll(vscrollBody);
 
@@ -65,8 +63,37 @@ public class MP_Home extends AppCompatActivity {
             }
             return false;
         });
-    }
         //Nav Bar - END
+
+        //Social Media Links - START
+
+        ImageView ivFacebook = findViewById(R.id.ivFacebook);
+        ImageView ivInstagram = findViewById(R.id.ivInstagram);
+        ImageView ivTwitter = findViewById(R.id.ivTwitter);
+
+        ivFacebook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent("android.intent.action.VIEW", Uri.parse("https://www.facebook.com/MobilePalengke")));
+            }
+        });
+
+        ivInstagram.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent("android.intent.action.VIEW", Uri.parse("https://instagram.com/mobilepalengke")));
+            }
+        });
+
+        ivTwitter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent("android.intent.action.VIEW", Uri.parse("https://twitter.com/mobilepalengke")));
+            }
+        });
+
+        //Social Media Links - END
+    }
 
     private void imageSliderBanner(){
         imageSliderBanner = findViewById(R.id.imageSliderBanner);

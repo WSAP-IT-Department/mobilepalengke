@@ -89,7 +89,7 @@
     <string name="navmenu2">Cart</string>
     <string name="navmenu3">Settings</string>
     <string name="navmenu4">Sign Out</string>
-    
+
     <string name="navdrawer1">Open Navigation drawer</string>
     <string name="navdrawer2">Close Navigation drawer</string>
 
@@ -129,9 +129,14 @@
     <string name="update_cart">UPDATE CART</string>
     <string name="checkout">Checkout</string>
 
-    <!--For Circly button-->
-
     <!--For Product Page-->
     <string name="related_product_text">Related Products</string>
     <string name="Product_page">Product</string>
+
+    <!-- Product Selection Page - START -->
+    <string name="prodSelection1">[Category Name]</string>
+    <string name="prodSelection2">[Product Name]</string>
+    <string name="prodSelection3">[Product Price]</string>
+    <!-- Product Selection Page - END -->
+
 </resources>
