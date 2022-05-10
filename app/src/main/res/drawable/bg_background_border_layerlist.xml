@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <solid android:color="@color/white"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <padding
+                android:left="15dp"
+                android:right="15dp"
+                android:top="15dp"
+                android:bottom="15dp" />
+        </shape>
+    </item>
+
+    <item android:drawable="@drawable/bg_background_border"/>
+
+</layer-list>
