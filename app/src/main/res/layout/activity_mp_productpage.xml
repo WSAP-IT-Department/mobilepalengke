@@ -11,14 +11,14 @@
     <!--THIS AREA IS ALREADY CLEAR-->
     <!--Upper -->
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            android:background="@color/teal_200">
+            android:background="@color/mp_blue">
 
 
             <ImageView
@@ -37,21 +37,10 @@
                 android:layout_marginLeft="70dp"
                 android:layout_marginTop="5dp"
                 android:padding="10dp"
-                android:text="@string/Product_page"
+                android:text="@string/ProductPage2"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"></TextView>
-
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginLeft="10dp"
-                android:padding="16dp"
-                android:src="@drawable/ic_cart">
-
-            </ImageView>
-
 
             <!--<ImageView
                 android:layout_width="wrap_content"
@@ -73,12 +62,139 @@
 
         <!--References for Cart-->
 
-        <!--Ready for relativelayout adjustment-->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="280dp"
-            android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/image_view"
+                        android:layout_width="280dp"
+                        android:layout_height="280dp"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="-75dp"
+                        android:src="@drawable/img_product1" />
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="150dp"
+                        android:padding="-20dp"
+                        android:text="@string/Cart6"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="170dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:padding="-20dp"
+                        android:text="@string/Cart5"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="310dp"
+                        android:layout_marginTop="150dp"
+                        android:padding="-20dp"
+                        android:text="@string/Cart11"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="170dp"
+                        android:layout_marginLeft="303dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <ImageView
+                                        android:layout_width="25dp"
+                                        android:layout_height="25dp"
+                                        android:src="@drawable/minus_button">
+                                    </ImageView>
+
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/poppins_bold"
+                                        android:text="@string/Cart2"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true">
+
+                                    <ImageView
+                                        android:layout_width="25dp"
+                                        android:layout_height="25dp"
+                                        android:src="@drawable/plus_button">
+                                    </ImageView>
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+
+                        </RelativeLayout>
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                    <Button
+                        android:layout_width="355dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="210dp"
+                        android:background="@color/black"
+                        android:text="@string/Cart3"
+                        android:textStyle="bold"></Button>
+
+                    <!--bilog-->
+                    <!--<Button
+                        android:layout_width="17dp"
+                        android:layout_height="17dp"
+                        android:layout_marginLeft="310dp"
+                        android:layout_marginTop="180dp"
+                        android:background="@drawable/custom_button"
+                        app:layout_constraintBottom_toBottomof="parent"
+                        app:layout_constraintEnd_toEndof="parent"
+                        app:layout_constraintStart_toStartof="parent"
+                        app:layout_constraintTop_toTopof="parent">
+                    </Button>-->
+                </RelativeLayout>
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -145,13 +261,27 @@
                     app:layout_constraintStart_toStartof="parent"
                     app:layout_constraintTop_toTopof="parent">
                 </Button>-->
-
-
             </RelativeLayout>
+    <!--Add to cart box-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true">
 
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ProductPage1"
+            android:textSize="15sp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="30dp"
+            android:padding="2dp"
+            android:textColor="@color/black">
+        </TextView>
         </LinearLayout>
-
         <!--Add to cart box-->
         <LinearLayout
             android:layout_width="match_parent"
@@ -177,99 +307,80 @@
                 android:layout_height="280dp"
                 android:orientation="horizontal">
 
-                <HorizontalScrollView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/img_border">
 
-                    <LinearLayout
-                        android:layout_width="388dp"
-                        android:layout_height="280dp"
+                    <ImageView
+                        android:id="@+id/image_papaya"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="180dp"
+                        android:maxHeight="350dp"
+                        android:src="@drawable/img_product3" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="210dp"
                         android:layout_marginLeft="10dp"
-                        android:background="@color/white"
-                        android:orientation="horizontal">
+                        android:padding="-20dp"
+                        android:text="@string/Cart7"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="230dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:padding="-20dp"
+                        android:text="@string/Cart8"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+                    </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/img_border">
 
-                        <RelativeLayout
-                            android:layout_width="190dp"
-                            android:layout_height="match_parent"
-                            android:layout_marginLeft="6dp"
-                            android:background="@drawable/img_border">
+                    <ImageView
+                        android:id="@+id/image_okra"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="172dp"
+                        android:maxHeight="350dp"
+                        android:src="@drawable/img_product2" />
 
-                            <ImageView
-                                android:id="@+id/image_papaya"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_centerInParent="true"
-                                android:adjustViewBounds="true"
-                                android:maxWidth="180dp"
-                                android:maxHeight="350dp"
-                                android:src="@drawable/img_product3" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:layout_marginTop="210dp"
-                                android:padding="-20dp"
-                                android:text="@string/green_papaya"
-                                android:textSize="15sp"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:layout_marginTop="230dp"
-                                android:fontFamily="@font/poppins_bold"
-                                android:padding="-20dp"
-                                android:text="@string/green_papaya_price"
-                                android:textAllCaps="true"
-                                android:textColor="@color/black"
-                                android:textSize="15sp" />
-                        </RelativeLayout>
-
-                        <RelativeLayout
-                            android:layout_width="180dp"
-                            android:layout_height="match_parent"
-                            android:layout_marginLeft="10dp"
-                            android:background="@drawable/img_border">
-
-                            <ImageView
-                                android:id="@+id/image_okra"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_centerInParent="true"
-                                android:adjustViewBounds="true"
-                                android:maxWidth="172dp"
-                                android:maxHeight="350dp"
-                                android:src="@drawable/img_product2" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:layout_marginTop="210dp"
-                                android:padding="-20dp"
-                                android:text="@string/okra"
-                                android:textSize="15sp"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:layout_marginTop="230dp"
-                                android:fontFamily="@font/poppins_bold"
-                                android:padding="-20dp"
-                                android:text="@string/okra_price"
-                                android:textAllCaps="true"
-                                android:textColor="@color/black"
-                                android:textSize="15sp" />
-                        </RelativeLayout>
-
-                    </LinearLayout>
-
-                </HorizontalScrollView>
-
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="210dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="-20dp"
+                        android:text="@string/Cart9"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="230dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:padding="-20dp"
+                        android:text="@string/Cart10"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+                </RelativeLayout>
 
             </LinearLayout>
 
@@ -283,7 +394,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="45dp"
-        android:layout_alignParentBottom="true"
-        android:background="@color/mp_yellow"
-        android:orientation="vertical"></LinearLayout>
+        android:orientation="vertical"
+        android:background="@color/mp_blue"
+        android:layout_alignParentBottom="true">
+    </LinearLayout>
 </LinearLayout>

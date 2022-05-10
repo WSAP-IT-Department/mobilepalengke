@@ -14,16 +14,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mobilepalengke">
         <activity
+            android:name=".MP_PurchasedProduct"
+            android:exported="false" />
+        <activity     
             android:name=".MP_ProductSelection"
-            android:exported="true" />
+            android:exported="true"/>
         <activity
             android:name=".MP_Chats"
             android:exported="true" />
-
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/map_key" />
-
         <activity
             android:name=".MP_ContactUs"
             android:exported="true" />
@@ -87,5 +88,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>

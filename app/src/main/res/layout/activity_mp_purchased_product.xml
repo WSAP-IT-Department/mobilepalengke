@@ -33,34 +33,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="70dp"
-                android:layout_marginTop="5dp"
+                android:layout_centerInParent="true"
                 android:padding="10dp"
-                android:text="@string/Cart1"
+                android:text="@string/PurchasedProuct1"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:background="@color/mp_blue"
-                android:padding="13dp"
-                android:text="@string/btn9">
-
-
-            </Button>
-
-
-            <!--<ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:padding="15dp"
-                android:src="@drawable/search_icon"></ImageView>-->
-
 
         </RelativeLayout>
 
@@ -156,90 +134,26 @@
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:layout_marginLeft="327dp"
-                                                android:layout_marginTop="36dp"
+                                                android:layout_marginLeft="340dp"
+                                                android:layout_marginTop="53dp"
+                                                android:fontFamily="@font/poppins_bold"
                                                 android:padding="-20dp"
-                                                android:text="@string/Cart11"
-                                                android:textSize="15sp"
-                                                android:textStyle="bold" />
-
-
-                                            <LinearLayout
-                                                android:layout_width="70dp"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginLeft="320dp"
-                                                android:layout_marginTop="55dp"
-                                                android:orientation="horizontal">
-
-                                                <RelativeLayout
-                                                    android:layout_width="match_parent"
-                                                    android:layout_height="match_parent">
-
-                                                    <RelativeLayout
-                                                        android:layout_width="wrap_content"
-                                                        android:layout_height="wrap_content"
-                                                        android:orientation="horizontal">
-
-                                                        <LinearLayout
-                                                            android:layout_width="wrap_content"
-                                                            android:layout_height="wrap_content">
-
-                                                            <ImageView
-                                                                android:layout_width="25dp"
-                                                                android:layout_height="25dp"
-                                                                android:src="@drawable/minus_button"></ImageView>
-
-                                                        </LinearLayout>
-
-                                                        <LinearLayout
-                                                            android:layout_width="wrap_content"
-                                                            android:layout_height="wrap_content"
-                                                            android:layout_centerHorizontal="true">
-
-                                                            <TextView
-                                                                android:layout_width="wrap_content"
-                                                                android:layout_height="wrap_content"
-                                                                android:fontFamily="@font/poppins_bold"
-                                                                android:text="@string/Cart2"
-                                                                android:textAllCaps="true"
-                                                                android:textColor="@color/black"
-                                                                android:textSize="15sp" />
-
-                                                        </LinearLayout>
-
-                                                        <LinearLayout
-                                                            android:layout_width="wrap_content"
-                                                            android:layout_height="wrap_content"
-                                                            android:layout_alignParentRight="true">
-
-                                                            <ImageView
-                                                                android:layout_width="25dp"
-                                                                android:layout_height="25dp"
-                                                                android:src="@drawable/plus_button"></ImageView>
-
-                                                        </LinearLayout>
-
-                                                    </RelativeLayout>
-
-
-                                                </RelativeLayout>
-
-
-                                            </LinearLayout>
+                                                android:text="@string/PurchasedProuct3"
+                                                android:textAllCaps="true"
+                                                android:textColor="@color/black"
+                                                android:textSize="15sp" />
 
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:layout_marginLeft="336dp"
-                                                android:layout_marginTop="83dp"
+                                                android:layout_marginLeft="340dp"
+                                                android:layout_marginTop="80dp"
                                                 android:fontFamily="@font/poppins_bold"
                                                 android:padding="-20dp"
-                                                android:text="@string/Cart5"
+                                                android:text="@string/PurchasedProuct4"
                                                 android:textAllCaps="true"
                                                 android:textColor="@color/mp_blue"
                                                 android:textSize="15sp" />
-
-
 
                                         </RelativeLayout>
 
@@ -297,82 +211,34 @@
                                                 android:textSize="15sp" />
 
                                             <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="340dp"
+                                            android:layout_marginTop="53dp"
+                                            android:fontFamily="@font/poppins_bold"
+                                            android:padding="-20dp"
+                                            android:text="@string/PurchasedProuct3"
+                                            android:textAllCaps="true"
+                                            android:textColor="@color/black"
+                                            android:textSize="15sp" />
+
+                                            <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:layout_marginLeft="308dp"
-                                                android:layout_marginTop="55dp"
+                                                android:layout_marginLeft="340dp"
+                                                android:layout_marginTop="80dp"
+                                                android:fontFamily="@font/poppins_bold"
                                                 android:padding="-20dp"
-                                                android:text="@string/Cart11"
-                                                android:textSize="15sp"
-                                                android:textStyle="bold" />
+                                                android:text="@string/PurchasedProuct4"
+                                                android:textAllCaps="true"
+                                                android:textColor="@color/mp_blue"
+                                                android:textSize="15sp" />
 
-
-                                            <LinearLayout
-                                                android:layout_width="70dp"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginLeft="301dp"
-                                                android:layout_marginTop="75dp"
-                                                android:orientation="horizontal">
-
-                                                <RelativeLayout
-                                                    android:layout_width="match_parent"
-                                                    android:layout_height="match_parent">
-
-                                                    <RelativeLayout
-                                                        android:layout_width="wrap_content"
-                                                        android:layout_height="wrap_content"
-                                                        android:orientation="horizontal">
-
-                                                        <LinearLayout
-                                                            android:layout_width="wrap_content"
-                                                            android:layout_height="wrap_content">
-
-                                                            <ImageView
-                                                                android:layout_width="25dp"
-                                                                android:layout_height="25dp"
-                                                                android:src="@drawable/minus_button"></ImageView>
-
-                                                        </LinearLayout>
-
-                                                        <LinearLayout
-                                                            android:layout_width="wrap_content"
-                                                            android:layout_height="wrap_content"
-                                                            android:layout_centerHorizontal="true">
-
-                                                            <TextView
-                                                                android:layout_width="wrap_content"
-                                                                android:layout_height="wrap_content"
-                                                                android:fontFamily="@font/poppins_bold"
-                                                                android:text="@string/Cart2"
-                                                                android:textAllCaps="true"
-                                                                android:textColor="@color/black"
-                                                                android:textSize="15sp" />
-
-                                                        </LinearLayout>
-
-                                                        <LinearLayout
-                                                            android:layout_width="wrap_content"
-                                                            android:layout_height="wrap_content"
-                                                            android:layout_alignParentRight="true">
-
-                                                            <ImageView
-                                                                android:layout_width="25dp"
-                                                                android:layout_height="25dp"
-                                                                android:src="@drawable/plus_button"></ImageView>
-
-                                                        </LinearLayout>
-
-                                                    </RelativeLayout>
-
-
-                                                </RelativeLayout>
-
-
-                                            </LinearLayout>
 
                                         </RelativeLayout>
 
                                     </LinearLayout>
+
 
 
                                 </LinearLayout>
@@ -384,24 +250,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="3dp"></RelativeLayout>
 
-                    <!--Remove item from cart section-->
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="115dp"
-                        android:background="@color/white"
-                        android:orientation="vertical">
 
-
-                        <Button
-                            android:layout_width="355dp"
-                            android:layout_height="50dp"
-                            android:layout_marginStart="30dp"
-                            android:layout_marginTop="50dp"
-                            android:backgroundTint="@color/mp_red"
-                            android:text="@string/Cart12"
-                            android:textStyle="bold"></Button>
-
-                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -446,7 +295,7 @@
                     android:layout_height="50dp"
                     android:layout_marginLeft="30dp"
                     android:background="@color/mp_blue"
-                    android:text="@string/Cart13"
+                    android:text="@string/PurchasedProuct2"
                     android:textStyle="bold"></Button>
 
             </LinearLayout>
