@@ -117,7 +117,6 @@
     <string name="Cart2">4</string>
     <string name="Cart3">ADD TO CART</string>
 
-    <!--buttons-->
     <!--total-->
     <string name="Cart4">Total</string>
 
@@ -128,11 +127,6 @@
     <string name="Cart8">₱86.60</string>
     <string name="Cart9">Okra(500g)</string>
     <string name="Cart10">14.60</string>
-
-
-
-
-
     <string name="Cart11">Quantity</string>
     <string name="Cart12">REMOVE</string>
     <string name="Cart13">PROCEED TO CHECKOUT</string>
@@ -140,13 +134,10 @@
     <string name="Cart16">UPDATE CART</string>
     <string name="Cart17">Checkout</string>
 
-    <!--For Circly button-->
-
 
     <!--For Product Page-->
     <string name="ProductPage1">Related Products</string>
     <string name="ProductPage2">Product</string>
-
 
     <!--Checkout page to-->
     <string name="CheckoutPage1">Recipient Details</string>
@@ -157,13 +148,11 @@
     <string name="CheckoutPage6">09955366450</string>
     <string name="CheckoutPage7">------------------------------------------------------------------------------</string>
     <string name="CheckoutPage8">Delivery Address</string>
-
     <string name="CheckoutPage9">Payment Method</string>
     <string name="CheckoutPage10">Bank Payment</string>
     <string name="CheckoutPage11">GCash</string>
     <string name="CheckoutPage12">Paymaya</string>
     <string name="CheckoutPage13">DEBIT/CREDIT CARD</string>
-
     <string name="CheckoutPage14">Order Summary</string>
     <string name="CheckoutPage15">View</string>
     <string name="CheckoutPage16">Subtotal</string>
@@ -171,15 +160,10 @@
     <string name="CheckoutPage18">Delivery fee</string>
     <string name="CheckoutPage19">Place order</string>
 
-
     <!--Purchased product list-->
     <string name="PurchasedProuct1">Purchased Product</string>
     <string name="PurchasedProuct2">Track Order</string>
     <string name="PurchasedProuct3">x4</string>
     <string name="PurchasedProuct4">₱234.4</string>
 
-
-
-
 </resources>
-

@@ -55,6 +55,11 @@ public class MP_Home extends AppCompatActivity {
             switch (id){
                 case R.id.nav_home:
                     return true;
+                case R.id.nav_cart:
+                    startActivity(new Intent(getApplicationContext()
+                            ,MP_CartPage.class));
+                    overridePendingTransition(0,0);
+                    return true;
                 case R.id.nav_profile:
                     startActivity(new Intent(getApplicationContext()
                         ,MP_Profile.class));
