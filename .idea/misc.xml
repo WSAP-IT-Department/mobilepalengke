@@ -34,13 +34,9 @@
         <entry key="..\:/Users/MyPC/AndroidStudioProjects/mobilepalengke/app/src/main/res/drawable/background_border.xml" value="0.193" />
         <entry key="..\:/Users/MyPC/AndroidStudioProjects/mobilepalengke/app/src/main/res/drawable/circle_button.xml" value="0.193" />
         <entry key="..\:/Users/MyPC/AndroidStudioProjects/mobilepalengke/app/src/main/res/drawable/custom_button.xml" value="0.11" />
-        <entry key="..\:/Users/MyPC/AndroidStudioProjects/mobilepalengke/app/src/main/res/drawable/img_border.xml" value="0.1675" />
         <entry key="..\:/Users/MyPC/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_cart_page.xml" value="0.25" />
         <entry key="..\:/Users/MyPC/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_checkout_page.xml" value="0.22" />
-        <entry key="..\:/Users/MyPC/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_cartpage.xml" value="0.33" />
-        <entry key="..\:/Users/MyPC/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_checkoutpage.xml" value="0.33" />
-        <entry key="..\:/Users/MyPC/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_productpage.xml" value="0.22" />
-        <entry key="..\:/Users/MyPC/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_purchased_product.xml" value="0.33" />
+        <entry key="..\:/Users/MyPC/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_cartpage.xml" value="0.2" />
         <entry key="..\:/Users/MyPC/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_payment_method.xml" value="0.1171875" />
         <entry key="..\:/Users/MyPC/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_product_page.xml" value="0.25" />
         <entry key="..\:/Users/Ryzen 5/Downloads/mobilepalengke/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
@@ -96,7 +92,7 @@
         <entry key="..\:/Users/jmsqc/StudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_checkoutpage.xml" value="0.381025641025641" />
         <entry key="..\:/Users/jmsqc/StudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_generalsettings.xml" value="0.2552083333333333" />
         <entry key="..\:/Users/jmsqc/StudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_home.xml" value="0.1" />
-        <entry key="..\:/Users/jmsqc/StudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_productpage.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/jmsqc/StudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_productpage.xml" value="0.26296296296296295" />
         <entry key="..\:/Users/jmsqc/StudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_productselection.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/jmsqc/StudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_profile.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/jmsqc/StudioProjects/mobilepalengke/app/src/main/res/layout/nav_header.xml" value="0.38697916666666665" />
