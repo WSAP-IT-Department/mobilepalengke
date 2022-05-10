@@ -134,10 +134,14 @@
     <string name="Cart16">UPDATE CART</string>
     <string name="Cart17">Checkout</string>
 
-
-    <!--For Product Page-->
+    <!--Product Selection Page-->
     <string name="ProductPage1">Related Products</string>
     <string name="ProductPage2">Product</string>
+
+    <!--For Product Page-->
+    <string name="ProductSelection1">[Category]</string>
+    <string name="ProductSelection2">[Item Name]</string>
+    <string name="ProductSelection3">[Item Price]</string>
 
     <!--Checkout page to-->
     <string name="CheckoutPage1">Recipient Details</string>
@@ -161,9 +165,9 @@
     <string name="CheckoutPage19">Place order</string>
 
     <!--Purchased product list-->
-    <string name="PurchasedProuct1">Purchased Product</string>
-    <string name="PurchasedProuct2">Track Order</string>
-    <string name="PurchasedProuct3">x4</string>
-    <string name="PurchasedProuct4">₱234.4</string>
+    <string name="PurchasedProduct1">Purchased Product</string>
+    <string name="PurchasedProduct2">Track Order</string>
+    <string name="PurchasedProduct3">x4</string>
+    <string name="PurchasedProduct4">₱234.4</string>
 
 </resources>

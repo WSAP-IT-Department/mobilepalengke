@@ -21,7 +21,7 @@
             android:id="@+id/tvProfile"
             style="@style/NavBarTextViewStyle"
             android:background="@drawable/bg_default_white"
-            android:text="@string/prodSelection1" />
+            android:text="@string/ProductSelection1" />
 
     </androidx.cardview.widget.CardView>
 
@@ -54,7 +54,7 @@
                 android:layout_below="@id/ivProd1"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="0dp"
-                android:text="@string/prodSelection2" />
+                android:text="@string/ProductSelection2" />
 
             <TextView
                 android:id="@+id/tvProdPrice1"
@@ -64,7 +64,7 @@
                 android:layout_below="@id/tvProdName1"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="15dp"
-                android:text="@string/prodSelection3" />
+                android:text="@string/ProductSelection3" />
 
         </RelativeLayout>
 
@@ -89,7 +89,7 @@
                 android:layout_below="@id/ivProd2"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="0dp"
-                android:text="@string/prodSelection2" />
+                android:text="@string/ProductSelection2" />
 
             <TextView
                 android:id="@+id/tvProdPrice2"
@@ -99,7 +99,7 @@
                 android:layout_below="@id/tvProdName2"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="15dp"
-                android:text="@string/prodSelection3" />
+                android:text="@string/ProductSelection3" />
 
         </RelativeLayout>
 

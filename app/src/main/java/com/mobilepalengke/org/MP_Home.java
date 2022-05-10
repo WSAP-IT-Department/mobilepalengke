@@ -45,6 +45,15 @@ public class MP_Home extends AppCompatActivity {
 
         imageSliderBanner();
 
+        //Category Navigation - START
+        ivCategory1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MP_Home.this, MP_ProductSelection.class));
+            }
+        });
+
+
         //Nav Bar - START
         BottomNavigationView bottomNavBar = findViewById(R.id.navbar);
 
