@@ -50,6 +50,15 @@
         <item>USD</item>
     </string-array>
 
+    <integer-array name="ProgressColor">
+        <item>@color/mp_yellow</item>
+        <item>@color/mp_red</item>
+        <item>@color/teal_200</item>
+    </integer-array>
+
+
+    <string name="Addaddress">Add an Address</string>
+
     <string name="About1">About</string>
     <string name="About2">Our Story</string>
     <string name="About3">Mobile Palengke, established in March 2020, is a delivery service with the safety of its customers in mind. Instead of letting customers go out and buy their groceries, we bring the groceries to them.</string>

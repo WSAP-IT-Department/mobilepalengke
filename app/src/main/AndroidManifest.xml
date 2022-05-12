@@ -14,13 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mobilepalengke">
         <activity
+            android:name=".MP_AddAdress"
+            android:exported="false" />
+        <activity
             android:name=".MP_ProductSelection"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".MP_Chats"
@@ -80,7 +79,13 @@
             android:exported="true" />
         <activity
             android:name=".MP_SignIn"
-            android:exported="true" />
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
         <activity
             android:name=".MP_WelcomeScreen"
             android:exported="true" />
