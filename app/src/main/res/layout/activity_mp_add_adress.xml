@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_default_gray"
+    tools:context=".MP_AboutUs">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/CardAddAddress"
+        style="@style/CardViewStyle2"
+        android:layout_height="?attr/actionBarSize">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageButton
+            android:id="@+id/nav_return_add_address"
+            style="@style/NavBarReturnBtnStyle"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/tvProfile"
+            style="@style/NavBarTextViewStyle"
+            android:background="@drawable/bg_default_white"
+            android:text="@string/Addaddress" />
+
+        <ImageButton
+            android:id="@+id/nav_check_add_address"
+            style="@style/NavBarCheckBtnStyle"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck"
+            android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <ScrollView
+        android:id="@+id/vscrollBody"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/CardAddAddress"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <EditText
+                android:id="@+id/addressCountry"
+             style="@style/EditTextStyle3"
+                android:hint="Country">
+            </EditText>
+
+            <EditText
+                android:id="@+id/addressName"
+                style="@style/EditTextStyle3"
+                android:layout_below="@id/addressCountry"
+                android:hint="Name">
+            </EditText>
+
+            <EditText
+                android:id="@+id/addressAddress"
+                style="@style/EditTextStyle3"
+                android:layout_below="@id/addressName"
+                android:hint="Address">
+            </EditText>
+
+            <EditText
+                android:id="@+id/addressOptional"
+                style="@style/EditTextStyle3"
+                android:layout_below="@id/addressAddress"
+                android:hint="Apt. (optional)">
+            </EditText>
+
+            <EditText
+                android:id="@+id/addressCity"
+                style="@style/EditTextStyle3"
+                android:layout_below="@id/addressOptional"
+                android:hint="City">
+            </EditText>
+
+            <EditText
+                android:id="@+id/addressState"
+                style="@style/EditTextStyle3"
+                android:layout_below="@id/addressCity"
+                android:hint="State">
+            </EditText>
+
+            <EditText
+                android:id="@+id/addressZIP"
+                style="@style/EditTextStyle3"
+                android:layout_below="@id/addressState"
+                android:hint="ZIP code">
+            </EditText>
+            
+            
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

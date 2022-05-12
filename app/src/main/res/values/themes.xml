@@ -119,6 +119,15 @@
         <item name="android:textColorHint">@color/mp_darkgray</item>
         <item name="android:textSize">12sp</item>
     </style>
+
+    <style name="EditTextStyle3">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    <item name="android:layout_centerHorizontal">true</item>
+    </style>
     <!-- Edit Text Fields Style - END -->
 
     <!-- CardView Style - START -->
@@ -157,6 +166,16 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@color/white</item>
         <item name="android:src">@drawable/nav_return</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="NavBarCheckBtnStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:src">@drawable/nav_check</item>
         <item name="android:minWidth">48dp</item>
         <item name="android:minHeight">48dp</item>
         <item name="android:padding">10dp</item>
@@ -252,5 +271,14 @@
         <item name="elevation">5dp</item>
     </style>
     <!-- Relative Layout Style - END -->
+
+    <!-- Progress Bar Style - START -->
+    <style name="ProgressBarStyle1">
+        <item name="android:layout_width">match_parent</item>
+       <item name="android:layout_height">4dp</item>
+        <item name="android:indeterminateOnly">true</item>
+       <item name="android:visibility">invisible</item>
+
+    </style>
 
 </resources>
