@@ -4,7 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
 
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.constants.ScaleTypes;
@@ -35,6 +38,16 @@ public class MP_AboutUs extends AppCompatActivity {
 
         imageSliderLogisticsPartnerHolder();
         imageSliderLogisticsPartnershipBrandHolder();
+
+        ImageButton imgBtnNavReturn = findViewById(R.id.nav_return);
+
+        imgBtnNavReturn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MP_AboutUs.this, MP_GeneralSettings.class));
+            }
+        });
+
     }
     private void imageSliderLogisticsPartnerHolder(){
         imageSliderLogisticsPartner = (ImageSlider) findViewById(R.id.imageSliderLogisticsPartner);

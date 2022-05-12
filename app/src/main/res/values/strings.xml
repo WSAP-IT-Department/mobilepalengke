@@ -9,6 +9,7 @@
     <string name="btn6">BACK TO HOME</string>
     <string name="btn7">SIGN OUT</string>
     <string name="btn8">SAVE CHANGES</string>
+    <string name="btn9">Edit</string>
 
     <string name="welcome1">Welcome to Mobile Palengke</string>
     <string name="welcome2">Here to make your life easier.</string>
@@ -121,31 +122,61 @@
     <string name="ContactUs9">Want to get in touch? Here\'s how you can reach us. Just send us a message in the form below and we\'re here to answer your questions you might have.</string>
 
     <!--For Cart Page-->
-    <string name="cart1">Cart</string>
-    <string name="edit">Edit</string>
-    <string name="Total">Total</string>
-    <string name="calamansi_price">57.60</string>
-    <string name="add_to_cart">ADD TO CART</string>
-    <string name="calamansi">Calamansi (500g)</string>
-    <string name="green_papaya">Papaya Green (500)</string>
-    <string name="green_papaya_price">₱86.60</string>
-    <string name="okra">Okra(500g)</string>
-    <string name="okra_price">14.60</string>
-    <string name="quantity">Quantity</string>
-    <string name="remove_button">REMOVE</string>
-    <string name="proceed_to_checkout">PROCEED TO CHECKOUT</string>
-    <string name="Update_cart_page">UPDATE CARTPAGE</string>
-    <string name="update_cart">UPDATE CART</string>
-    <string name="checkout">Checkout</string>
+    <string name="Cart1">Cart</string>
+    <string name="Cart2">4</string>
+    <string name="Cart3">ADD TO CART</string>
+
+    <!--total-->
+    <string name="Cart4">Total</string>
+
+    <!--product price-->
+    <string name="Cart5">57.60</string>
+    <string name="Cart6">Calamansi (500g)</string>
+    <string name="Cart7">Papaya Green (500)</string>
+    <string name="Cart8">₱86.60</string>
+    <string name="Cart9">Okra(500g)</string>
+    <string name="Cart10">14.60</string>
+    <string name="Cart11">Quantity</string>
+    <string name="Cart12">REMOVE</string>
+    <string name="Cart13">PROCEED TO CHECKOUT</string>
+    <string name="Cart14">UPDATE CARTPAGE</string>
+    <string name="Cart16">UPDATE CART</string>
+    <string name="Cart17">Checkout</string>
+
+    <!--Product Selection Page-->
+    <string name="ProductPage1">Related Products</string>
+    <string name="ProductPage2">Product</string>
 
     <!--For Product Page-->
-    <string name="related_product_text">Related Products</string>
-    <string name="Product_page">Product</string>
+    <string name="ProductSelection1">[Category]</string>
+    <string name="ProductSelection2">[Item Name]</string>
+    <string name="ProductSelection3">[Item Price]</string>
 
-    <!-- Product Selection Page - START -->
-    <string name="prodSelection1">[Category Name]</string>
-    <string name="prodSelection2">[Product Name]</string>
-    <string name="prodSelection3">[Product Price]</string>
-    <!-- Product Selection Page - END -->
+    <!--Checkout page to-->
+    <string name="CheckoutPage1">Recipient Details</string>
+    <string name="CheckoutPage2">Edit</string>
+    <string name="CheckoutPage3">Name:</string>
+    <string name="CheckoutPage4">Mark Alfie Mercado</string>
+    <string name="CheckoutPage5">Mobile No.:</string>
+    <string name="CheckoutPage6">09955366450</string>
+    <string name="CheckoutPage7">------------------------------------------------------------------------------</string>
+    <string name="CheckoutPage8">Delivery Address</string>
+    <string name="CheckoutPage9">Payment Method</string>
+    <string name="CheckoutPage10">Bank Payment</string>
+    <string name="CheckoutPage11">GCash</string>
+    <string name="CheckoutPage12">Paymaya</string>
+    <string name="CheckoutPage13">DEBIT/CREDIT CARD</string>
+    <string name="CheckoutPage14">Order Summary</string>
+    <string name="CheckoutPage15">View</string>
+    <string name="CheckoutPage16">Subtotal</string>
+    <string name="CheckoutPage17">Discount</string>
+    <string name="CheckoutPage18">Delivery fee</string>
+    <string name="CheckoutPage19">Place order</string>
+
+    <!--Purchased product list-->
+    <string name="PurchasedProduct1">Purchased Product</string>
+    <string name="PurchasedProduct2">Track Order</string>
+    <string name="PurchasedProduct3">x4</string>
+    <string name="PurchasedProduct4">₱234.4</string>
 
 </resources>

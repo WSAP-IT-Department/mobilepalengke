@@ -45,6 +45,15 @@ public class MP_Home extends AppCompatActivity {
 
         imageSliderBanner();
 
+        //Category Navigation - START
+        ivCategory1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MP_Home.this, MP_ProductSelection.class));
+            }
+        });
+
+
         //Nav Bar - START
         BottomNavigationView bottomNavBar = findViewById(R.id.navbar);
 
@@ -54,6 +63,11 @@ public class MP_Home extends AppCompatActivity {
             int id = item.getItemId();
             switch (id){
                 case R.id.nav_home:
+                    return true;
+                case R.id.nav_cart:
+                    startActivity(new Intent(getApplicationContext()
+                            ,MP_CartPage.class));
+                    overridePendingTransition(0,0);
                     return true;
                 case R.id.nav_profile:
                     startActivity(new Intent(getApplicationContext()
