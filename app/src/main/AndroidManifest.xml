@@ -25,7 +25,6 @@
             android:name=".MP_PurchasedProduct"
             android:exported="true" />
         <activity
-
             android:name=".MP_AddAdress"
             android:exported="true" />
         <activity
@@ -107,6 +106,5 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
-
+        </application>
 </manifest>
