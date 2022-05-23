@@ -24,13 +24,13 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:orientation="horizontal"
         android:background="#12284d">
 
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:src="@drawable/logo_circle"
             android:layout_marginLeft="15dp"
             android:layout_gravity="center"/>
@@ -39,25 +39,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Mobile Palengke"
-            android:textSize="25dp"
+            android:textSize="30dp"
             android:layout_gravity="center"
             android:textColor="#f1ce35"
+            style="@style/TVFontStyle2"
             android:layout_marginLeft="10dp"/>
     </LinearLayout>
 
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="554dp"
+        android:layout_height="530dp"
         android:orientation="vertical">
 
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_gravity="center"
             android:layout_marginTop="220dp"
-            android:src="@drawable/logo_head"
-            android:layout_gravity="center"/>
+            android:src="@drawable/logo_head" />
     </LinearLayout>
-
 
     <LinearLayout
         android:layout_width="match_parent"
