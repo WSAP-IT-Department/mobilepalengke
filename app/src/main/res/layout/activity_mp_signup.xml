@@ -2,6 +2,7 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_welcome"
@@ -18,6 +19,14 @@
         android:layout_marginBottom="30dp" />
 
     <androidx.cardview.widget.CardView style="@style/CardViewStyle1">
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/ProgressBar1"
+            style="@style/ProgressBarStyle1"
+            app:indicatorColor="@array/ProgressColor"
+            app:indeterminateAnimationType="contiguous">
+        </com.google.android.material.progressindicator.LinearProgressIndicator>
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -67,6 +76,16 @@
                 style="@style/TVFontStyle2" />
 
         </LinearLayout>
+
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/ProgressBar2"
+            style="@style/ProgressBarStyle1"
+            app:indicatorColor="@array/ProgressColor"
+            app:indeterminateAnimationType="contiguous"
+            android:layout_gravity="bottom">
+        </com.google.android.material.progressindicator.LinearProgressIndicator>
+
 
     </androidx.cardview.widget.CardView>
 
