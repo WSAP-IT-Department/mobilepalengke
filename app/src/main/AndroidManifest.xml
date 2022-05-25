@@ -14,17 +14,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mobilepalengke">
         <activity
+            android:name=".MP_Fragment_OrderSummary"
+            android:exported="false" />
+        <activity
             android:name=".MP_PurchasedProduct"
             android:exported="false" />
-        <activity     
+        <activity
             android:name=".MP_ProductSelection"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".MP_Chats"
             android:exported="true" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/map_key" />
+
         <activity
             android:name=".MP_ContactUs"
             android:exported="true" />
@@ -33,7 +38,8 @@
             android:exported="true" />
         <activity
             android:name=".MP_CheckoutPage"
-            android:exported="true" />
+            android:exported="true" >
+        </activity>
         <activity
             android:name=".MP_CartPage"
             android:exported="true" />
@@ -84,8 +90,10 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
+
 </manifest>

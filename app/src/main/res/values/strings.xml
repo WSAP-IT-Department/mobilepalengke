@@ -170,4 +170,18 @@
     <string name="PurchasedProduct3">x4</string>
     <string name="PurchasedProduct4">₱234.4</string>
 
+    <!--Order Summary Fragment-->
+    <string name="orderSummaryFragmentTitle">Order Summary</string>
+    <string name="quantity1">47x</string>
+    <string name="product1">Carrots (500g)</string>
+    <string name="price1">₱115.20</string>
+
+    <string name="quantity2">07x</string>
+    <string name="product2">Cabbage (500g)</string>
+    <string name="price2">₱172.80</string>
+
+    <string name="quantity3">67x</string>
+    <string name="product3">Cauliflower (500g)</string>
+    <string name="price3">₱360</string>
+
 </resources>
