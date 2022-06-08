@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.Spinner;
@@ -22,6 +23,7 @@ public class MP_GeneralSettings extends AppCompatActivity {
         Spinner spLanguage = findViewById(R.id.spLanguage);
 
         TextView tvAbout = findViewById(R.id.tvAbout);
+        TextView tvNotifications = findViewById(R.id.tvNotifications);
 
         imgBtnNavReturn.setOnClickListener(v -> startActivity(new Intent(MP_GeneralSettings.this, MP_Profile.class)));
 
@@ -36,6 +38,11 @@ public class MP_GeneralSettings extends AppCompatActivity {
         spLanguage.setAdapter(adapter1);
 
         tvAbout.setOnClickListener(view -> startActivity(new Intent(MP_GeneralSettings.this, MP_AboutUs.class)));
-
+        tvNotifications.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MP_GeneralSettings.this, MP_NotificationSettings.class));
+            }
+        });
     }
 }

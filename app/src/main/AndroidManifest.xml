@@ -14,6 +14,61 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mobilepalengke">
         <activity
+            android:name=".MP_EmailNotification"
+            android:exported="true" />
+        <activity
+            android:name=".MP_PushNotification"
+            android:exported="true" />
+        <activity
+            android:name=".MP_NotificationSettings"
+            android:exported="true" />
+        <activity
+            android:name=".MP_ProductSelection10"
+            android:exported="true" />
+        <activity
+            android:name=".MP_ProductSelection9"
+            android:exported="true" />
+        <activity
+            android:name=".MP_ProductSelection8"
+            android:exported="true" />
+        <activity
+            android:name=".MP_ProductSelection7"
+            android:exported="true" />
+        <activity
+            android:name=".MP_ProductSelection6"
+            android:exported="true" />
+        <activity
+            android:name=".MP_ProductSelection5"
+            android:exported="true" />
+        <activity
+            android:name=".MP_ProductSelection4"
+            android:exported="true" />
+        <activity
+            android:name=".MP_ProductSelection3"
+            android:exported="true" />
+        <activity
+            android:name=".MP_ProductSelection2"
+            android:exported="true" />
+        <activity
+            android:name=".MP_MealPlan6"
+            android:exported="true" />
+        <activity
+            android:name=".MP_MealPlan5"
+            android:exported="true" />
+        <activity
+            android:name=".MP_MealPlan4"
+            android:exported="true" />
+        <activity
+            android:name=".MP_MealPlan3"
+            android:exported="true" />
+        <activity
+            android:name=".MP_MealPlan2"
+            android:exported="true" />
+        <activity
+            android:name=".MP_MealPlan1"
+            android:exported="true" />
+        <activity
+            android:name=".MP_AllCategory"
             android:name=".MP_Fragment_OrderSummary"
             android:exported="true" />
         <activity
@@ -25,6 +80,7 @@
         </activity>
         <activity
             android:name=".MP_PurchasedProduct"
+
             android:exported="true" />
         <activity
             android:name=".MP_AddAdress"
@@ -32,7 +88,7 @@
         <activity
             android:name=".MP_PurchasedProduct"
             android:exported="true" />
-        <activity     
+        <activity
             android:name=".MP_ProductSelection"
             android:exported="true" />
         <activity

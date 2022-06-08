@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MP_AllCategory">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/CardAllCategoryMeal1"
+            style="@style/CardViewStyle4"
+            android:layout_height="?attr/actionBarSize">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/allcat_nav_return"
+                    style="@style/NavBarReturnBtnStyle2"
+                    tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/tvProfile"
+                    style="@style/NavBarTextViewStyle"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/CategoriesNav"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/CardAllCategoryMeal1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivCategory1"
+                style="@style/ImageViewStyle6"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/prod_category1"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/ivCategory2"
+                style="@style/ImageViewStyle6"
+                android:src="@drawable/prod_category2"
+                tools:ignore="ContentDescription"
+                android:layout_toRightOf="@id/ivCategory1"
+                android:layout_alignParentRight="true"/>
+
+            <ImageView
+                android:id="@+id/ivCategory3"
+                style="@style/ImageViewStyle6"
+                android:src="@drawable/prod_category3"
+                tools:ignore="ContentDescription"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/ivCategory1"/>
+
+            <ImageView
+                android:id="@+id/ivCategory4"
+                style="@style/ImageViewStyle6"
+                android:src="@drawable/prod_category4"
+                tools:ignore="ContentDescription"
+                android:layout_below="@id/ivCategory1"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/ivCategory1"/>
+
+            <ImageView
+                android:id="@+id/ivCategory5"
+                style="@style/ImageViewStyle6"
+                android:src="@drawable/prod_category5"
+                tools:ignore="ContentDescription"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/ivCategory3"/>
+
+            <ImageView
+                android:id="@+id/ivCategory6"
+                style="@style/ImageViewStyle6"
+                android:src="@drawable/prod_category6"
+                tools:ignore="ContentDescription"
+                android:layout_below="@id/ivCategory3"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/ivCategory1"/>
+
+            <ImageView
+                android:id="@+id/ivCategory7"
+                style="@style/ImageViewStyle6"
+                android:src="@drawable/prod_category7"
+                tools:ignore="ContentDescription"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/ivCategory5" />
+
+            <ImageView
+                android:id="@+id/ivCategory8"
+                style="@style/ImageViewStyle6"
+                android:src="@drawable/prod_category8"
+                tools:ignore="ContentDescription"
+                android:layout_below="@id/ivCategory5"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/ivCategory1"/>
+
+            <ImageView
+                android:id="@+id/ivCategory9"
+                style="@style/ImageViewStyle6"
+                android:src="@drawable/prod_category9"
+                tools:ignore="ContentDescription"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/ivCategory7"/>
+
+            <ImageView
+                android:id="@+id/ivCategory10"
+                style="@style/ImageViewStyle6"
+                android:src="@drawable/prod_category10"
+                tools:ignore="ContentDescription"
+                android:layout_below="@id/ivCategory7"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/ivCategory1"/>
+
+
+        </RelativeLayout>
+
+        </ScrollView>
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

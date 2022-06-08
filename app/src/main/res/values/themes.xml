@@ -92,6 +92,116 @@
         <item name="android:textColor">@color/mp_darkgray</item>
         <item name="android:textSize">14sp</item>
     </style>
+
+    <style name="TVFontStyle5">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/mp_blue</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="TVFontStyle6">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/mp_blue</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+    </style>
+
+    <style name="TVFontStyle7">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/mp_blue</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+    </style>
+
+    <style name="TVFontStyle8">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/grey_font</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+    </style>
+
+    <style name="TVFontStyleFrag1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginEnd">5dp</item>
+    </style>
+
+    <style name="TVFontStyleFrag2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+       <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:layout_marginRight">7dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/mp_darkgray</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="TVFontStyleFrag3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TVFontStyleFrag4">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TVFontStyleFrag5">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/mp_fragment_time</item>
+    </style>
+
+    <style name="TVFontStyleFrag6">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/mp_fragment_time</item>
+    </style>
+
+    <style name="TVFontStyleFrag7">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+
     <!-- Text Views Font Style - END -->
 
     <!-- Edit Text Fields Style - START -->
@@ -158,6 +268,22 @@
         <item name="cardCornerRadius">5dp</item>
         <item name="cardElevation">5dp</item>
     </style>
+
+    <style name="CardViewStyle4">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:elevation">12dp</item>
+        <item name="cardBackgroundColor">@color/mp_blue</item>
+        <item name="cardElevation">5dp</item>
+    </style>
+
+    <style name="CardViewStyle5">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardElevation">5dp</item>
+    </style>
+
     <!-- CardView Style - END -->
 
     <!-- Nav Bar Style - START -->
@@ -166,6 +292,16 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@color/white</item>
         <item name="android:src">@drawable/nav_return</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="NavBarReturnBtnStyle2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_ios_arrow_back</item>
+        <item name="android:background">@color/mp_blue</item>
         <item name="android:minWidth">48dp</item>
         <item name="android:minHeight">48dp</item>
         <item name="android:padding">10dp</item>
@@ -181,6 +317,26 @@
         <item name="android:padding">10dp</item>
     </style>
 
+    <style name="NavBarCheckBtnStyle2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/mp_blue</item>
+        <item name="android:src">@drawable/nav_check</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="NavBarCartBtn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/mp_blue</item>
+        <item name="android:src">@drawable/ic_shopping_cart</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
     <style name="NavBarTextViewStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">match_parent</item>
@@ -191,6 +347,17 @@
         <item name="android:textSize">30sp</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:padding">7dp</item>
+    </style>
+
+    <style name="NavBarTextViewStyle2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">@color/mp_black_regular</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:gravity">center_vertical</item>
+
     </style>
 
     <style name="BottomNavBarStyle">
@@ -256,6 +423,54 @@
         <item name="android:layout_marginBottom">15dp</item>
     </style>
 
+    <style name="ImageViewStyle4">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">300dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="ImageViewStyle5">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="ImageViewStyle6">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">170dp</item>
+       <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+
+    <style name="ImageViewStyleFrag1">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">260dp</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="ImageViewStyleFrag2">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginLeft">100dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+
+    <style name="SeeAllIcon">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
     <style name="circle_button1">
         <item name="android:background">@color/mp_red</item>
     </style>
@@ -280,5 +495,38 @@
        <item name="android:visibility">invisible</item>
 
     </style>
+    <!-- Progress Bar Style - END -->
 
+    <!-- Text Icon Navigation Style - START -->
+    <style name="TextIconNavStyle1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_ios_arrow_forward</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:minWidth">28dp</item>
+        <item name="android:minHeight">28dp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <!-- Text Icon Navigation Style - END -->
+
+    <!-- Frame Layout Fragment Style - START -->
+    <style name="FrameLayoutFragmentStyle1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@color/mp_fragment_time</item>
+
+    </style>
+    <!-- Frame Layout Fragment Style - END -->
+
+    <!-- View Style - START -->
+    <style name="ViewStyle1">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:background">@color/mp_fragment_time</item>
+    </style>
+
+    <!-- View Style - END -->
 </resources>

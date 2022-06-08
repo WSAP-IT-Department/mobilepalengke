@@ -7,20 +7,28 @@
     android:background="@drawable/bg_default_gray"
     tools:context=".MP_GeneralSettings">
 
-    <androidx.cardview.widget.CardView style="@style/CardViewStyle2">
+    <androidx.cardview.widget.CardView style="@style/CardViewStyle4"
+        android:layout_height="?attr/actionBarSize">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
         <ImageButton
             android:id="@+id/nav_return"
-            style="@style/NavBarReturnBtnStyle"
+            style="@style/NavBarReturnBtnStyle2"
             tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
         <TextView
             android:id="@+id/tvProfile"
             style="@style/NavBarTextViewStyle"
-            android:background="@drawable/bg_default_white"
+           android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
             android:text="@string/GenSettings1" />
 
+        </RelativeLayout>
+
     </androidx.cardview.widget.CardView>
+
 
     <TextView
         android:id="@+id/tvPublicInfo"
@@ -53,6 +61,16 @@
                 android:text="@string/GenSettings3"
                 android:textAlignment="textStart" />
 
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:backgroundTint="@color/grey_font"
+                android:layout_gravity="start|center_horizontal"
+                android:layout_margin="15dp"
+                android:background="@drawable/ic_ios_arrow_forward"
+                android:layout_alignParentRight="true"/>
+
+
             <TextView
                 android:id="@+id/tvPrivacySettings"
                 android:padding="15dp"
@@ -63,6 +81,16 @@
                 android:text="@string/GenSettings4"
                 android:textAlignment="textStart"
                 style="@style/TVFontStyle2" />
+
+            <ImageView
+                android:layout_below="@id/tvNotifications"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:backgroundTint="@color/grey_font"
+                android:layout_gravity="start|center_horizontal"
+                android:layout_margin="15dp"
+                android:background="@drawable/ic_ios_arrow_forward"
+                android:layout_alignParentRight="true"/>
 
             <TextView
                 android:id="@+id/tvLanguage"
@@ -142,6 +170,15 @@
                 android:text="@string/GenSettings8"
                 android:textAlignment="textStart" />
 
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:backgroundTint="@color/grey_font"
+                android:layout_gravity="start|center_horizontal"
+                android:layout_margin="15dp"
+                android:background="@drawable/ic_ios_arrow_forward"
+                android:layout_alignParentRight="true"/>
+
             <TextView
                 android:id="@+id/tvCommunity"
                 style="@style/TVFontStyle2"
@@ -152,6 +189,16 @@
                 android:padding="15dp"
                 android:text="@string/GenSettings9"
                 android:textAlignment="textStart" />
+
+            <ImageView
+                android:layout_below="@id/tvHelpCenter"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:backgroundTint="@color/grey_font"
+                android:layout_gravity="start|center_horizontal"
+                android:layout_margin="15dp"
+                android:background="@drawable/ic_ios_arrow_forward"
+                android:layout_alignParentRight="true"/>
 
             <TextView
                 android:id="@+id/tvPrivacy"
@@ -164,6 +211,16 @@
                 android:text="@string/GenSettings10"
                 android:textAlignment="textStart" />
 
+            <ImageView
+                android:layout_below="@id/tvCommunity"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:backgroundTint="@color/grey_font"
+                android:layout_gravity="start|center_horizontal"
+                android:layout_margin="15dp"
+                android:background="@drawable/ic_ios_arrow_forward"
+                android:layout_alignParentRight="true"/>
+
             <TextView
                 android:id="@+id/tvAbout"
                 style="@style/TVFontStyle2"
@@ -174,6 +231,18 @@
                 android:padding="15dp"
                 android:text="@string/GenSettings11"
                 android:textAlignment="textStart" />
+
+            <ImageView
+                android:layout_below="@id/tvPrivacy"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:backgroundTint="@color/grey_font"
+                android:layout_gravity="start|center_horizontal"
+                android:layout_margin="15dp"
+                android:background="@drawable/ic_ios_arrow_forward"
+                android:layout_alignParentRight="true"/>
+
+
 
         </RelativeLayout>
 
