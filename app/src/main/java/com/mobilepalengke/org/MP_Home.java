@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ScrollView;
 
@@ -40,16 +41,160 @@ public class MP_Home extends AppCompatActivity {
         ImageView ivCategory9 = findViewById(R.id.ivCategory9);
         ImageView ivCategory10 = findViewById(R.id.ivCategory10);
 
+        ImageView ivMeal1 = findViewById(R.id.ivMeal1);
+        ImageView ivMeal2 = findViewById(R.id.ivMeal2);
+        ImageView ivMeal3 = findViewById(R.id.ivMeal3);
+        ImageView ivMeal4 = findViewById(R.id.ivMeal4);
+        ImageView ivMeal5 = findViewById(R.id.ivMeal5);
+        ImageView ivMeal6 = findViewById(R.id.ivMeal6);
+
+        Button AllCategoryBut = findViewById(R.id.tvSeeAllCategoryButton);
+
+
+
         vscrollBody = findViewById(R.id.vscrollBody);
         OverScrollDecoratorHelper.setUpOverScroll(vscrollBody);
 
         imageSliderBanner();
 
         //Category Navigation - START
+
+        AllCategoryBut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MP_Home.this, MP_AllCategory.class));
+                finish();
+            }
+        });
+
         ivCategory1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MP_Home.this, MP_ProductSelection.class));
+                finish();
+            }
+        });
+
+        ivCategory2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MP_Home.this, MP_ProductSelection.class));
+                finish();
+            }
+        });
+
+        ivCategory3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MP_Home.this, MP_ProductSelection.class));
+                finish();
+            }
+        });
+
+        ivCategory4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MP_Home.this, MP_ProductSelection.class));
+                finish();
+            }
+        });
+
+        ivCategory5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MP_Home.this, MP_ProductSelection.class));
+                finish();
+            }
+        });
+
+        ivCategory6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MP_Home.this, MP_ProductSelection.class));
+                finish();
+            }
+        });
+
+        ivCategory7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MP_Home.this, MP_ProductSelection.class));
+                finish();
+            }
+        });
+
+        ivCategory8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MP_Home.this, MP_ProductSelection.class));
+                finish();
+            }
+        });
+
+        ivCategory9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MP_Home.this, MP_ProductSelection.class));
+                finish();
+            }
+        });
+
+        ivCategory10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MP_Home.this, MP_ProductSelection.class));
+                finish();
+            }
+        });
+
+        ivCategory1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MP_Home.this, MP_ProductSelection.class));
+                finish();
+            }
+        });
+
+
+        ivMeal1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MP_Home.this, MP_MealPlan1.class));
+            }
+        });
+
+        ivMeal2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MP_Home.this, MP_MealPlan2.class));
+            }
+        });
+
+        ivMeal3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MP_Home.this, MP_MealPlan3.class));
+            }
+        });
+
+        ivMeal4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MP_Home.this, MP_MealPlan4.class));
+            }
+        });
+
+        ivMeal5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MP_Home.this, MP_MealPlan5.class));
+            }
+        });
+
+        ivMeal6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MP_Home.this, MP_MealPlan6.class));
             }
         });
 

@@ -57,8 +57,11 @@
         <item>@color/teal_200</item>
     </integer-array>
 
+    <string name="CategoriesNav">Categories</string>
 
     <string name="Addaddress">Add an Address</string>
+
+    <string name="NavigationBack">back</string>
 
     <string name="About1">About</string>
     <string name="About2">Our Story</string>
@@ -110,6 +113,32 @@
     <string name="home5">Featured Products</string>
     <string name="home6">New Products</string>
     <string name="home7">About Us</string>
+    <string name="SeeAllCategory">See All Category</string>
+    <string name="mealplan">MEAL PLAN</string>
+    <string name="mealplan1">Vegetables</string>
+    <string name="mealplan2">Beef</string>
+    <string name="mealplan3">Chicken</string>
+    <string name="mealplan4">Dessert</string>
+    <string name="mealplan5">Pork</string>
+    <string name="mealplan6">Rice</string>
+    <string name="meal1">Lumpiang Sariwa</string>
+    <string name="meal2">Pinakbet</string>
+    <string name="meal3">Spicy Eggplant Stir Fry</string>
+    <string name="meal4">Utan Bisaya</string>
+    <string name="meal5">Adobong Kangkong</string>
+    <string name="meal6">Chop Suey</string>
+    <string name="view">View Recipe</string>
+    <string name="see">See All</string>
+    <string name="Category1">Fresh Vegetables</string>
+    <string name="Category2">Fresh Meats</string>
+    <string name="Category3">Canned Goods</string>
+    <string name="Category4">Frozen Goods</string>
+    <string name="Category5">Noodles and Pasta</string>
+    <string name="Category6">Rice</string>
+    <string name="Category7">Fresh Fruits</string>
+    <string name="Category8">Eggs and Dairy</string>
+    <string name="Category9">Dried Goods</string>
+    <string name="Category10">Organic</string>
 
     <string name="ContactUs1">Contact Us</string>
     <string name="ContactUs2">ADDRESS</string>
@@ -178,5 +207,75 @@
     <string name="PurchasedProduct2">Track Order</string>
     <string name="PurchasedProduct3">x4</string>
     <string name="PurchasedProduct4">₱234.4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Fragment Meal-->
+    <string name="MealNavFrag">Meal Plan</string>
+    <string name="Ingredients">Ingredients</string>
+
+    <string name="MealDescription1">Fresh and refreshing, Lumpiang sariwa is one of the healthiest and most delicious dishes Filipino cuisine has to offer.</string>
+    <string name="MealDescription2">Pinakbet is a Filipino vegetable dish. It is composed of a variety of vegetables and it also has a protein component. I made use of lechon kawali or crispy deep-fried pork belly for this recipe.</string>
+    <string name="MealDescription3">One bite of this spicy eggplant stir fry will have everything you could ever want in a healthy, meatless dish!</string>
+    <string name="MealDescription4">Have you ever heard of Utan Bisaya before? For locals of the Visayas or those with Visayan origins, Easy Utan Bisaya (or Law-Uy) is a vegetable soup made with the freshest of vegetables boiled in water. It is similar to another popular vegetable soup, bulanglang.</string>
+    <string name="MealDescription5">Adobong Kangkong is a classic dish you can find in several Filipino homes. This humble dish is a combination of several ingredients that are inexpensive and easily accessible. We already know how much Filipinos love adobo but with kangkong especially, it’s so hard not to love!</string>
+    <string name="MealDescription6">Chop suey is a stir-fried vegetable dish that is cooked with meats such as chicken and pork. Shrimp and seafood can also be added. This chop suey recipe is special because it has almost every ingredient present. Chicken, pork, shrimp, and boiled quail eggs were all included in the recipe, along with fresh veggies.</string>
+
+    <string name="Prep">Prep Time</string>
+    <string name="Cook">Cook Time</string>
+    <string name="Total">Total Time</string>
+    <string name="Serve">Serving</string>
+
+    <string name="PrepVal1">15 Minutes</string>
+    <string name="PrepVal2">5 Minutes</string>
+    <string name="PrepVal3">5 Minutes</string>
+    <string name="PrepVal4">5 Minutes</string>
+    <string name="PrepVal5">5 Minutes</string>
+    <string name="PrepVal6">10 Minutes</string>
+
+
+    <string name="CookVal1">35 Minutes</string>
+    <string name="CookVal2">35 Minutes</string>
+    <string name="CookVal3">12 Minutes</string>
+    <string name="CookVal4">20 Minutes</string>
+    <string name="CookVal5">15 Minutes</string>
+    <string name="CookVal6">30 Minutes</string>
+
+
+    <string name="TotalVal1">50 Minutes</string>
+    <string name="TotalVal2">45 Minutes</string>
+    <string name="TotalVal3">17 Minutes</string>
+    <string name="TotalVal4">25 Minutes</string>
+    <string name="TotalVal5">20 Minutes</string>
+    <string name="TotalVal6">40 Minutes</string>
+
+
+    <string name="ServeVal1">5 People</string>
+    <string name="ServeVal2">4 People</string>
+    <string name="ServeVal3">3 People</string>
+    <string name="ServeVal4">4 People</string>
+    <string name="ServeVal5">2-3 People</string>
+    <string name="ServeVal6">4 People</string>
+
+    <string name="Ingredients1">2 cups sweet potato cubed \n 2 tbsp fish sauce patis \n 1 lb cabbage shredded \n 1 ½ cup carrots julienned \n ½ cup peanuts crushed \n 6 pieces Lettuce leaves \n ½ lb pork thinly sliced \n 1 pack extra firm tofu sliced in strips \n 1 cup shrimp shelled and deveined \n 2 cups string beans, baguio beans, chopped \n 1 medium sized onions chopped \n ½ cup cilantro chopped \n 3 tbsp garlic minced \n 1 pork cube</string>
+    <string name="Ingredients1a">1 cup all-purpose flour \n 2 pieces raw eggs \n 2 tbsp cooking oil \n 1/2 tsp salt \n 1 1/2 cup milk</string>
+    <string name="Ingredients1b">1 tbsp soy sauce \n ½ cup brown sugar \n 2 cups water \n ½ pork cube \n 1 tbsp garlic, minced \n 2 tbsp cornstarch diluted in 4 tbsp water</string>
+
+    <string name="Ingredients2">1 tablespoon canola oil \n 1 onion, peeled and chopped \n 2 cloves garlic, peeled and minced \n 1/2 pound pork belly, cut into 1-inch cubes \n 1 tablespoon shrimp paste \n 2 Roma tomatoes, chopped \n 2 cups water \n 1/2 small kalabasa, peeled and cut into pieces \n 8 okra, ends trimmed \n 1/2 bunch long beans, ends trimmed and cut into 3-inch lengths \n 1 medium ampalaya (bittermelon), seeded, halved and cut into 1-inch thick \n 1 large eggplant, ends trimmed and cut into 1-inch thick \n salt and pepper to taste</string>
+    <string name="Ingredients3">2 eggplants sliced into serving pieces \n 8 string beans \n 1 head garlic minced \n 12 Thai chili peppers \n 3 tablespoons cooking oil \n 2 tablespoons brown sugar \n 3 tablespoons soy sauce \n 1 tablespoon white vinegar \n 2 tablespoons oyster sauce \n 2 teaspoons sesame oil \n 1/4 cup water \n 2 teaspoons cornstarch</string>
+    <string name="Ingredients4">3/4 lb squash \n 2 pieces taro \n 1 piece Knorr Shrimp Cube \n 4 thumbs ginger \n 2 stalks lemongrass \n 1 piece Chinese eggplant sliced \n 10 pieces string beans cut in 2 inch pieces \n 12 pieces okra \n 2 cups spinach \n 3 1/2 cups water \n Salt and ground black pepper to taste</string>
+    <string name="Ingredients5">1 bunch kangkong leaves and stalks separated. Stalks cut in 1-inch pieces \n 1 piece onion chopped \n 1 head garlic crushed and chopped \n 1/4 cup soy sauce \n 1/8 cup vinegar \n 2 cup water optional \n 3 tablespoons cooking oil \n Ground black pepper.</string>
+    <string name="Ingredients6">7 pieces shrimp cleaned and deveined \n 3 ounces pork sliced \n 3 ounces boneless chicken breast sliced \n 1 piece carrot sliced crosswise into thin pieces \n 15 pieces snow peas \n 8 pieces baby corn \n 1 piece red bell pepper sliced into squares \n 1 piece green bell pepper sliced into squares \n 1 ½ cups cabbage chopped \n 12 pieces quail eggs boiled \n 1 piece yellow onion sliced \n 4 cloves garlic crushed \n ¼ cup soy sauce \n 1 ½ tablespoons oyster sauce \n ¾ cup water \n 1 tablespoon cornstarch diluted in ½ cup water \n ¼ teaspoon ground black pepper \n 3 tablespoons cooking oil</string>
+
+    <!--Fragment Meal-->
+
+    <!--Notification-->
+
+    <string name="NotificationSettings">Notification Settings</string>
+    <string name="PNotification">Push Notification</string>
+    <string name="ENotification">Email Notification</string>
+    <string name="MyNotification">My Notification</string>
+    <string name="OrderUpdates">Order Updates</string>
+    <string name="Chats">Chats</string>
 
 </resources>
