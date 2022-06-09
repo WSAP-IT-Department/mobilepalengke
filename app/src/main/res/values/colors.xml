@@ -8,6 +8,8 @@
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
 
+    <color name="mp_fragment_time">#375474</color>
+
     <color name="mp_black_title">#191919</color>
     <color name="mp_black_regular">#212121</color>
     <color name="mp_gray">#f3f3f3</color>

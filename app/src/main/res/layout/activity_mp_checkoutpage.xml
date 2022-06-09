@@ -12,13 +12,14 @@
     <!--Upper -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="?actionBarSize"
+        android:orientation="vertical"
+        android:background="@color/mp_blue">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            android:background="@color/mp_blue">
+           >
 
 
             <ImageView
@@ -68,137 +69,135 @@
                 android:orientation="vertical">
 
 
-                    <LinearLayout
-                        android:layout_width="376dp"
-                        android:layout_height="220dp"
-                        android:layout_centerHorizontal="true">
+                <LinearLayout
+                    android:layout_width="376dp"
+                    android:layout_height="220dp"
+                    android:layout_centerHorizontal="true">
 
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="@drawable/img_border">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_border">
 
-                            <!--Profile Icon-->
-                            <ImageView
-                                android:layout_width="25dp"
-                                android:layout_height="25dp"
-                                android:layout_marginLeft="20dp"
-                                android:layout_marginTop="20dp"
-                                android:src="@drawable/ic_recepientprofile"></ImageView>
-
-
-                            <!--Recipient Details-->
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="30dp"
-                                android:layout_marginLeft="52dp"
-                                android:layout_marginTop="20dp"
-                                android:text="@string/CheckoutPage1"
-                                android:textColor="@color/black"
-                                android:textSize="19dp"
-                                android:textStyle="bold">
-
-                            </TextView>
-
-                            <!--Edit Text-->
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="30dp"
-                                android:layout_marginLeft="300dp"
-                                android:layout_marginTop="20dp"
-                                android:text="@string/CheckoutPage2"
-                                android:textColor="@color/mp_blue"
-                                android:textSize="19dp"></TextView>
-
-                            <!--NAME-->
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="20dp"
-                                android:layout_marginLeft="52dp"
-                                android:layout_marginTop="50dp"
-                                android:text="@string/CheckoutPage3"
-                                android:textSize="16dp"></TextView>
-                            <!--Username-->
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="20dp"
-                                android:layout_marginLeft="100dp"
-                                android:layout_marginTop="50dp"
-                                android:text="@string/CheckoutPage4"
-                                android:textSize="16dp"></TextView>
-
-                            <!--Mobile number-->
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="20dp"
-                                android:layout_marginLeft="52dp"
-                                android:layout_marginTop="70dp"
-                                android:text="@string/CheckoutPage5"
-                                android:textSize="16dp"></TextView>
-                            <!--Username-->
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="20dp"
-                                android:layout_marginLeft="135.5dp"
-                                android:layout_marginTop="70dp"
-                                android:text="@string/CheckoutPage6"
-                                android:textSize="16dp">
-                            </TextView>
-
-                            <TextView
-                                android:layout_width="330dp"
-                                android:layout_height="20dp"
-                                android:layout_centerHorizontal="true"
-                                android:layout_marginTop="100dp"
-                                android:text="@string/CheckoutPage7"
-                                android:textSize="16dp"></TextView>
+                        <!--Profile Icon-->
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/ic_recepientprofile"></ImageView>
 
 
+                        <!--Recipient Details-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="52dp"
+                            android:layout_marginTop="20dp"
+                            android:text="@string/CheckoutPage1"
+                            android:textColor="@color/black"
+                            android:textSize="19dp"
+                            android:textStyle="bold">
 
-                            <!--Recipient Delivery-->
-                            <ImageView
-                                android:layout_width="25dp"
-                                android:layout_height="25dp"
-                                android:layout_marginLeft="20dp"
-                                android:layout_marginTop="130dp"
-                                android:src="@drawable/ic_recipient_pinloc">
+                        </TextView>
 
-                            </ImageView>
+                        <!--Edit Text-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="300dp"
+                            android:layout_marginTop="20dp"
+                            android:text="@string/CheckoutPage2"
+                            android:textColor="@color/mp_blue"
+                            android:textSize="19dp"></TextView>
+
+                        <!--NAME-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="52dp"
+                            android:layout_marginTop="50dp"
+                            android:text="@string/CheckoutPage3"
+                            android:textSize="16dp"></TextView>
+                        <!--Username-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="50dp"
+                            android:text="@string/CheckoutPage4"
+                            android:textSize="16dp"></TextView>
+
+                        <!--Mobile number-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="52dp"
+                            android:layout_marginTop="70dp"
+                            android:text="@string/CheckoutPage5"
+                            android:textSize="16dp"></TextView>
+                        <!--Username-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="135.5dp"
+                            android:layout_marginTop="70dp"
+                            android:text="@string/CheckoutPage6"
+                            android:textSize="16dp"></TextView>
+
+                        <TextView
+                            android:layout_width="330dp"
+                            android:layout_height="20dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="100dp"
+                            android:text="@string/CheckoutPage7"
+                            android:textSize="16dp"></TextView>
 
 
-                            <!--Recipient Details-->
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="30dp"
-                                android:layout_marginLeft="52dp"
-                                android:layout_marginTop="130dp"
-                                android:text="@string/CheckoutPage8"
-                                android:textColor="@color/black"
-                                android:textSize="19dp"
-                                android:textStyle="bold">
+                        <!--Recipient Delivery-->
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="130dp"
+                            android:src="@drawable/ic_recipient_pinloc">
 
-                            </TextView>
+                        </ImageView>
 
-                            <!--Edit Text-->
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="30dp"
-                                android:layout_marginLeft="300dp"
-                                android:layout_marginTop="130dp"
-                                android:text="@string/CheckoutPage2"
-                                android:textColor="@color/mp_blue"
-                                android:textSize="19dp"></TextView>
 
-                            <!--Block/Lot and address for a while-->
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="20dp"
-                                android:layout_marginLeft="52dp"
-                                android:layout_marginTop="160dp"
-                                android:text="6-a Gen. Luna St. Brgy. San Roque"
-                                android:textSize="16dp"></TextView>
-                            <!--Username-->
-                            <!--<TextView
+                        <!--Recipient Details-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="52dp"
+                            android:layout_marginTop="130dp"
+                            android:text="@string/CheckoutPage8"
+                            android:textColor="@color/black"
+                            android:textSize="19dp"
+                            android:textStyle="bold">
+
+                        </TextView>
+
+                        <!--Edit Text-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="300dp"
+                            android:layout_marginTop="130dp"
+                            android:text="@string/CheckoutPage2"
+                            android:textColor="@color/mp_blue"
+                            android:textSize="19dp"></TextView>
+
+                        <!--Block/Lot and address for a while-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="52dp"
+                            android:layout_marginTop="160dp"
+                            android:text="6-a Gen. Luna St. Brgy. San Roque"
+                            android:textSize="16dp"></TextView>
+                        <!--Username-->
+                        <!--<TextView
                                 android:layout_width="150dp"
                                 android:layout_height="20dp"
                                 android:layout_marginLeft="100dp"
@@ -206,16 +205,16 @@
                                 android:text="@string/user_name"
                                 android:textSize="16dp"></TextView>-->
 
-                            <!--City Province for a while-->
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="20dp"
-                                android:layout_marginLeft="52dp"
-                                android:layout_marginTop="180dp"
-                                android:text="Antipolo City, Rizal"
-                                android:textSize="16dp"></TextView>
-                            <!--Username-->
-                            <!--<TextView
+                        <!--City Province for a while-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="52dp"
+                            android:layout_marginTop="180dp"
+                            android:text="Antipolo City, Rizal"
+                            android:textSize="16dp"></TextView>
+                        <!--Username-->
+                        <!--<TextView
                                 android:layout_width="150dp"
                                 android:layout_height="20dp"
                                 android:layout_marginLeft="135.5dp"
@@ -225,11 +224,7 @@
                             </TextView>-->
 
 
-
-
-
-
-                            <!--<ImageView
+                        <!--<ImageView
                                 android:layout_width="25dp"
                                 android:layout_height="25dp"
                                 android:layout_marginLeft="310dp"
@@ -237,13 +232,13 @@
                                 android:src="@drawable/ic_right_arrow">
                             </ImageView>-->
 
-                        </RelativeLayout>
+                    </RelativeLayout>
 
-                    </LinearLayout>
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="376dp"
-                    android:layout_height="170dp"
+                    android:layout_height="100dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="5dp">
 
@@ -260,6 +255,7 @@
                             android:src="@drawable/ic_payment_method"></ImageView>
                         <!--Recipient Details-->
                         <TextView
+                            android:id="@+id/nextlevel"
                             android:layout_width="wrap_content"
                             android:layout_height="30dp"
                             android:layout_marginLeft="52dp"
@@ -267,10 +263,10 @@
                             android:text="@string/CheckoutPage9"
                             android:textColor="@color/black"
                             android:textSize="19dp"
-                            android:textStyle="bold">
-                        </TextView>
+                            android:textStyle="bold"></TextView>
                         <!--Edit Text-->
                         <TextView
+
                             android:layout_width="wrap_content"
                             android:layout_height="30dp"
                             android:layout_marginLeft="300dp"
@@ -281,138 +277,43 @@
 
                         <RelativeLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="90dp"
-                            android:layout_marginTop="57dp"
-                            android:layout_marginLeft="58.5dp">
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/nextlevel"
+                            android:layout_centerHorizontal="true">
 
                             <LinearLayout
                                 android:layout_width="270dp"
                                 android:layout_height="wrap_content"
                                 android:orientation="horizontal">
 
-                                <RelativeLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
-
                                     <!--BANK ICON-->
                                     <ImageView
                                         android:layout_width="25dp"
                                         android:layout_height="25dp"
-                                        android:src="@drawable/ic_bankpayment">
-                                    </ImageView>
+                                        android:src="@drawable/ic_bankpayment" />
 
                                     <!--Bank Payment-->
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="20dp"
+                                        android:layout_marginStart="30dp"
+                                        android:layout_marginTop="5dp"
                                         android:text="@string/CheckoutPage10"
                                         android:textColor="@color/black"
-                                        android:textSize="16dp"
-                                        android:textStyle="bold"
-                                        android:layout_marginLeft="30dp"
-                                        android:layout_marginTop="5dp">
-                                    </TextView>
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
 
                                     <RadioButton
                                         android:id="@+id/radio"
                                         android:layout_width="30dp"
                                         android:layout_height="25dp"
+                                        android:layout_alignParentEnd="true"
                                         android:buttonTint="@color/mp_blue"
                                         android:checked="true"
-                                        android:padding="1dp"
-                                        android:layout_alignParentRight="true">
-
+                                        android:padding="1dp">
                                     </RadioButton>
-
-                                </RelativeLayout>
-
                             </LinearLayout>
-                            <LinearLayout
-                                android:layout_width="270dp"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal"
-                                android:layout_centerInParent="true">
 
-                                <RelativeLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
-
-                                    <!--BANK ICON-->
-                                    <ImageView
-                                        android:layout_width="25dp"
-                                        android:layout_height="25dp"
-                                        android:src="@drawable/ic_gcash">
-                                    </ImageView>
-
-                                    <!--Bank Payment-->
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="20dp"
-                                        android:text="@string/CheckoutPage10"
-                                        android:textColor="@color/black"
-                                        android:textSize="16dp"
-                                        android:textStyle="bold"
-                                        android:layout_marginLeft="30dp"
-                                        android:layout_marginTop="5dp">
-                                    </TextView>
-
-                                    <RadioButton
-                                        android:id="@+id/radio1"
-                                        android:layout_width="30dp"
-                                        android:layout_height="25dp"
-                                        android:buttonTint="@color/mp_blue"
-                                        android:checked="true"
-                                        android:padding="1dp"
-                                        android:layout_alignParentRight="true">
-
-                                    </RadioButton>
-
-                                </RelativeLayout>
-
-                            </LinearLayout>
-                            <LinearLayout
-                                android:layout_width="270dp"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal"
-                                android:layout_alignParentBottom="true">
-
-                                <RelativeLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
-
-                                    <!--BANK ICON-->
-                                    <ImageView
-                                        android:layout_width="25dp"
-                                        android:layout_height="25dp"
-                                        android:src="@drawable/ic_paymaya">
-                                    </ImageView>
-
-                                    <!--Bank Payment-->
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="20dp"
-                                        android:text="@string/CheckoutPage10"
-                                        android:textColor="@color/black"
-                                        android:textSize="16dp"
-                                        android:textStyle="bold"
-                                        android:layout_marginLeft="30dp"
-                                        android:layout_marginTop="5dp">
-                                    </TextView>
-
-                                    <RadioButton
-                                        android:id="@+id/radio2"
-                                        android:layout_width="30dp"
-                                        android:layout_height="25dp"
-                                        android:buttonTint="@color/mp_blue"
-                                        android:checked="true"
-                                        android:padding="1dp"
-                                        android:layout_alignParentRight="true">
-
-                                    </RadioButton>
-
-                                </RelativeLayout>
-
-                            </LinearLayout>
 
                         </RelativeLayout>
 
@@ -457,6 +358,7 @@
 
                         <!--Edit Text-->
                         <TextView
+                            android:id="@+id/viewOrderSummary"
                             android:layout_width="wrap_content"
                             android:layout_height="30dp"
                             android:layout_marginLeft="300dp"
@@ -476,61 +378,60 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical"
+                            android:layout_marginLeft="22dp"
                             android:layout_marginTop="75dp"
-                            android:layout_marginLeft="22dp">
+                            android:orientation="vertical">
 
-                                <LinearLayout
-                                    android:layout_width="330dp"
-                                    android:layout_height="25dp"
-                                    android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="330dp"
+                                android:layout_height="25dp"
+                                android:orientation="horizontal">
 
-                                    <RelativeLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content">
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
 
 
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="20dp"
-                                            android:text="@string/CheckoutPage16"
-                                            android:textSize="16dp"></TextView>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="20dp"
+                                        android:text="@string/CheckoutPage16"
+                                        android:textSize="16dp"></TextView>
 
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="20dp"
-                                            android:text="@string/CheckoutPage16"
-                                            android:layout_alignParentRight="true"
-                                            android:textSize="16dp">
-                                        </TextView>
-                                    </RelativeLayout>
-                                </LinearLayout>
-                                <LinearLayout
-                                    android:layout_width="330dp"
-                                    android:layout_height="25dp"
-                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="20dp"
+                                        android:layout_alignParentRight="true"
+                                        android:text="@string/CheckoutPage16"
+                                        android:textSize="16dp"></TextView>
+                                </RelativeLayout>
+                            </LinearLayout>
 
-                                    <RelativeLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content">
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="20dp"
-                                            android:text="@string/CheckoutPage17"
-                                            android:textSize="16dp"
-                                            >
-                                        </TextView>
+                            <LinearLayout
+                                android:layout_width="330dp"
+                                android:layout_height="25dp"
+                                android:orientation="horizontal">
 
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="20dp"
-                                            android:text="@string/CheckoutPage17"
-                                            android:layout_alignParentRight="true"
-                                            android:textSize="16dp">
-                                        </TextView>
-                                    </RelativeLayout>
-                                </LinearLayout>
-                                <LinearLayout
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="20dp"
+                                        android:text="@string/CheckoutPage17"
+                                        android:textSize="16dp"></TextView>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="20dp"
+                                        android:layout_alignParentRight="true"
+                                        android:text="@string/CheckoutPage17"
+                                        android:textSize="16dp"></TextView>
+                                </RelativeLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
                                 android:layout_width="330dp"
                                 android:layout_height="wrap_content"
                                 android:orientation="horizontal">
@@ -544,17 +445,14 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="20dp"
                                         android:text="@string/CheckoutPage18"
-                                        android:textSize="16dp"
-                                        >
-                                    </TextView>
+                                        android:textSize="16dp"></TextView>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="20dp"
-                                        android:text="@string/CheckoutPage18"
                                         android:layout_alignParentRight="true"
-                                        android:textSize="16dp">
-                                    </TextView>
+                                        android:text="@string/CheckoutPage18"
+                                        android:textSize="16dp"></TextView>
                                 </RelativeLayout>
                             </LinearLayout>
 
@@ -567,11 +465,11 @@
             </LinearLayout>
 
 
-
         </RelativeLayout>
 
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -582,44 +480,42 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="30dp"
                     android:fontFamily="@font/poppins_bold"
                     android:padding="2dp"
                     android:text="@string/Cart4"
                     android:textColor="@color/black"
-                    android:textSize="15sp">
+                    android:textSize="15sp"/>
 
-                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   "
+                    />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="330dp"
+                    android:layout_marginEnd="30dp"
                     android:fontFamily="@font/poppins_bold"
                     android:padding="2dp"
                     android:text="@string/Cart5"
                     android:textColor="@color/black"
-                    android:textSize="15sp"></TextView>
-            </RelativeLayout>
-
+                    android:textSize="15sp"/>
         </LinearLayout>
 
 
         <Button
             android:layout_width="355dp"
             android:layout_height="40dp"
-            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
             android:background="@color/mp_blue"
             android:text="@string/CheckoutPage19"
-            android:textStyle="bold"></Button>
+            android:textStyle="bold" />
 
     </LinearLayout>
 

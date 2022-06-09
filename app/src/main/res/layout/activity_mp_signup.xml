@@ -16,7 +16,8 @@
         android:layout_width="wrap_content"
         android:layout_height="150dp"
         android:src="@drawable/logo_text"
-        android:layout_marginBottom="30dp" />
+        android:layout_marginBottom="30dp"
+        tools:ignore="contentDescription" />
 
     <androidx.cardview.widget.CardView style="@style/CardViewStyle1">
 
@@ -71,7 +72,7 @@
             <TextView
                 android:id="@+id/txtTOS"
                 android:text="@string/signup1"
-                android:textSize="10sp"
+                android:textSize="11sp"
                 android:layout_marginTop="5dp"
                 style="@style/TVFontStyle2" />
 

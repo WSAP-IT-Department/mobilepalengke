@@ -43,6 +43,7 @@
                 android:hint="@string/edittext2"
                 android:inputType="textEmailAddress"
                 android:layout_marginBottom="10dp"
+                android:text="testing"
                 style="@style/EditTextStyle1" />
 
             <EditText
@@ -51,6 +52,7 @@
                 android:hint="@string/edittext3"
                 android:inputType="textPassword"
                 android:layout_marginBottom="15dp"
+                android:text="pword1234"
                 style="@style/EditTextStyle1" />
 
             <Button

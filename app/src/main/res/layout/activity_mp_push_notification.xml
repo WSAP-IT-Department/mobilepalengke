@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_default_gray"
+    tools:context=".MP_PushNotification">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_NotifSettingsNav"
+        style="@style/CardViewStyle4"
+        android:layout_height="?attr/actionBarSize">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/nav_return"
+                style="@style/NavBarReturnBtnStyle2"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/tvProfile"
+                style="@style/NavBarTextViewStyle"
+                android:layout_centerHorizontal="true"
+                android:text="@string/PNotification"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvPushNotification"
+        android:layout_below="@id/cv_NotifSettingsNav"
+        android:padding="15dp"
+        style="@style/CardViewStyle2" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvPushNotification"
+                style="@style/TVFontStyle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="start|center_horizontal"
+                android:padding="15dp"
+                android:text="@string/PNotification"
+                android:textAlignment="textStart" />
+
+            <Switch
+                android:id="@+id/swPushNotification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvPublicInfo"
+        style="@style/TVFontStyle4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cvPushNotification"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/MyNotification"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvMyNotification"
+        android:layout_below="@id/tvPublicInfo"
+        android:padding="15dp"
+        style="@style/CardViewStyle2" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvOrderUpdates"
+                style="@style/TVFontStyle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="start|center_horizontal"
+                android:padding="15dp"
+                android:text="@string/OrderUpdates"
+                android:textAlignment="textStart" />
+
+            <Switch
+                android:id="@+id/swOrderUpdates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_alignParentRight="true"/>
+
+            <TextView
+                android:id="@+id/tvChats"
+                style="@style/TVFontStyle2"
+                android:layout_below="@id/tvOrderUpdates"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_horizontal"
+                android:padding="15dp"
+                android:text="@string/Chats"
+                android:textAlignment="textStart" />
+
+            <Switch
+                android:id="@+id/swChats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_below="@id/tvOrderUpdates"
+                android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

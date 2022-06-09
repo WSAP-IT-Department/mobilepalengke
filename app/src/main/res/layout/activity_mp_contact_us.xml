@@ -7,16 +7,16 @@
     android:orientation="vertical"
     tools:context=".MP_ContactUs">
 
-    <androidx.cardview.widget.CardView style="@style/CardViewStyle2">
+    <androidx.cardview.widget.CardView style="@style/CardViewStyle4">
 
         <ImageButton
             android:id="@+id/nav_return"
-            style="@style/NavBarReturnBtnStyle"
+            style="@style/NavBarReturnBtnStyle2"
             tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
         <TextView
             android:id="@+id/tvProfile"
-            android:background="@drawable/bg_default_white"
+           android:textColor="@color/white"
             style="@style/NavBarTextViewStyle"
             android:text="@string/ContactUs1" />
 

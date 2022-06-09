@@ -21,26 +21,23 @@
             android:background="@color/mp_blue">
 
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_marginLeft="-100dp"
-                android:padding="16dp"
-                android:src="@drawable/ic_backarrow">
-
-            </ImageView>
+            <ImageButton
+                android:id="@+id/nav_return_productpage"
+                style="@style/NavBarReturnBtnStyle2"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="70dp"
-                android:layout_marginTop="5dp"
-                android:padding="10dp"
-                android:text="@string/ProductPage2"
+                android:id="@+id/navBack"
+                style="@style/NavBarTextViewStyle2"
+                android:layout_toRightOf="@id/nav_return_productpage"
                 android:textColor="@color/white"
-                android:textSize="20sp"
-                android:textStyle="bold"></TextView>
+                android:text="@string/NavigationBack" />
+
+            <ImageButton
+                android:id="@+id/nav_check_add_address"
+                style="@style/NavBarCartBtn"
+                android:layout_alignParentRight="true"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
         <!--<ImageView
             android:layout_width="wrap_content"

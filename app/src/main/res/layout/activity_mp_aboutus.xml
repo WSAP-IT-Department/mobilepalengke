@@ -8,19 +8,26 @@
     tools:context=".MP_AboutUs">
 
     <androidx.cardview.widget.CardView
-        style="@style/CardViewStyle2"
+        style="@style/CardViewStyle4"
         android:layout_height="?attr/actionBarSize">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
         <ImageButton
             android:id="@+id/nav_return"
-            style="@style/NavBarReturnBtnStyle"
+            style="@style/NavBarReturnBtnStyle2"
             tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
         <TextView
             android:id="@+id/tvProfile"
+            android:layout_centerHorizontal="true"
             style="@style/NavBarTextViewStyle"
-            android:background="@drawable/bg_default_white"
+            android:textColor="@color/white"
             android:text="@string/About1" />
+
+        </RelativeLayout>
 
     </androidx.cardview.widget.CardView>
 

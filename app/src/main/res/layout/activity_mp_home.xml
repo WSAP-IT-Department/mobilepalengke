@@ -36,202 +36,406 @@
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cvBannerCard"
                     style="@style/CardViewStyle3">
-
                     <com.denzcoskun.imageslider.ImageSlider
-
                         android:id="@+id/imageSliderBanner"
                         android:layout_width="wrap_content"
                         android:layout_height="150dp"
                         app:iss_auto_cycle="true"
                         app:iss_period="3000" />
-
                 </androidx.cardview.widget.CardView>
 
-                <TextView
-                    android:id="@+id/tvNewProducts"
-                    style="@style/TVFontStyle4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/cvBannerCard"
-                    android:layout_margin="10dp"
-                    android:text="@string/home6"
-                    android:textSize="18sp" />
 
-                <RelativeLayout
-                    android:id="@+id/ll_newProducts"
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/CategoryCard"
+                    style="@style/CardViewStyle5"
+                    android:layout_below="@id/cvBannerCard">
+
+                    <RelativeLayout
+                        android:id="@+id/rlCategory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp">
+
+                        <TextView
+                            android:id="@+id/tvCategory"
+                            style="@style/TVFontStyle5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/home1" />
+
+                        <Button
+                            android:id="@+id/tvSeeAllCategoryButton"
+                            style="@style/Widget.MaterialComponents.Button.TextButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:text="@string/SeeAllCategory"
+                            android:textColor="@color/bgborder_gray"
+                            android:textSize="13sp"
+                            app:icon="@drawable/ic_ios_arrow_forward"
+                            app:iconGravity="end"
+                            app:iconTint="@color/bgborder_gray" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_categories"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/tvNewProducts"
-                    android:background="@drawable/bg_default_white"
-                    android:gravity="center"
-                    android:padding="10dp">
+                    android:layout_below="@id/CategoryCard"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:background="@color/white"/>
 
-                    <ImageView
-                        android:id="@+id/ivNewProd1"
-                        style="@style/ImageViewStyle1"
-                        android:src="@drawable/home_placeholder"
-                        tools:ignore="ContentDescription" />
 
-                    <ImageView
-                        android:id="@+id/ivNewProd2"
-                        style="@style/ImageViewStyle2"
-                        android:layout_marginTop="15dp"
-                        android:layout_toEndOf="@id/ivNewProd1"
-                        android:src="@drawable/home_placeholder"
-                        tools:ignore="ContentDescription" />
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/MealPlanCard"
+                    android:layout_marginTop="25dp"
+                    style="@style/CardViewStyle5"
+                    android:layout_below="@id/recycler_categories">
 
-                    <ImageView
-                        android:id="@+id/ivNewProd3"
-                        style="@style/ImageViewStyle2"
-                        android:layout_below="@id/ivNewProd2"
-                        android:layout_toEndOf="@id/ivNewProd1"
-                        android:src="@drawable/home_placeholder"
-                        tools:ignore="ContentDescription" />
+                    <RelativeLayout
+                        android:id="@+id/mlCategory"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/CategoryCard"
+                        android:padding="10dp">
 
-                </RelativeLayout>
+                        <TextView
+                            android:id="@+id/tvMealPlan"
+                            style="@style/TVFontStyle5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="17dp"
+                            android:layout_marginTop="17dp"
+                            android:layout_marginEnd="17dp"
+                            android:layout_marginBottom="17dp"
+                            android:text="@string/mealplan" />
 
-                <TextView
-                    android:id="@+id/tvFeaturedProduct"
-                    style="@style/TVFontStyle4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/ll_newProducts"
-                    android:layout_margin="10dp"
-                    android:text="@string/home5"
-                    android:textSize="18sp" />
+                        <HorizontalScrollView
+                            android:id="@+id/Horizontal2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_below="@id/tvMealPlan">
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/ivMealPlan1"
+                                    style="@style/ImageViewStyle5"
+                                    android:src="@drawable/mp_homevegetables"
+                                    tools:ignore="ContentDescription" />
+
+                                <TextView
+                                    style="@style/TVFontStyle6"
+                                    android:layout_below="@id/ivMealPlan1"
+                                    android:layout_alignStart="@id/ivMealPlan1"
+                                    android:text="@string/mealplan1"/>
+
+                                <ImageView
+                                    android:id="@+id/ivMealPlan2"
+                                    style="@style/ImageViewStyle5"
+                                    android:layout_toEndOf="@id/ivMealPlan1"
+                                    android:src="@drawable/mp_beef"
+                                    tools:ignore="ContentDescription" />
+
+                                <TextView
+                                    style="@style/TVFontStyle6"
+                                    android:text="@string/mealplan2"
+                                    android:textAlignment="center"
+                                    android:layout_alignStart="@id/ivMealPlan2"
+                                    android:layout_below="@id/ivMealPlan2">
+                                </TextView>
+
+                                <ImageView
+                                    android:id="@+id/ivMealPlan3"
+                                    style="@style/ImageViewStyle5"
+                                    android:layout_toEndOf="@id/ivMealPlan2"
+                                    android:src="@drawable/mp_chicken"
+                                    tools:ignore="ContentDescription" />
+
+                                <TextView
+                                    style="@style/TVFontStyle6"
+                                    android:text="@string/mealplan3"
+                                    android:textAlignment="center"
+                                    android:layout_alignStart="@id/ivMealPlan3"
+                                    android:layout_below="@id/ivMealPlan3">
+                                </TextView>
+
+                                <ImageView
+                                    android:id="@+id/ivMealPlan4"
+                                    style="@style/ImageViewStyle5"
+                                    android:layout_toEndOf="@id/ivMealPlan2"
+                                    android:src="@drawable/mp_chicken"
+                                    tools:ignore="ContentDescription" />
+
+                                <TextView
+                                    style="@style/TVFontStyle6"
+                                    android:text="@string/mealplan3"
+                                    android:textAlignment="center"
+                                    android:layout_alignStart="@id/ivMealPlan3"
+                                    android:layout_below="@id/ivMealPlan3">
+                                </TextView>
+
+                                <ImageView
+                                    android:id="@+id/ivMealPlan5"
+                                    style="@style/ImageViewStyle5"
+                                    android:layout_toEndOf="@id/ivMealPlan4"
+                                    android:src="@drawable/mp_dessert"
+                                    tools:ignore="ContentDescription" />
+
+                                <TextView
+                                    style="@style/TVFontStyle6"
+                                    android:text="@string/mealplan4"
+                                    android:textAlignment="center"
+                                    android:layout_alignStart="@id/ivMealPlan5"
+                                    android:layout_below="@id/ivMealPlan4">
+                                </TextView>
+
+                                <ImageView
+                                    android:id="@+id/ivMealPlan6"
+                                    style="@style/ImageViewStyle5"
+                                    android:layout_toEndOf="@id/ivMealPlan5"
+                                    android:src="@drawable/mp_pork"
+                                    tools:ignore="ContentDescription" />
+
+                                <TextView
+                                    style="@style/TVFontStyle6"
+                                    android:text="@string/mealplan5"
+                                    android:textAlignment="center"
+                                    android:layout_alignStart="@id/ivMealPlan6"
+                                    android:layout_below="@id/ivMealPlan6">
+                                </TextView>
+
+                                <ImageView
+                                    android:id="@+id/ivMealPlan7"
+                                    style="@style/ImageViewStyle5"
+                                    android:layout_toEndOf="@id/ivMealPlan6"
+                                    android:src="@drawable/mp_rice"
+                                    tools:ignore="ContentDescription" />
+
+                                <TextView
+                                    style="@style/TVFontStyle6"
+                                    android:text="@string/mealplan6"
+                                    android:textAlignment="center"
+                                    android:layout_alignStart="@id/ivMealPlan7"
+                                    android:layout_below="@id/ivMealPlan7">
+                                </TextView>
+
+                            </RelativeLayout>
+
+                        </HorizontalScrollView>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/MealPlan2Card"
+                    android:layout_marginTop="25dp"
+                    style="@style/CardViewStyle5"
+                    android:layout_below="@id/MealPlanCard">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/CategoryCard">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_marginTop="30dp"
+                                android:id="@+id/ivMeal1"
+                                style="@style/ImageViewStyle4"
+                                android:src="@drawable/vg_lumpiangsariwa"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/tvMeal1"
+                                style="@style/TVFontStyle7"
+                                android:layout_below="@id/ivMeal1"
+                                android:layout_alignStart="@id/ivMeal1"
+                                android:text="@string/meal1"
+                                android:textAlignment="center"/>
+
+                            <TextView
+                                android:id="@+id/tv_ViewRecipe1"
+                                android:layout_marginBottom="30dp"
+                                style="@style/TVFontStyle8"
+                                android:layout_below="@id/tvMeal1"
+                                android:layout_alignStart="@id/ivMeal1"
+                                android:textAlignment="center"
+                                android:text="@string/view">
+                            </TextView>
+
+
+                            <ImageView
+                                android:layout_marginTop="30dp"
+                                android:id="@+id/ivMeal2"
+                                style="@style/ImageViewStyle4"
+                                android:layout_toEndOf="@id/ivMeal1"
+                                android:src="@drawable/vg_pinakbet"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/tvMeal2"
+                                style="@style/TVFontStyle7"
+                                android:layout_below="@id/ivMeal1"
+                                android:layout_alignStart="@id/ivMeal2"
+                                android:textAlignment="center"
+                                android:text="@string/meal2">
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/tv_ViewRecipe2"
+                                android:layout_marginBottom="30dp"
+                                style="@style/TVFontStyle8"
+                                android:layout_below="@id/tvMeal2"
+                                android:layout_alignStart="@id/ivMeal2"
+                                android:textAlignment="center"
+                                android:text="@string/view">
+                            </TextView>
+
+
+                            <ImageView
+                                android:layout_marginTop="30dp"
+                                android:id="@+id/ivMeal3"
+                                style="@style/ImageViewStyle4"
+                                android:layout_toEndOf="@id/ivMeal2"
+                                android:src="@drawable/vg_spicyeggplantstirfry"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/tvMeal3"
+                                style="@style/TVFontStyle7"
+                                android:layout_below="@id/ivMeal1"
+                                android:layout_alignStart="@id/ivMeal3"
+                                android:textAlignment="center"
+                                android:text="@string/meal3">
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/tv_ViewRecipe3"
+                                android:layout_marginBottom="30dp"
+                                style="@style/TVFontStyle8"
+                                android:layout_below="@id/tvMeal1"
+                                android:layout_alignStart="@id/ivMeal3"
+                                android:textAlignment="center"
+                                android:text="@string/view">
+                            </TextView>
+
+                            <ImageView
+                                android:layout_marginTop="30dp"
+                                android:id="@+id/ivMeal4"
+                                style="@style/ImageViewStyle4"
+                                android:layout_toEndOf="@id/ivMeal3"
+                                android:src="@drawable/vg_utanbisaya"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/tvMeal4"
+                                style="@style/TVFontStyle7"
+                                android:layout_below="@id/ivMeal1"
+                                android:layout_alignStart="@id/ivMeal4"
+                                android:textAlignment="center"
+                                android:text="@string/meal4">
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/tv_ViewRecipe4"
+                                android:layout_marginBottom="30dp"
+                                style="@style/TVFontStyle8"
+                                android:layout_below="@id/tvMeal1"
+                                android:layout_alignStart="@id/ivMeal4"
+                                android:textAlignment="center"
+                                android:text="@string/view">
+                            </TextView>
+
+                            <ImageView
+                                android:layout_marginTop="30dp"
+                                android:id="@+id/ivMeal5"
+                                style="@style/ImageViewStyle4"
+                                android:layout_toEndOf="@id/ivMeal4"
+                                android:src="@drawable/vg_adobongkangkong"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/tvMeal5"
+                                style="@style/TVFontStyle7"
+                                android:layout_below="@id/ivMeal1"
+                                android:layout_alignStart="@id/ivMeal5"
+                                android:textAlignment="center"
+                                android:text="@string/meal5">
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/tv_ViewRecipe5"
+                                android:layout_marginBottom="30dp"
+                                style="@style/TVFontStyle8"
+                                android:layout_below="@id/tvMeal1"
+                                android:layout_alignStart="@id/ivMeal5"
+                                android:textAlignment="center"
+                                android:text="@string/view">
+                            </TextView>
+
+                            <ImageView
+                                android:layout_marginTop="30dp"
+                                android:id="@+id/ivMeal6"
+                                style="@style/ImageViewStyle4"
+                                android:layout_toEndOf="@id/ivMeal5"
+                                android:src="@drawable/vg_chopsuey"
+                                tools:ignore="ContentDescription" />
+
+
+                            <TextView
+                                android:id="@+id/tvMeal6"
+                                style="@style/TVFontStyle7"
+                                android:layout_below="@id/ivMeal1"
+                                android:layout_alignStart="@id/ivMeal6"
+                                android:textAlignment="center"
+                                android:text="@string/meal6">
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/tv_ViewRecipe6"
+                                android:layout_marginBottom="30dp"
+                                style="@style/TVFontStyle8"
+                                android:layout_below="@id/tvMeal1"
+                                android:layout_alignStart="@id/ivMeal6"
+                                android:textAlignment="center"
+                                android:text="@string/view">
+                            </TextView>
+
+                            <Button
+                                android:id="@+id/SeeAll2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="45dp"
+                                android:text="@string/see"
+                                android:textColor="@color/bgborder_gray"
+                                style="@style/Widget.MaterialComponents.Button.TextButton"
+                                android:layout_toEndOf="@id/ivMeal6"
+                                android:layout_centerInParent="true"
+                                app:iconTint="@color/bgborder_gray"
+                                app:icon="@drawable/ic_ios_arrow_forward"
+                                app:iconGravity="textEnd"
+                                tools:ignore="ContentDescription" />
+
+                        </RelativeLayout>
+                    </HorizontalScrollView>
+                </androidx.cardview.widget.CardView>
+
 
                 <RelativeLayout
-                    android:id="@+id/ll_FeatProd"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/tvFeaturedProduct"
-                    android:background="@drawable/bg_default_white"
-                    android:gravity="center"
-                    android:padding="10dp">
-
-                    <ImageView
-                        android:id="@+id/ivFtProd1"
-                        style="@style/ImageViewStyle1"
-                        android:src="@drawable/home_placeholder"
-                        tools:ignore="ContentDescription" />
-
-                    <ImageView
-                        android:id="@+id/ivFtProd2"
-                        style="@style/ImageViewStyle2"
-                        android:layout_marginTop="15dp"
-                        android:layout_toEndOf="@id/ivFtProd1"
-                        android:src="@drawable/home_placeholder"
-                        tools:ignore="ContentDescription" />
-
-                    <ImageView
-                        android:id="@+id/ivFtProd3"
-                        style="@style/ImageViewStyle2"
-                        android:layout_below="@id/ivFtProd2"
-                        android:layout_toEndOf="@id/ivFtProd1"
-                        android:src="@drawable/home_placeholder"
-                        tools:ignore="ContentDescription" />
-
-                </RelativeLayout>
-
-                <TextView
-                    android:id="@+id/tvCategory"
-                    style="@style/TVFontStyle4"
+                    android:id="@+id/rlSocialmediaa"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/ll_FeatProd"
-                    android:layout_margin="10dp"
-                    android:text="@string/home1"
-                    android:textSize="18sp" />
-
-                <RelativeLayout
-                    android:id="@+id/rlCategory"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/tvCategory"
-                    android:background="@drawable/bg_default_white"
-                    android:padding="10dp">
-
-                    <ImageView
-                        android:id="@+id/ivCategory1"
-                        style="@style/ImageViewStyle3"
-                        android:src="@drawable/prod_category1"
-                        tools:ignore="ContentDescription" />
-
-                    <ImageView
-                        android:id="@+id/ivCategory2"
-                        style="@style/ImageViewStyle3"
-                        android:layout_toEndOf="@id/ivCategory1"
-                        android:src="@drawable/prod_category2"
-                        tools:ignore="ContentDescription" />
-
-                    <ImageView
-                        android:id="@+id/ivCategory3"
-                        style="@style/ImageViewStyle3"
-                        android:layout_toEndOf="@id/ivCategory2"
-                        android:src="@drawable/prod_category3"
-                        tools:ignore="ContentDescription" />
-
-                    <ImageView
-                        android:id="@+id/ivCategory4"
-                        style="@style/ImageViewStyle3"
-                        android:layout_below="@id/ivCategory1"
-                        android:src="@drawable/prod_category4"
-                        tools:ignore="ContentDescription" />
-
-                    <ImageView
-                        android:id="@+id/ivCategory5"
-                        style="@style/ImageViewStyle3"
-                        android:layout_below="@id/ivCategory2"
-                        android:layout_toEndOf="@id/ivCategory4"
-                        android:src="@drawable/prod_category5"
-                        tools:ignore="ContentDescription" />
-
-                    <ImageView
-                        android:id="@+id/ivCategory6"
-                        style="@style/ImageViewStyle3"
-                        android:layout_below="@id/ivCategory3"
-                        android:layout_toEndOf="@id/ivCategory5"
-                        android:src="@drawable/prod_category6"
-                        tools:ignore="ContentDescription" />
-
-                    <ImageView
-                        android:id="@+id/ivCategory7"
-                        style="@style/ImageViewStyle3"
-                        android:layout_below="@id/ivCategory4"
-                        android:src="@drawable/prod_category7"
-                        tools:ignore="ContentDescription" />
-
-                    <ImageView
-                        android:id="@+id/ivCategory8"
-                        style="@style/ImageViewStyle3"
-                        android:layout_below="@id/ivCategory5"
-                        android:layout_toEndOf="@id/ivCategory7"
-                        android:src="@drawable/prod_category8"
-                        tools:ignore="ContentDescription" />
-
-                    <ImageView
-                        android:id="@+id/ivCategory9"
-                        style="@style/ImageViewStyle3"
-                        android:layout_below="@id/ivCategory6"
-                        android:layout_toEndOf="@id/ivCategory8"
-                        android:src="@drawable/prod_category9"
-                        tools:ignore="ContentDescription" />
-
-                    <ImageView
-                        android:id="@+id/ivCategory10"
-                        style="@style/ImageViewStyle3"
-                        android:layout_below="@id/ivCategory8"
-                        android:layout_toEndOf="@id/ivCategory7"
-                        android:src="@drawable/prod_category10"
-                        tools:ignore="ContentDescription" />
-
-                </RelativeLayout>
-
-                <RelativeLayout
-                    android:id="@+id/rlSocialmedia"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/rlCategory"
+                    android:layout_below="@id/MealPlan2Card"
                     android:layout_centerHorizontal="true"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="15dp"
@@ -245,7 +449,8 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginEnd="5dp"
                         android:layout_marginBottom="5dp"
-                        android:src="@drawable/cu_facebook" />
+                        android:src="@drawable/cu_facebook"
+                        tools:ignore="contentDescription"/>
 
                     <ImageView
                         android:id="@+id/ivInstagram"
@@ -253,7 +458,8 @@
                         android:layout_height="36dp"
                         android:layout_margin="5dp"
                         android:layout_toEndOf="@id/ivFacebook"
-                        android:src="@drawable/cu_insta" />
+                        android:src="@drawable/cu_insta"
+                        tools:ignore="contentDescription"/>
 
                     <ImageView
                         android:id="@+id/ivTwitter"
@@ -261,25 +467,20 @@
                         android:layout_height="36dp"
                         android:layout_margin="5dp"
                         android:layout_toEndOf="@id/ivInstagram"
-                        android:src="@drawable/cu_twitter" />
-
+                        android:src="@drawable/cu_twitter"
+                        tools:ignore="contentDescription"/>
                 </RelativeLayout>
-
                 <TextView
                     android:id="@+id/tvMP"
                     style="@style/TVFontStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_below="@id/rlSocialmedia"
+                    android:layout_below="@id/rlSocialmediaa"
                     android:layout_marginBottom="5dp"
                     android:text="@string/app_name"
                     android:textAlignment="center"
                     android:textSize="15sp" />
-
             </RelativeLayout>
-
         </ScrollView>
-
     </RelativeLayout>
-
 </androidx.drawerlayout.widget.DrawerLayout>
