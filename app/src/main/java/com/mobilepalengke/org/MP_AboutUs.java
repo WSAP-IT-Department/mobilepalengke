@@ -5,9 +5,11 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.constants.ScaleTypes;
@@ -20,6 +22,8 @@ public class MP_AboutUs extends AppCompatActivity {
     ImageSlider imageSliderLogisticsPartner;
     ImageSlider imageSliderPartnershipBrands;
 
+    ImageView ivfacebook, ivinstagram, ivtwitter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +31,56 @@ public class MP_AboutUs extends AppCompatActivity {
 
         TabLayout tlMVG = findViewById(R.id.tlMVG);
         ViewPager vpMVG = findViewById(R.id.vpMVG);
+
+        ivfacebook = findViewById(R.id.facebook);
+        ivinstagram = findViewById(R.id.instagram);
+        ivtwitter = findViewById(R.id.twitter);
+
+
+        ivfacebook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String sApplink = "https://www.facebook.com/MobilePalengke";
+                String sPackage = "com.facebook.katana";
+
+                Uri uri = Uri.parse(sApplink);
+                Intent fbook = new Intent(Intent.ACTION_VIEW);
+                fbook.setData(uri);
+                fbook.setPackage(sPackage);
+                fbook.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(fbook);
+            }
+        });
+
+        ivinstagram.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String sApplink = "https://www.instagram.com/mobilepalengke";
+                String sPackage = "com.instagram.android";
+
+                Uri uri = Uri.parse(sApplink);
+                Intent ig = new Intent(Intent.ACTION_VIEW);
+                ig.setData(uri);
+                ig.setPackage(sPackage);
+                ig.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(ig);
+            }
+        });
+
+        ivtwitter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String sApplink = "https://twitter.com/MobilePalengke";
+                String sPackage = "com.twitter.android";
+
+                Uri uri = Uri.parse(sApplink);
+                Intent twitter = new Intent(Intent.ACTION_VIEW);
+                twitter.setData(uri);
+                twitter.setPackage(sPackage);
+                twitter.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(twitter);
+            }
+        });
 
         tlMVG.setupWithViewPager(vpMVG, true);
 

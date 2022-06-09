@@ -16,7 +16,8 @@
         android:theme="@style/Theme.Mobilepalengke">
         <activity
             android:name=".MP_FAQs"
-            android:exported="true" />
+            android:exported="true" >
+        </activity>
         <activity
             android:name=".MP_MobilePalengkePolicies"
             android:exported="true">
@@ -44,7 +45,8 @@
 
         <activity
             android:name=".MP_ContactUs"
-            android:exported="true" />
+            android:exported="true" >
+        </activity>
         <activity
             android:name=".MP_PaymentMethod"
             android:exported="true" />
@@ -62,7 +64,8 @@
             android:exported="true" />
         <activity
             android:name=".MP_AboutUs"
-            android:exported="true" />
+            android:exported="true" >
+        </activity>
         <activity
             android:name=".MP_GeneralSettings"
             android:exported="true" />

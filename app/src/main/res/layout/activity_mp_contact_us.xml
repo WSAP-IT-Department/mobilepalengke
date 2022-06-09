@@ -293,12 +293,14 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:id="@+id/facebook"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_marginLeft="15dp"
                         android:layout_marginRight="10dp"
                         android:src="@drawable/cu_facebook"/>
                     <ImageView
+                        android:id="@+id/instagram"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_marginRight="10dp"
@@ -309,6 +311,7 @@
                         android:layout_marginRight="10dp"
                         android:src="@drawable/cu_tiktok"/>
                     <ImageView
+                        android:id="@+id/twitter"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_marginRight="10dp"

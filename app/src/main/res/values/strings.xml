@@ -412,4 +412,46 @@
     <string name="MPpolicies231">Contact No: +63 926-662-9900</string>
 
 
+    <string name="FAQs1">FAQs</string>
+    <string name="FAQs2">HOW CAN I ORDER?</string>
+    <string name="FAQs3">Find What You Want</string>
+    <string name="FAQs4">Tap the product page to find the products you want to order and click add to cart button.</string>
+    <string name="FAQs5">Login or Register Your Account</string>
+    <string name="FAQs6">You must required to login or register in our website to checkout and finalize your orders.</string>
+    <string name="FAQs7">Check Your Orders</string>
+    <string name="FAQs8">Tap the cart icon and tap the checkout button to check and finalize your orders.</string>
+    <string name="FAQs9">Choose Preferred Payment</string>
+    <string name="FAQs10">Select preferred payment option (Gcash/PayMaya/BPI/BDO) or scan QR code.</string>
+    <string name="FAQs11">Wait Orders To Be Delivered</string>
+    <string name="FAQs12">Once payment is confirmed, ordered products will be delivered to your doorsteps.</string>
+    <string name="FAQs13">MOBILE PALENGKE</string>
+    <string name="FAQs14">SHOP, BUY AND ORDER WHAT YOU NEED</string>
+    <string name="FAQs15">We let our customers experience the freshness of products offered by “Palengke” such as fruits, vegetables, meat, frozen meat, and other necessities without having to leave the safety of their homes.</string>
+    <string name="FAQs16">PAYMENT AND SHIPPING</string>
+    <string name="FAQs17">How will I know that my payment has been accepted?</string>
+    <string name="FAQs18">After you submit your payment, you will be redirected to the payment confirmation screen. You will also receive an SMS confirmation after you successfully pay for the product.</string>
+    <string name="FAQs19">What should I do if the payment is not accepted?</string>
+    <string name="FAQs20">Please try again in a little while. If the payment is still not accepted, please verify your account balance. If everything is as it should, but you still can\'t make the payment, you can contact us thru messenger by clicking the icon in the screen. We can manage the order manually.</string>
+    <string name="FAQs21">How much does shipping cost?</string>
+    <string name="FAQs22">The cost of shipping is determined by your location and items in your order. At checkout, our online store automatically displays the shipping price and cost.</string>
+    <string name="FAQs23">How to cancel and refund an order?</string>
+    <string name="FAQs24">Contact our Customer Care via email, chat, or the Contact Us Page. Please indicate your complete name, order number, order date, and reason for canceling. Customer Service will respond with cancelation status and details.</string>
+    <string name="FAQs25">DELIVERY AND PICK-UP</string>
+    <string name="FAQs26">Can I track my order?</string>
+    <string name="FAQs27">We will send you the tracking code of the shipment when the product has been shipped out.</string>
+    <string name="FAQs28">How can I change my order after it’s been placed?</string>
+    <string name="FAQs29">We will send you the tracking code of the shipment when the product has been shipped out.</string>
+    <string name="FAQs30">How can I change my order after it’s been placed?</string>
+    <string name="FAQs31">We recommend contacting us immediately upon realizing that something may be wrong with your order. We will always do our best to make sure you’ll get what you need, however, there may be additional costs incurred.</string>
+    <string name="FAQs32">Do you have a minimum order to deliver?</string>
+    <string name="FAQs33">There is no minimum order, but you can save money on delivery by ordering multiple items at once.</string>
+    <string name="FAQs34">Products have been damaged in transit, what do I do?</string>
+    <string name="FAQs35">Please notify your delivery driver upon receiving the product, ensuring they record it then contact us as soon as possible. We will need a description of the damages and pictures of the damaged items/packaging.</string>
+    <string name="FAQs36">Need Assistance?</string>
+    <string name="FAQs38">+63 926-662-9900</string>
+    <string name="FAQs39">mobilepalengke@gmail.com</string>
+    <string name="FAQs40">DAO St., Corner Narra, Bacoor, 4102 Cavite</string>
+
+
+
 </resources>
