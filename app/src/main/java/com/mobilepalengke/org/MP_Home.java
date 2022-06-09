@@ -1,11 +1,15 @@
 package com.mobilepalengke.org;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ScrollView;
@@ -13,15 +17,32 @@ import android.widget.ScrollView;
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.constants.ScaleTypes;
 import com.denzcoskun.imageslider.models.SlideModel;
+import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.mobilepalengke.org.Interface.ItemClickListener;
+import com.mobilepalengke.org.Model.Category;
+import com.mobilepalengke.org.ViewHolder.CategoryViewHolder;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
 import me.everything.android.ui.overscroll.OverScrollDecoratorHelper;
 
-public class MP_Home extends AppCompatActivity {
+public class MP_Home extends AppCompatActivity
+        implements NavigationView.OnNavigationItemSelectedListener{
+
+    FirebaseDatabase database;
+    DatabaseReference category;
+
     ScrollView vscrollBody;
     ImageSlider imageSliderBanner;
+    RecyclerView recycler_categories;
+    RecyclerView.LayoutManager layoutManager;
+
+    FirebaseRecyclerAdapter<Category, CategoryViewHolder> adapter;
 
     @SuppressLint("NonConstantResourceId")
     @Override
@@ -29,29 +50,13 @@ public class MP_Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mp_home);
 
-        ImageView ivCategory1 = findViewById(R.id.ivCategory1);
-        ImageView ivCategory2 = findViewById(R.id.ivCategory2);
-        ImageView ivCategory3 = findViewById(R.id.ivCategory3);
-        ImageView ivCategory4 = findViewById(R.id.ivCategory4);
-        ImageView ivCategory5 = findViewById(R.id.ivCategory5);
-        ImageView ivCategory6 = findViewById(R.id.ivCategory6);
-        ImageView ivCategory7 = findViewById(R.id.ivCategory7);
-        ImageView ivCategory8 = findViewById(R.id.ivCategory8);
-        ImageView ivCategory9 = findViewById(R.id.ivCategory9);
-        ImageView ivCategory10 = findViewById(R.id.ivCategory10);
-
+        database = FirebaseDatabase.getInstance();
+        category = database.getReference("Category");
         vscrollBody = findViewById(R.id.vscrollBody);
         OverScrollDecoratorHelper.setUpOverScroll(vscrollBody);
 
         imageSliderBanner();
 
-        //Category Navigation - START
-        ivCategory1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MP_Home.this, MP_ProductSelection.class));
-            }
-        });
 
 
         //Nav Bar - START
@@ -105,8 +110,37 @@ public class MP_Home extends AppCompatActivity {
                 startActivity(new Intent("android.intent.action.VIEW", Uri.parse("https://twitter.com/mobilepalengke")));
             }
         });
-
         //Social Media Links - END
+
+        //Load Menu
+        recycler_categories = (RecyclerView)findViewById(R.id.recycler_categories);
+        layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL,false);
+        recycler_categories.setLayoutManager(layoutManager);
+
+        loadMenu();
+    }
+
+    private void loadMenu()
+    {
+        adapter = new FirebaseRecyclerAdapter<Category, CategoryViewHolder>(Category.class,R.layout.category_item, CategoryViewHolder.class,category) {
+            @Override
+            protected void populateViewHolder(CategoryViewHolder menuViewHolder, Category model, int i) {
+                Picasso.get().load(model.getImage())
+                        .into(menuViewHolder.imageView);
+                final Category clickItem = model;
+                menuViewHolder.setItemClickListener(new ItemClickListener() {
+                    @Override
+                    public void onClick(View view, int position, boolean isLongClick) {
+                        Intent productList = new Intent(MP_Home.this,MP_ProductSelection.class);
+
+                        productList.putExtra("CategoryId",adapter.getRef(position).getKey());
+                        startActivity(productList);
+                    }
+                });
+
+            }
+        };
+        recycler_categories.setAdapter(adapter);
     }
 
     private void imageSliderBanner(){
@@ -121,4 +155,10 @@ public class MP_Home extends AppCompatActivity {
     }
 
 
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+
+        return false;
+    }
 }

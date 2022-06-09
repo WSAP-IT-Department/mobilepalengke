@@ -58,27 +58,51 @@
         <entry key="..\:/Users/Ryzen 5/Downloads/mobilepalengke/app/src/main/res/layout/activity_mp_signup.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Ryzen 5/Downloads/mobilepalengke/app/src/main/res/layout/activity_mp_splashscreen.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Ryzen 5/Downloads/mobilepalengke/app/src/main/res/layout/activity_mp_welcome.xml" value="0.22" />
-        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/drawable/bg_background_border.xml" value="0.332" />
-        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/drawable/bg_background_border_layerlist.xml" value="0.332" />
-        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/drawable/bg_default_gray.xml" value="0.332" />
-        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_cartpage.xml" value="0.3052536231884058" />
-        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_checkoutpage.xml" value="0.33" />
-        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_fragment_order_summary.xml" value="0.33" />
-        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_home.xml" value="0.30570652173913043" />
-        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_home_all_category.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_ordersummary.xml" value="0.33" />
-        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_paymentmethod.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_productpage.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_productselection.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_profile.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/fragment_frag_about1.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/fragment_frag_about2.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/fragment_frag_about3.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Ryzen 5/Downloads/mobilepalengke/app/src/main/res/layout/fragment_frag_about1.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Ryzen 5/Downloads/mobilepalengke/app/src/main/res/layout/fragment_frag_about2.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Ryzen 5/Downloads/mobilepalengke/app/src/main/res/layout/fragment_frag_about3.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Ryzen 5/Downloads/mobilepalengke/app/src/main/res/layout/rv_prod_categories.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/drawable/bg_background_border.xml" value="0.332" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/drawable/bg_background_border_layerlist.xml" value="0.332" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/drawable/bg_default_gray.xml" value="0.332" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/drawable/bg_productpage_add_item_bg.xml" value="0.292" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/drawable/bg_productpage_custom_btn.xml" value="0.15" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/drawable/img_placeholder.xml" value="0.292" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/drawable/productpage_custom_button.xml" value="0.292" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_main.xml" value="0.2798913043478261" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_aboutus.xml" value="0.2798913043478261" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_accountdetails.xml" value="0.2798913043478261" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_cartpage.xml" value="0.3052536231884058" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_chats.xml" value="0.2798913043478261" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_checkoutpage.xml" value="0.33" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_contact_us.xml" value="0.2798913043478261" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_faqs.xml" value="0.2798913043478261" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_forgotpassword1.xml" value="0.2798913043478261" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_forgotpassword2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_forgotpassword3.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_forgotpassword4.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_fragment_order_summary.xml" value="0.33" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_generalsettings.xml" value="0.2798913043478261" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_home.xml" value="0.2549435028248588" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_home_all_category.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_mobile_palengke_policies.xml" value="0.2798913043478261" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_ordersummary.xml" value="0.33" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_paymentmethod.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_productpage.xml" value="0.33" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_productselection.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_purchased_product.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_signin.xml" value="0.2798913043478261" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_mp_signup.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_productpage.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/activity_productpage1.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/category_item.xml" value="0.3401268115942029" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/fragment_frag_about1.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/fragment_frag_about2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/fragment_frag_about3.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/fragment_mp_productpage.xml" value="0.33" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/layout/product_item.xml" value="0.365625" />
+        <entry key="..\:/Users/iCris/AndroidStudioProjects/mobilepalengke/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/jmsqc/AndroidStudioProjects/mobilepalengke/app/src/main/res/drawable/bg_default_white.xml" value="0.373" />
         <entry key="..\:/Users/jmsqc/AndroidStudioProjects/mobilepalengke/app/src/main/res/drawable/bg_default_white_nav.xml" value="0.373" />
         <entry key="..\:/Users/jmsqc/AndroidStudioProjects/mobilepalengke/app/src/main/res/drawable/img_placeholder.xml" value="0.373" />
@@ -137,7 +161,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

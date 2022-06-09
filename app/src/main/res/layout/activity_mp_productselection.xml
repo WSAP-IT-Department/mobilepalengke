@@ -34,74 +34,10 @@
         android:gravity="center"
         android:padding="5dp">
 
-        <RelativeLayout
-            android:id="@+id/rlProduct1"
-            style="@style/RelativeLayoutStyle1"
-            android:background="@drawable/bg_background_border_layerlist">
-
-            <ImageView
-                android:id="@+id/ivProd1"
-                style="@style/ImageViewStyle3"
-                android:layout_marginBottom="0dp"
-                android:src="@drawable/home_placeholder"
-                tools:ignore="ContentDescription" />
-
-            <TextView
-                android:id="@+id/tvProdName1"
-                style="@style/TVFontStyle2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/ivProd1"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="0dp"
-                android:text="@string/ProductSelection2" />
-
-            <TextView
-                android:id="@+id/tvProdPrice1"
-                style="@style/TVFontStyle3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/tvProdName1"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="15dp"
-                android:text="@string/ProductSelection3" />
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/rlProduct2"
-            style="@style/RelativeLayoutStyle1"
-            android:layout_toEndOf="@id/rlProduct1"
-            android:background="@drawable/bg_background_border_layerlist">
-
-            <ImageView
-                android:id="@+id/ivProd2"
-                style="@style/ImageViewStyle3"
-                android:layout_marginBottom="0dp"
-                android:src="@drawable/home_placeholder"
-                tools:ignore="ContentDescription" />
-
-            <TextView
-                android:id="@+id/tvProdName2"
-                style="@style/TVFontStyle2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/ivProd2"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="0dp"
-                android:text="@string/ProductSelection2" />
-
-            <TextView
-                android:id="@+id/tvProdPrice2"
-                style="@style/TVFontStyle3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/tvProdName2"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="15dp"
-                android:text="@string/ProductSelection3" />
-
-        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_products"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
     </RelativeLayout>
 
