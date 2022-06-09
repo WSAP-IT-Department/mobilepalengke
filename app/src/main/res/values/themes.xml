@@ -497,6 +497,15 @@
     </style>
     <!-- Progress Bar Style - END -->
 
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="behavior_peekHeight">8888dp</item>
+    </style>
+
     <!-- Text Icon Navigation Style - START -->
     <style name="TextIconNavStyle1">
         <item name="android:layout_width">wrap_content</item>
@@ -529,4 +538,5 @@
     </style>
 
     <!-- View Style - END -->
+>>>>>>> fa98e10848ebe6673209ab13a8559288c0186d53
 </resources>

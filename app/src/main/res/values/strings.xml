@@ -173,13 +173,24 @@
     <string name="Cart17">Checkout</string>
 
     <!--Product Selection Page-->
-    <string name="ProductPage1">Related Products</string>
-    <string name="ProductPage2">Product</string>
+    <string name="ProductSelection1">Related Products</string>
+    <string name="ProductSelection2">ProductName</string>
+    <string name="ProductSelection3">ProductPrice</string>
 
-    <!--For Product Page-->
-    <string name="ProductSelection1">[Category]</string>
-    <string name="ProductSelection2">[Item Name]</string>
-    <string name="ProductSelection3">[Item Price]</string>
+    <!--Product Page - Calamansi-->
+    <string name="ProductPage1">Calamansi</string>
+    <string name="ProductPage2">₱57.60</string>
+    <string name="ProductPage3">500g</string>
+    <string name="ProductPage4">Related Products</string>
+    <string name="ProductPage5">Grapes</string>
+    <string name="ProductPage6">₱50.45</string>
+    <string name="ProductPage7">Okra</string>
+    <string name="ProductPage8">₱12</string>
+    <string name="ProductPage9">Papaya</string>
+    <string name="ProductPage10">₱30</string>
+    <string name="ProductPage11">11</string>
+    <string name="ProductPage12">Add To Cart</string>
+
 
     <!--Checkout page to-->
     <string name="CheckoutPage1">Recipient Details</string>
@@ -191,7 +202,7 @@
     <string name="CheckoutPage7">------------------------------------------------------------------------------</string>
     <string name="CheckoutPage8">Delivery Address</string>
     <string name="CheckoutPage9">Payment Method</string>
-    <string name="CheckoutPage10">Bank Payment</string>
+    <string name="CheckoutPage10">Cash On Delivery</string>
     <string name="CheckoutPage11">GCash</string>
     <string name="CheckoutPage12">Paymaya</string>
     <string name="CheckoutPage13">DEBIT/CREDIT CARD</string>
@@ -200,7 +211,7 @@
     <string name="CheckoutPage16">Subtotal</string>
     <string name="CheckoutPage17">Discount</string>
     <string name="CheckoutPage18">Delivery fee</string>
-    <string name="CheckoutPage19">Place order</string>
+    <string name="CheckoutPage19">Place Order</string>
 
     <!--Purchased product list-->
     <string name="PurchasedProduct1">Purchased Product</string>
@@ -289,7 +300,7 @@
     <string name="quantity3">67x</string>
     <string name="product3">Cauliflower (500g)</string>
     <string name="price3">₱360</string>
-  
+
     <string name="MPpolicies1">TERMS AND CONDITION</string>
     <string name="MPpolicies2">MOBILE PALENGKE TERMS &amp; CONDITIONS</string>
     <string name="MPpolicies3">Agreement To Terms</string>
