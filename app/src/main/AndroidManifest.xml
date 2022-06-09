@@ -49,6 +49,8 @@
             android:exported="true"/>
         <activity
             android:name=".MP_FAQs"
+            android:exported="true" >
+        </activity>
             android:exported="true" />
         <activity
             android:name=".MP_MobilePalengkePolicies"
@@ -59,6 +61,10 @@
         <activity
             android:name=".MP_AddAdress"
             android:exported="true" />
+        <activity
+            android:name=".MP_PurchasedProduct"
+            android:exported="true"
+            tools:ignore="DuplicateActivity" />
         <activity
             android:name=".MP_ProductSelection"
             android:exported="true" />
@@ -72,7 +78,9 @@
 
         <activity
             android:name=".MP_ContactUs"
-            android:exported="true" />
+            android:exported="true" >
+        </activity>
+
         <activity
             android:name=".MP_CheckoutPage"
             android:exported="true"/>
@@ -84,7 +92,8 @@
             android:exported="true" />
         <activity
             android:name=".MP_AboutUs"
-            android:exported="true" />
+            android:exported="true" >
+        </activity>
         <activity
             android:name=".MP_GeneralSettings"
             android:exported="true" />
@@ -124,6 +133,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
-
+        </application>
 </manifest>
+
+

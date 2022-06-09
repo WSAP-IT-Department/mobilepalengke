@@ -18,9 +18,695 @@
             android:id="@+id/tvProfile"
             android:background="@drawable/bg_default_white"
             style="@style/NavBarTextViewStyle"
-            android:text="FAQs"
+            android:text="@string/FAQs1"
             android:textSize="28dp"/>
 
     </androidx.cardview.widget.CardView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/FAQs2"
+                    style="@style/TVFontStyle4"
+                    android:layout_marginTop="50dp"
+                    android:textSize="30dp"
+                    android:textColor="#010148"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_gravity="center"
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/cvBannerCard1"
+                    style="@style/CardViewStyle3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/mp_vegetables"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            style="@style/TVFontStyle2"
+                            android:text="@string/FAQs3"
+                            android:textSize="20dp"
+                            android:textColor="#010148"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/TVFontStyle2"
+                            android:text="@string/FAQs4"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_gravity="center"
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/cvBannerCard2"
+                    style="@style/CardViewStyle3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/mp_user"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            style="@style/TVFontStyle2"
+                            android:text="@string/FAQs5"
+                            android:textSize="20dp"
+                            android:textColor="#010148"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/TVFontStyle2"
+                            android:text="@string/FAQs6"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"/>
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_gravity="center"
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/cvBannerCard3"
+                    style="@style/CardViewStyle3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/mp_kart"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            style="@style/TVFontStyle2"
+                            android:text="@string/FAQs7"
+                            android:textSize="20dp"
+                            android:textColor="#010148"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/TVFontStyle2"
+                            android:text="@string/FAQs8"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_gravity="center"
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/cvBannerCard4"
+                    style="@style/CardViewStyle3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/mp_payment"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            style="@style/TVFontStyle2"
+                            android:text="@string/FAQs9"
+                            android:textSize="20dp"
+                            android:textColor="#010148"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/TVFontStyle2"
+                            android:text="@string/FAQs10"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_gravity="center"
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/cvBannerCard5"
+                    style="@style/CardViewStyle3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/mp_truck"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            style="@style/TVFontStyle2"
+                            android:text="@string/FAQs11"
+                            android:textSize="20dp"
+                            android:textColor="#010148"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/TVFontStyle2"
+                            android:text="@string/FAQs12"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"/>
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/FAQs13"
+                    style="@style/TVFontStyle4"
+                    android:layout_marginTop="50dp"
+                    android:textSize="30dp"
+                    android:textColor="#010148"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/FAQs14"
+                    style="@style/TVFontStyle4"
+                    android:textSize="20dp"
+                    android:textColor="#010148"/>
+
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <VideoView
+                        android:id="@+id/videoview"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"/>
+
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/TVFontStyle2"
+                    android:text="@string/FAQs15"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/FAQs16"
+                    style="@style/TVFontStyle4"
+                    android:layout_marginTop="50dp"
+                    android:textSize="30dp"
+                    android:textColor="#010148"/>
+
+                <androidx.cardview.widget.CardView
+                    android:onClick="ShowPopUp"
+                    android:layout_gravity="center"
+                    android:layout_width="370dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/cvBannerCard6"
+                    style="@style/CardViewStyle3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/FAQs17"
+                        style="@style/TVFontStyle2"
+                        android:layout_gravity="center"
+                        android:textSize="18dp"/>
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_gravity="center"
+                    android:layout_width="370dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:onClick="ShowPopUp2"
+                    android:id="@+id/cvBannerCard7"
+                    style="@style/CardViewStyle3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/FAQs19"
+                        style="@style/TVFontStyle2"
+                        android:layout_gravity="center"
+                        android:textSize="18dp"/>
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_gravity="center"
+                    android:layout_width="370dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:onClick="ShowPopUp3"
+                    android:id="@+id/cvBannerCard8"
+                    style="@style/CardViewStyle3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/FAQs21"
+                        style="@style/TVFontStyle2"
+                        android:layout_gravity="center"
+                        android:textSize="18dp"/>
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_gravity="center"
+                    android:layout_width="370dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="ShowPopUp4"
+                    android:id="@+id/cvBannerCard9"
+                    style="@style/CardViewStyle3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/FAQs23"
+                        style="@style/TVFontStyle2"
+                        android:layout_gravity="center"
+                        android:textSize="18dp"/>
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/FAQs25"
+                    style="@style/TVFontStyle4"
+                    android:layout_marginTop="50dp"
+                    android:textSize="30dp"
+                    android:textColor="#010148"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_gravity="center"
+                    android:layout_width="370dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="5dp"
+                    android:onClick="ShowPopUp5"
+                    android:id="@+id/cvBannerCard10"
+                    style="@style/CardViewStyle3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/FAQs26"
+                        style="@style/TVFontStyle2"
+                        android:layout_gravity="center"
+                        android:textSize="18dp"/>
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_gravity="center"
+                    android:layout_width="370dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:onClick="ShowPopUp6"
+                    android:id="@+id/cvBannerCard11"
+                    style="@style/CardViewStyle3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/FAQs28"
+                        style="@style/TVFontStyle2"
+                        android:layout_gravity="center"
+                        android:textSize="18dp"/>
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_gravity="center"
+                    android:layout_width="370dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="ShowPopUp7"
+                    android:id="@+id/cvBannerCard12"
+                    style="@style/CardViewStyle3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/FAQs32"
+                        style="@style/TVFontStyle2"
+                        android:layout_gravity="center"
+                        android:textSize="18dp"/>
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_gravity="center"
+                    android:layout_width="370dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="ShowPopUp8"
+                    android:id="@+id/cvBannerCard13"
+                    style="@style/CardViewStyle3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/FAQs34"
+                        style="@style/TVFontStyle2"
+                        android:layout_gravity="center"
+                        android:textSize="18dp"/>
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#12284d"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FOLLOW US"
+                    android:textSize="30dp"
+                    android:textColor="#f1ce36"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/facebook"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/cu_facebook"/>
+                    <ImageView
+                        android:id="@+id/instagram"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/cu_insta"/>
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/cu_tiktok"/>
+                    <ImageView
+                        android:id="@+id/twitter"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/cu_twitter"/>
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/cu_youtube"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Payment"
+                    android:textSize="30dp"
+                    android:textColor="#f1ce36"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/cu_visa"/>
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/cu_gcash"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/cu_paymaya"/>
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/cu_bpi"/>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/cu_bdo"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Order"
+                    android:textSize="30dp"
+                    android:textColor="#f1ce36"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cart"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Check out"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Get to know us"
+                    android:textSize="30dp"
+                    android:textColor="#f1ce36"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About Us"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Us"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FAQs"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="50dp"/>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
 
 </LinearLayout>

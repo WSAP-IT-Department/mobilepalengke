@@ -128,7 +128,7 @@
                                 <ImageView
                                     android:id="@+id/ivMealPlan1"
                                     style="@style/ImageViewStyle5"
-                                    android:src="@drawable/mp_vegetables"
+                                    android:src="@drawable/mp_homevegetables"
                                     tools:ignore="ContentDescription" />
 
                                 <TextView
