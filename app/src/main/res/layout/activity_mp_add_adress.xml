@@ -4,32 +4,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_default_gray"
-    tools:context=".MP_AboutUs">
+    tools:context=".MP_AddAdress">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/CardAddAddress"
-        style="@style/CardViewStyle2"
+        style="@style/CardViewStyle4"
         android:layout_height="?attr/actionBarSize">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-        <ImageButton
-            android:id="@+id/nav_return_add_address"
-            style="@style/NavBarReturnBtnStyle"
-            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/nav_return_add_address"
+                style="@style/NavBarReturnBtnStyle2"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
         <TextView
             android:id="@+id/tvProfile"
             style="@style/NavBarTextViewStyle"
-            android:background="@drawable/bg_default_white"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
             android:text="@string/Addaddress" />
 
-        <ImageButton
-            android:id="@+id/nav_check_add_address"
-            style="@style/NavBarCheckBtnStyle"
-            tools:ignore="ContentDescription,SpeakableTextPresentCheck"
-            android:layout_alignParentRight="true"/>
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 

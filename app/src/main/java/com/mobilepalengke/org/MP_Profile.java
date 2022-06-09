@@ -34,7 +34,15 @@ public class MP_Profile extends AppCompatActivity {
             }
         });
 
-//        TextView tvAddresses = (TextView) findViewById(R.id.tvAddresses);
+       TextView tvAddresses = (TextView) findViewById(R.id.tvAddresses);
+
+       tvAddresses.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               startActivity(new Intent(MP_Profile.this, MP_AddAdress.class));
+               finish();
+           }
+       });
 //
 //        tvAccountDetails.setOnClickListener(new View.OnClickListener() {
 //            @Override

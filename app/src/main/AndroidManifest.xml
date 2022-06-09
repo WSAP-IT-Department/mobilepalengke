@@ -18,14 +18,41 @@
             android:name=".MP_ProductPage"
             android:exported="false" />
         <activity
-            android:name=".MP_Fragment_OrderSummary"
+            android:name=".MP_EmailNotification"
             android:exported="true" />
+        <activity
+            android:name=".MP_PushNotification"
+            android:exported="true" />
+        <activity
+            android:name=".MP_NotificationSettings"
+            android:exported="true" />
+        <activity
+            android:name=".MP_MealPlan6"
+            android:exported="true" />
+        <activity
+            android:name=".MP_MealPlan5"
+            android:exported="true" />
+        <activity
+            android:name=".MP_MealPlan4"
+            android:exported="true" />
+        <activity
+            android:name=".MP_MealPlan3"
+            android:exported="true" />
+        <activity
+            android:name=".MP_MealPlan2"
+            android:exported="true" />
+        <activity
+            android:name=".MP_MealPlan1"
+            android:exported="true" />
+        <activity
+            android:name=".MP_Fragment_OrderSummary"
+            android:exported="true"/>
         <activity
             android:name=".MP_FAQs"
             android:exported="true" />
         <activity
             android:name=".MP_MobilePalengkePolicies"
-            android:exported="true"></activity>
+            android:exported="true"/>
         <activity
             android:name=".MP_PurchasedProduct"
             android:exported="true" />
@@ -48,7 +75,7 @@
             android:exported="true" />
         <activity
             android:name=".MP_CheckoutPage"
-            android:exported="true"></activity>
+            android:exported="true"/>
         <activity
             android:name=".MP_CartPage"
             android:exported="true" />
@@ -84,7 +111,7 @@
             android:exported="true" />
         <activity
             android:name=".MP_SignIn"
-            android:exported="true"></activity>
+            android:exported="true"/>
         <activity
             android:name=".MP_WelcomeScreen"
             android:exported="true" />

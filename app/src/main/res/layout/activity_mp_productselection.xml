@@ -9,20 +9,23 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cvNavBar"
-        style="@style/CardViewStyle2"
+        style="@style/CardViewStyle4"
         android:layout_height="?attr/actionBarSize">
-
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
         <ImageButton
             android:id="@+id/nav_return"
-            style="@style/NavBarReturnBtnStyle"
+            style="@style/NavBarReturnBtnStyle2"
             tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
-        <TextView
-            android:id="@+id/tvProfile"
-            style="@style/NavBarTextViewStyle"
-            android:background="@drawable/bg_default_white"
-            android:text="@string/ProductSelection1" />
-
+    <TextView
+        android:id="@+id/tvProfile"
+        style="@style/NavBarTextViewStyle"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Category1"
+        android:textColor="@color/white" />
+</RelativeLayout>
     </androidx.cardview.widget.CardView>
 
     <RelativeLayout

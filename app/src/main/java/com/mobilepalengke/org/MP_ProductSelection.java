@@ -41,7 +41,7 @@ public class MP_ProductSelection extends AppCompatActivity {
         ibReturn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MP_ProductSelection.this, MP_Home.class));
+                onBackPressed();
             }
         });
 

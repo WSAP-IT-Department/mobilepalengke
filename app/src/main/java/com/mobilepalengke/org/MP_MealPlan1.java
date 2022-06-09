@@ -7,22 +7,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class MP_AddAdress extends AppCompatActivity {
+public class MP_MealPlan1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mp_add_adress);
+        setContentView(R.layout.activity_mp_meal_plan1);
 
-        ImageView Backbutton = findViewById(R.id.nav_return_add_address);
+        ImageView BackButton = findViewById(R.id.meal1_nav_return);
 
-        Backbutton.setOnClickListener(new View.OnClickListener() {
+        BackButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MP_AddAdress.this, MP_Profile.class));
-                finish();
+               onBackPressed();
             }
         });
+
 
     }
 }
