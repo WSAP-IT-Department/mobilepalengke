@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/mp_gray"
-    tools:context=".MP_MealPlan6">
+    tools:context=".MP_Beef_Steak">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -47,19 +47,19 @@
                     android:id="@+id/MealFrag1"
                     style="@style/ImageViewStyleFrag1"
                     android:layout_marginTop="20dp"
-                    android:src="@drawable/vg_chopsuey"></ImageView>
+                    android:src="@drawable/mp_beef_steak"></ImageView>
 
                 <TextView
                     android:id="@+id/MealName1"
                     style="@style/TVFontStyleFrag1"
                     android:layout_below="@id/MealFrag1"
-                    android:text="@string/meal6"></TextView>
+                    android:text="Beef Steak"></TextView>
 
                 <TextView
                     android:id="@+id/MealDescription1"
                     style="@style/TVFontStyleFrag2"
                     android:layout_below="@id/MealName1"
-                    android:text="@string/MealDescription1"></TextView>
+                    android:text="@string/BeefSteak1"></TextView>
 
 
                 <FrameLayout
@@ -88,7 +88,7 @@
                             style="@style/TVFontStyleFrag4"
                             android:layout_below="@id/tv_prep_time1"
                             android:layout_toRightOf="@id/prep_time"
-                            android:text="@string/PrepVal6" />
+                            android:text="1 Hour" />
 
                         <ImageView
                             android:id="@+id/cook_time"
@@ -109,7 +109,7 @@
                             style="@style/TVFontStyleFrag4"
                             android:layout_below="@id/tv_cook_time1"
                             android:layout_toRightOf="@id/cook_time"
-                            android:text="@string/CookVal6" />
+                            android:text="40 Minutes" />
 
                         <ImageView
                             android:id="@+id/total_time"
@@ -130,7 +130,7 @@
                             style="@style/TVFontStyleFrag4"
                             android:layout_below="@id/tv_total_time1"
                             android:layout_toRightOf="@id/total_time"
-                            android:text="@string/TotalVal6" />
+                            android:text="1 Hour 40 Minutes" />
 
                         <ImageView
                             android:id="@+id/img_serves"
@@ -174,7 +174,7 @@
                     android:id="@+id/tv_IngredientsVal1"
                     style="@style/TVFontStyleFrag7"
                     android:layout_below="@id/view1"
-                    android:text="@string/Ingredients6" />
+                    android:text="@string/BeefSteak2" />
 
                 <View
                     android:id="@+id/view2"

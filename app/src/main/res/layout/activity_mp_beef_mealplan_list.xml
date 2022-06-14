@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MP_Beef_mealplan_list">
+
+    <androidx.cardview.widget.CardView style="@style/CardViewStyle2">
+
+        <ImageButton
+            android:id="@+id/nav_return"
+            style="@style/NavBarReturnBtnStyle"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/tvProfile"
+            android:background="@drawable/bg_default_white"
+            style="@style/NavBarTextViewStyle"
+            android:text="Meal Plan"
+            android:textSize="28dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="BEEF MEALS"
+        style="@style/TVFontStyle1"
+        android:textColor="#010148"
+        android:textSize="50dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/cvBannerCard1"
+        style="@style/CardViewStyle3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beef Steak"
+            style="@style/TVFontStyle2"
+            android:layout_gravity="center"
+            android:textSize="25dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/cvBannerCard2"
+        style="@style/CardViewStyle3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beef Pares"
+            style="@style/TVFontStyle2"
+            android:layout_gravity="center"
+            android:textSize="25dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/cvBannerCard3"
+        style="@style/CardViewStyle3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beef Mechado"
+            style="@style/TVFontStyle2"
+            android:layout_gravity="center"
+            android:textSize="25dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/cvBannerCard4"
+        style="@style/CardViewStyle3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nilagang Baka"
+            style="@style/TVFontStyle2"
+            android:layout_gravity="center"
+            android:textSize="25dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
