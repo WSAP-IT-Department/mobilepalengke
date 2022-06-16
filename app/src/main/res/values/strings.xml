@@ -290,6 +290,54 @@
     <string name="NilagangBaka1">Nilagang Baka is a Filipino beef soup cooked until the meat becomes really tender and with vegetables like potatoes, beans, and cabbage that makes this simple soup healthy and flavorful.</string>
     <string name="NilagangBaka2">1 1/2 pounds beef shank \n 6 cups water \n 1 big onion - quartered \n 10 pieces peppercorn \n 1 big (or 2 small) potato - peeled and cut into 4-6 pieces \n 1 corn on the cob (optional) - cut into 4 \n 10 pieces green beans - ends cut \n salt/fish sauce \n 2 stalks spring onions - cut to inch-long pieces \n 1 small cabbage - cut into 4</string>
 
+    <string name="ChickenPineapple1">Chicken Pineapple this Recipe calls for chicken slices to be marinated in pineapple juice then stewed with pineapple chunks. Aside from pineapples, secondary ingredients such as carrots, bell pepper, and milk make-up the dish.</string>
+    <string name="ChickenPineapple2">2 lbs chicken cut into serving pieces \n 12 ounces pineapple chunks canned \n 2 pieces tomato chopped \n 1 cup bell pepper cut into thick strips \n 1 piece carrot wedged \n 2 1/2 tablespoon fish sauce patis \n 1/2 cup fresh milk \n 2 tablespoon garlic minced \n 1 piece onion sliced \n 2 tablespoon cooking oil</string>
+
+    <string name="ChickenAdobo1">Chicken Adobo is a type of Filipino chicken stew. Chicken pieces are marinated in soy sauce and spices, pan-fried, and stewed until tender. The dish gained popularity because of its delicious taste and ease in preparation.</string>
+    <string name="ChickenAdobo2">2 lbs chicken cut into serving pieces \n 3 pieces dried bay leaves \n 8 tablespoons soy sauce \n 4 tablespoons white vinegar \n 5 cloves garlic crushed \n 1 1/2 cups water \n 3 tablespoons cooking oil \n 1 teaspoon sugar \n 1/4 teaspoon salt optional \n 1 teaspoon whole peppercorn</string>
+
+    <string name="ChickenCurry1">This Pinoy Chicken Curry recipe is the Filipino version of the popular chicken curry dish. It is delicious and easy to cook. The sauce is rich, creamy, and flavorful. It goes well with warm white rice.</string>
+    <string name="ChickenCurry2">2 lbs. chicken cut into serving pieces \n 1 tablespoon curry powder \n 1 piece potato cubed \n 4 cloves garlic minced \n 2 stalks celery sliced \n 1 piece red bell pepper sliced \n 2 pieces long green pepper \n 1 piece onion chopped \n 2 thumbs ginger cut into strips \n 2 cups coconut milk \n 1/2 cup all-purpose cream optional \n 1 cup water \n fish sauce and ground black pepper to taste</string>
+
+    <string name="TinolangManok1">Tinolang Manok is the ultimate comfort food! Made of chicken, green papaya, fresh spinach, and a ginger-flavored broth, this Filipino soup is hearty, healthy, and tasty.</string>
+    <string name="TinolangManok2">1 whole chicken, cut into serving pieces \n 1/2 piece green papaya, cut into wedges \n 3 cups water \n 1 table spoon garlic, minced \n 1 medium onion, minced \n 1 thumb ginger, cut into strips \n 2 tablespoons fish sauce (patis) \n salt</string>
+
+    <string name="BicolExpress1">The mild sweetness of coconut milk brings a sense of delight to the sharp notes of chili pepper and bagoong in the classic Bicol Express recipe. This contrast has long created a spell-binding richness in taste for the dish. And this has helped make it arguably one of the most popular Filipino dishes.</string>
+    <string name="BicolExpress2">2 lbs. pork belly sliced into strips \n 2 cups coconut milk \n 2 cups coconut cream \n 1/2 cup shrimp paste bagoong alamang \n 4 cloves garlic crushed \n 6 pieces Thai chili pepper chopped \n 1 thumb ginger minced \n 1 piece onion chopped \n 1 pieces Serrano pepper sliced \n 1 cup water optional</string>
+
+    <string name="PorkSisig1">Sizzling Sisig makes a great party appetizer as well as a hearty dinner entree. A delicious combination of juicy pork and tangy, savory, and spicy flavors, it’s seriously addictive!</string>
+    <string name="PorkSisig2">2 pounds pig face (snouts, ears, and jowls) \n 1 cup vinegar \n 1/4 cup soy sauce \n 1 head garlic, peeled and crushed \n 1 teaspoon whole peppercorns \n 2 bay leaves \n 1 tablespoon salt \n 1 large onion, peeled and diced \n 6 Thai chili peppers, stemmed and minced \n 1/2 cup calamansi juice \n 1 tablespoon Liquid seasoning \n 1/2 cup liver spread \n pepper to taste</string>
+
+    <string name="PorkMenudo1">A scrumptiously rich tomato-based stew of pork meat and liver. This classic Filipino Menudo recipe will wow you with its amazing flavors considering the simplicity of the ingredients used!</string>
+    <string name="PorkMenudo2">2 lbs. pork \n 1/4 lb. pig liver \n 1 cup potatoes diced \n 1 piece carrot cubed \n 1/2 cup soy sauce \n 1/2 piece lemon \n 1 piece onion chopped \n 3 cloves garlic minced \n 1 teaspoon sugar \n 3/4 cup tomato sauce \n 1 cup water \n 4 pieces hotdogs sliced diagonally \n 2 tablespoons cooking oil \n 2 to 3 pieces dried bay leaves \n Salt and pepper to taste</string>
+
+    <string name="SinigangNaBaboy1">Sinigang na baboy with Gabi is a Filipino pork soup with taro cooked in a sour broth.</string>
+    <string name="SinigangNaBaboy2">2 lbs. pork belly sliced into cubes \n 2 to 3 cups kangkong leaves \n 3 pieces long green chili pepper siling pansigang \n 2 pieces tomato quartered \n 1 cup sliced daikon radish labanos \n 10 to 12 pieces snake beans cut in 2 inch length pieces \n 1 piece onion quartered \n 15 pieces okra \n 2 pieces taro peeled and cut in half (gabi) \n 8 cups water \n 2 packs Knorr Sinigang sa Sampaloc Mix Original (20 gram pack) \n 3 tablespoons fish sauce patis \n 1/4 teaspoon ground black pepper</string>
+
+    <string name="SinigangNaBangus1">Sinigang na Bangus is a sour fish soup with a clear broth. This one will entice you because it is both simple and delicious. The refreshing aroma of the fish is perfectly complemented by the warm sour broth</string>
+    <string name="SinigangNaBangus2">2 lbs. bangus milkfish, cleaned and sliced \n 1 40g pack Knorr Sinigang sa Sampaloc Mix (Original) \n 1 bunch fresh kangkong leaves \n 12 pieces sitaw snake beans, cut into 2 inch pieces \n 6 to 8 pieces okra \n 2 pieces long green pepper siling pansigang \n 1 medium tomato wedged \n 1 medium yellow onion wedged \n 2 ½ tablespoons fish sauce \n ¼ teaspoon ground black pepper \n 2 quarts water</string>
+
+    <string name="GinataangTilapia1">Ginataang tilapia is a tasty variation of the Filipino dish called ginataan, which can be made with all sorts of ingredients that are cooked in coconut milk, locally know by Filipinos as “ginata”.</string>
+    <string name="GinataangTilapia2">2 medium tilapia \n 1 cup gata (unang piga) / coconut cream first extraction \n 1 cup gata (pangalawang piga) / coconut cream second extraction \n 1 small ginger root chopped \n 1 small onion chopped \n 2 pcs siling haba / green chili pepper \n 2 pcs Siling labuyo / red chili pepper chopped \n 1 bunch mustasa / mustard greens sliced in half \n Salt and pepper</string>
+
+    <string name="AdobongPusit1">Adobong Pusit is a tasty squid dish cooked using the popular Filipino adobo method. Squid is first boiled in soy sauce and vinegar then later sautéed in garlic, onions and tomatoes; this brings in an awesome array of flavors that will surely activate your taste buds.</string>
+    <string name="AdobongPusit2">3 tablespoons cooking oil \n 4 cloves garlic, minced \n 1 white onion, finely chopped \n 1 kilogram squid (pusit), sliced with squid ink set aside \n 2 tablespoons soy sauce \n 4 tablespoons vinegar \n salt, to taste</string>
+
+    <string name="PaksiwNaBangus1">Paksiw na Bangus is one of the easiest and tastiest ways to cook milkfish! Stewed in vinegar and spices, the fish turns out super moist and flavorful. Pair it with steamed rice for a healthy, delicious, and budget-friendly meal you’ll feel good serving the whole family.</string>
+    <string name="PaksiwNaBangus2">1 1/2 lbs. milkfish cleaned and sliced crosswise into serving pieces \n 3 thumbs ginger crushed \n 5 cloves garlic crushed \n 1/2 cup white vinegar \n 1 cup water \n 1 piece onion sliced \n 1 piece Chinese eggplant chopped \n 5 pieces okra \n 2 pieces long green pepper \n 1 teaspoon whole peppercorn \n Salt to taste</string>
+
+
+    <string name="LecheFlan1">Leche Flan is a dessert made-up of eggs and milk with a soft caramel on top. It resembles crème caramel and caramel custard. This delicious dessert is known throughout the world.</string>
+    <string name="LecheFlan2">10 pieces eggs \n 1 can condensed milk (14 oz) \n 1 cup fresh milk or evaporated milk \n 1 cup granulated sugar \n 1 teaspoon vanilla extract</string>
+
+    <string name="MangoGraham1">Mango is a tropical fruit best used in sweet desserts. One famous dessert where uses ripe mangoes is the mango graham float. Mango graham float is a hassle-free icebox ref cake which consist of alternating layers of crackers, sweetened cream and sliced mangoes. It is also goes by the name crema de mangga and is the best dessert for all the mango fans out there. This dessert is one of the best hits during different parties and celebrations.</string>
+    <string name="MangoGraham2">1 tablespoon of crushed graham \n 20 pieces Graham crackers \n 1 cup all purpose cream or coolwhip \n 3/4 cup condensed milk \n 2 cups of mangoes thinly sliced</string>
+
+    <string name="GinataangBiloBilo1">Ginataang Bilo-bilo with Langka is a Filipino snack dish. It is composed of glutinous rice balls (locally known as bilo-bilo), coconut cream, sugar, sago pearls, and ripe jackfruit.</string>
+    <string name="GinataangBiloBilo2">20 pieces glutinous rice balls (Bilo-bilo) \n 20 oz jackfruit ripe, sliced \n 2 cups water \n 2 cups coconut cream \n 3/4 cup granulated white sugar \n 1 1/2 cups tapioca pearls cooked</string>
+
+    <string name="FruitSalad1">Pinoy Fruit Salad is a quick and easy dessert perfect for the warm weather. This dish makes use of canned fruit cocktail, table cream, and condensed milk. The mixture is chilled inside the fridge overnight before serving, to get the best result.</string>
+    <string name="FruitSalad2">2 cans 30 oz. fruit cocktail \n 1 can 7.6 oz. table cream \n 7 oz. 1/2 can condensed milk \n 12 pieces maraschino cherries</string>
     <!--Fragment Meal-->
 
     <!--Notification-->

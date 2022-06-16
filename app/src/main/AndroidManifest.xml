@@ -15,6 +15,69 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mobilepalengke">
         <activity
+            android:name=".MP_Fruit_Salad"
+            android:exported="false" />
+        <activity
+            android:name=".MP_Paksiw_na_Bangus"
+            android:exported="false" />
+        <activity
+            android:name=".MP_Adobong_Pusit"
+            android:exported="false" />
+        <activity
+            android:name=".Ginataang_Tilapia"
+            android:exported="false" />
+        <activity
+            android:name=".Ginataang_Bilo_Bilo"
+            android:exported="false" />
+        <activity
+            android:name=".MP_Mango_Graham"
+            android:exported="false" />
+        <activity
+            android:name=".MP_Leche_Flan"
+            android:exported="false" />
+        <activity
+            android:name=".MP_Dessert_Mealplan_list"
+            android:exported="false" />
+        <activity
+            android:name=".MP_Singigang_na_Bangus"
+            android:exported="false" />
+        <activity
+            android:name=".MP_Fish_Mealplan_List"
+            android:exported="false" />
+        <activity
+            android:name=".MP_Sinigang_na_Baboy"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MP_Pork_Menudo"
+            android:exported="false" />
+        <activity
+            android:name=".MP_Pork_Sisig"
+            android:exported="false" />
+        <activity
+            android:name=".MP_Bicol_Express"
+            android:exported="false" />
+        <activity
+            android:name=".MP_Pork_Mealplan_List"
+            android:exported="false" />
+        <activity
+            android:name=".MP_Tinolang_Manok"
+            android:exported="false" />
+        <activity
+            android:name=".MP_Chicken_Curry"
+            android:exported="false" />
+        <activity
+            android:name=".MP_Chicken_Adobo"
+            android:exported="false" />
+        <activity
+            android:name=".MP_Chicken_Pineapple"
+            android:exported="false" />
+        <activity
+            android:name=".MP_Chicken_Mealplan_list"
+            android:exported="false" />
+        <activity
             android:name=".MP_Nilagang_Baka"
             android:exported="false" />
         <activity

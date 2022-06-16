@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MP_Beef_mealplan_list">
+    tools:context=".MP_Fish_Mealplan_List">
 
     <androidx.cardview.widget.CardView style="@style/CardViewStyle2">
 
@@ -18,7 +18,7 @@
             android:id="@+id/tvProfile"
             android:background="@drawable/bg_default_white"
             style="@style/NavBarTextViewStyle"
-            android:text="Beef Meal Plan"
+            android:text="Fish Meal Plan"
             android:textSize="28dp"/>
 
     </androidx.cardview.widget.CardView>
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:layout_gravity="center"
-        android:text="BEEF MEALS"
+        android:text="FISH MEALS"
         style="@style/TVFontStyle1"
         android:textColor="#010148"
         android:textSize="50dp"/>
@@ -44,7 +44,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Beef Steak"
+            android:text="Sinigang na Bangus"
             style="@style/TVFontStyle2"
             android:layout_gravity="center"
             android:textSize="25dp"/>
@@ -62,7 +62,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Beef Pares"
+            android:text="Ginataang Tilapia"
             style="@style/TVFontStyle2"
             android:layout_gravity="center"
             android:textSize="25dp"/>
@@ -80,7 +80,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Beef Mechado"
+            android:text="Adobong Pusit"
             style="@style/TVFontStyle2"
             android:layout_gravity="center"
             android:textSize="25dp"/>
@@ -98,12 +98,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nilagang Baka"
+            android:text="Paksiw na Bangus"
             style="@style/TVFontStyle2"
             android:layout_gravity="center"
             android:textSize="25dp"/>
 
     </androidx.cardview.widget.CardView>
+
 
 
 
