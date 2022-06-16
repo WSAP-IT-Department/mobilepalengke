@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MP_Sinigang_na_Baboy">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/CardFragMeal1"
+            style="@style/CardViewStyle4"
+            android:layout_height="?attr/actionBarSize">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/meal1_nav_return"
+                    style="@style/NavBarReturnBtnStyle2"
+                    tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/tvProfile"
+                    style="@style/NavBarTextViewStyle"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/MealNavFrag"
+                    android:textColor="@color/white" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/CardFragMeal1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/MealFrag1"
+                    style="@style/ImageViewStyleFrag1"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/mp_sinigang_na_baboy"></ImageView>
+
+                <TextView
+                    android:id="@+id/MealName1"
+                    style="@style/TVFontStyleFrag1"
+                    android:layout_below="@id/MealFrag1"
+                    android:text="Sinigang na Baboy"></TextView>
+
+                <TextView
+                    android:id="@+id/MealDescription1"
+                    style="@style/TVFontStyleFrag2"
+                    android:layout_below="@id/MealName1"
+                    android:text="@string/SinigangNaBaboy1"></TextView>
+
+
+                <FrameLayout
+                    android:id="@+id/TimeCard"
+                    style="@style/FrameLayoutFragmentStyle1"
+                    android:layout_below="@id/MealDescription1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/prep_time"
+                            style="@style/ImageViewStyleFrag2"
+                            android:background="@drawable/ic_preparation_time" />
+
+                        <TextView
+                            android:id="@+id/tv_prep_time1"
+                            style="@style/TVFontStyleFrag3"
+                            android:layout_toRightOf="@id/prep_time"
+                            android:text="@string/Prep"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_prep_time2"
+                            style="@style/TVFontStyleFrag4"
+                            android:layout_below="@id/tv_prep_time1"
+                            android:layout_toRightOf="@id/prep_time"
+                            android:text="10 Minutes" />
+
+                        <ImageView
+                            android:id="@+id/cook_time"
+                            style="@style/ImageViewStyleFrag2"
+                            android:layout_below="@id/prep_time"
+                            android:background="@drawable/ic_cooking_time" />
+
+                        <TextView
+                            android:id="@+id/tv_cook_time1"
+                            style="@style/TVFontStyleFrag3"
+                            android:layout_below="@id/prep_time"
+                            android:layout_toRightOf="@id/cook_time"
+                            android:text="@string/Cook"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_cook_time2"
+                            style="@style/TVFontStyleFrag4"
+                            android:layout_below="@id/tv_cook_time1"
+                            android:layout_toRightOf="@id/cook_time"
+                            android:text="1 Hour 30 Minutes" />
+
+                        <ImageView
+                            android:id="@+id/total_time"
+                            style="@style/ImageViewStyleFrag2"
+                            android:layout_below="@id/cook_time"
+                            android:background="@drawable/ic_total_time" />
+
+                        <TextView
+                            android:id="@+id/tv_total_time1"
+                            style="@style/TVFontStyleFrag3"
+                            android:layout_below="@id/cook_time"
+                            android:layout_toRightOf="@id/total_time"
+                            android:text="@string/Total"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_total_time2"
+                            style="@style/TVFontStyleFrag4"
+                            android:layout_below="@id/tv_total_time1"
+                            android:layout_toRightOf="@id/total_time"
+                            android:text="1 Hour 40 Minutes" />
+
+                        <ImageView
+                            android:id="@+id/img_serves"
+                            style="@style/ImageViewStyleFrag2"
+                            android:layout_below="@id/total_time"
+                            android:background="@drawable/ic_group_serve" />
+
+                        <TextView
+                            android:id="@+id/tv_serves1"
+                            style="@style/TVFontStyleFrag3"
+                            android:layout_below="@id/total_time"
+                            android:layout_toRightOf="@id/img_serves"
+                            android:text="@string/Serve"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_serves2"
+                            style="@style/TVFontStyleFrag4"
+                            android:layout_below="@id/tv_serves1"
+                            android:layout_toRightOf="@id/img_serves"
+                            android:text="6 People" />
+
+                    </RelativeLayout>
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tv_Ingredients"
+                    style="@style/TVFontStyleFrag5"
+                    android:layout_below="@id/TimeCard"
+                    android:text="@string/Ingredients"
+                    android:textSize="30sp" />
+
+                <View
+                    android:id="@+id/view1"
+                    style="@style/ViewStyle1"
+                    android:layout_below="@id/tv_Ingredients"/>
+
+
+                <TextView
+                    android:id="@+id/tv_IngredientsVal1"
+                    style="@style/TVFontStyleFrag7"
+                    android:layout_below="@id/view1"
+                    android:text="@string/SinigangNaBaboy2" />
+
+                <View
+                    android:id="@+id/view2"
+                    style="@style/ViewStyle1"
+                    android:layout_below="@id/tv_IngredientsVal1"/>
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>
